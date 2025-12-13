@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  10 DEC 2025 20:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  13 DEC 2025 20:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1238,13 +1238,203 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
 [52]
 
+[53]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.429 		// Se il bit i-esimo è 
+                                a 1, la mela i-esima viene selezionata
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.429 		// Se il bit i-esimo è 
+                                a 1, la mela i-esima viene selezionata
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[54]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.486 			// Se il bit è 
+                         0, lo porta a 1 e si ferma
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.486 			// Se il bit è 
+                         0, lo porta a 1 e si ferma
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.495 				// (somma_tot - somma_provvisoria) è 
+                                                il peso del secondo gruppo
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.495 				// (somma_tot - somma_provvisoria) è 
+                                                il peso del secondo gruppo
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.498 				// Interrompe il ciclo perché 
+                                         l'incremento è completato
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.498 				// Interrompe il ciclo perché 
+                                         l'incremento è completato
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.498 ...errompe il ciclo perché l'incremento è 
+                                                  completato
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.498 ...errompe il ciclo perché l'incremento è 
+                                                  completato
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.503 				// Se il bit è 
+                          1, lo riporta a 0 (riporto binario)
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.503 				// Se il bit è 
+                          1, lo riporta a 0 (riporto binario)
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[55]
+
+[56]
+
 ! Package amsmath Error: \begin{aligned} allowed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.385 			1
+l.612 			1
            &\le n \le 2 \cdot 10^{5} \\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1252,7 +1442,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.385 			1
+l.612 			1
            &\le n \le 2 \cdot 10^{5} \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1260,7 +1450,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.387 		\end{aligned}
+l.614 		\end{aligned}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1270,7 +1460,7 @@ my insertion and my current dilemma will both disappear.
 
 
 
-[53]
+[57]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
@@ -1278,7 +1468,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.451 ...minimo se la somma dei costi corrente è 
+l.678 ...minimo se la somma dei costi corrente è 
                                                   inferiore
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1293,7 +1483,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.451 ...minimo se la somma dei costi corrente è 
+l.678 ...minimo se la somma dei costi corrente è 
                                                   inferiore
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1303,16 +1493,16 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[54]
+[58]
 
-[55]
-Underfull \hbox (badness 10000) in paragraph at lines 541--542
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 770--771
 
  []
 
 
 
-[56]
+[60]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
 
@@ -1320,7 +1510,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.596 ... inizializzata a 0 (nessun elemento più 
+l.825 ... inizializzata a 0 (nessun elemento più 
                                                   piccolo a sinistra)
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1335,7 +1525,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.596 ... inizializzata a 0 (nessun elemento più 
+l.825 ... inizializzata a 0 (nessun elemento più 
                                                   piccolo a sinistra)
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1350,7 +1540,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.614 			// Se troviamo un valore più 
+l.843 			// Se troviamo un valore più 
                                        piccolo di array[i]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1365,7 +1555,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.614 			// Se troviamo un valore più 
+l.843 			// Se troviamo un valore più 
                                        piccolo di array[i]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1380,7 +1570,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.618 ...nterrompiamo il ciclo. alla fine rimarrà
+l.847 ...nterrompiamo il ciclo. alla fine rimarrà
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1395,7 +1585,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.618 ...nterrompiamo il ciclo. alla fine rimarrà
+l.847 ...nterrompiamo il ciclo. alla fine rimarrà
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1410,7 +1600,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.619 ...ULTIMA posizione valida trovata (la più 
+l.848 ...ULTIMA posizione valida trovata (la più 
                                                   vicina a i) */
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1425,7 +1615,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.619 ...ULTIMA posizione valida trovata (la più 
+l.848 ...ULTIMA posizione valida trovata (la più 
                                                   vicina a i) */
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1435,132 +1625,49 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 866--867
 
  []
 
 
 
-[58]
+[62]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introduttivo.p
-ng, id=1547, 685.05937pt x 449.42906pt>
+ng, id=1663, 685.05937pt x 449.42906pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutt
 ivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutti
 vo.png>
 Package pdftex.def Info: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greed
-y/Esempio Introduttivo.png  used on input line 705.
+y/Esempio Introduttivo.png  used on input line 934.
 (pdftex.def)             Requested size: 338.58632pt x 222.13547pt.
 
 
-[59 <./immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdut
+[63 <./immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdut
 tivo.png>]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Introdut
-tivo.png, id=1556, 654.19406pt x 416.30531pt>
+tivo.png, id=1672, 654.19406pt x 416.30531pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Int
 roduttivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Intr
 oduttivo.png>
 Package pdftex.def Info: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greed
-y/Controesempio Introduttivo.png  used on input line 738.
+y/Controesempio Introduttivo.png  used on input line 967.
 (pdftex.def)             Requested size: 338.58632pt x 215.46364pt.
 
 
-[60 <./immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio In
-troduttivo.png>]
+[64 <./immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio In
+troduttivo.png>])
 
-! Package amsmath Error: \begin{aligned} allowed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.814 	1
-         &\le n \le 2 \cdot 10^{5} \\
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.814 	1
-         &\le n \le 2 \cdot 10^{5} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.816 \end{aligned}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.843 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.843 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-
-[61]
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.845 \]
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.845 \]
-        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.845 \]
-        
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-)
-
-[62]
+[65]
 Appendice A.
-<Regolamento2025.pdf, id=1574, 598.235pt x 845.1575pt>
+<Regolamento2025.pdf, id=1684, 598.235pt x 845.1575pt>
 File: Regolamento2025.pdf Graphic file (type pdf)
 <use Regolamento2025.pdf>
 Package pdftex.def Info: Regolamento2025.pdf  used on input line 62.
 (pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
-<Regolamento2025.pdf, id=1576, page=1, 598.235pt x 845.1575pt>
+<Regolamento2025.pdf, id=1686, page=1, 598.235pt x 845.1575pt>
 File: Regolamento2025.pdf Graphic file (type pdf)
 <use Regolamento2025.pdf, page 1>
 Package pdftex.def Info: Regolamento2025.pdf , page1 used on input line 62.
@@ -1571,7 +1678,7 @@ Package pdftex.def Info: Regolamento2025.pdf , page1 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 
 
-[63
+[66
 
 
 
@@ -1589,143 +1696,143 @@ Package pdftex.def Info: Regolamento2025.pdf , page1 used on input line 62.
 File: Regolamento2025.pdf Graphic file (type pdf)
 <use Regolamento2025.pdf, page 1>
 Package pdftex.def Info: Regolamento2025.pdf , page1 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[64
-
- <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1634, page=2, 598.235pt x 845.1575pt>
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 2>
-Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 2>
-Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-
-
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 2>
-Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[65
-
- <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1650, page=3, 598.235pt x 845.1575pt>
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 3>
-Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 3>
-Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-
-
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 3>
-Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[66
-
- <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1666, page=4, 598.235pt x 845.1575pt>
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 4>
-Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 4>
-Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-
-
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 4>
-Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 [67
 
  <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1671, page=5, 598.235pt x 845.1575pt>
+<Regolamento2025.pdf, id=1745, page=2, 598.235pt x 845.1575pt>
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 5>
-Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
+<use Regolamento2025.pdf, page 2>
+Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 5>
-Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
+<use Regolamento2025.pdf, page 2>
+Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 
 
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 5>
-Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
+<use Regolamento2025.pdf, page 2>
+Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 [68
 
  <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1681, page=6, 598.235pt x 845.1575pt>
+<Regolamento2025.pdf, id=1761, page=3, 598.235pt x 845.1575pt>
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 6>
-Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
+<use Regolamento2025.pdf, page 3>
+Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 6>
-Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
+<use Regolamento2025.pdf, page 3>
+Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 
 
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 6>
-Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
+<use Regolamento2025.pdf, page 3>
+Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 [69
 
  <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1686, page=7, 598.235pt x 845.1575pt>
+<Regolamento2025.pdf, id=1776, page=4, 598.235pt x 845.1575pt>
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 7>
-Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
+<use Regolamento2025.pdf, page 4>
+Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 7>
-Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
+<use Regolamento2025.pdf, page 4>
+Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 
 
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 7>
-Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
+<use Regolamento2025.pdf, page 4>
+Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 [70
 
  <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1696, page=8, 598.235pt x 845.1575pt>
+<Regolamento2025.pdf, id=1781, page=5, 598.235pt x 845.1575pt>
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 8>
-Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
+<use Regolamento2025.pdf, page 5>
+Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 8>
-Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
+<use Regolamento2025.pdf, page 5>
+Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 
 
 File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 8>
-Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
+<use Regolamento2025.pdf, page 5>
+Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 [71
 
  <./Regolamento2025.pdf>]
+<Regolamento2025.pdf, id=1791, page=6, 598.235pt x 845.1575pt>
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 6>
+Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 6>
+Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+
+
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 6>
+Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+[72
+
+ <./Regolamento2025.pdf>]
+<Regolamento2025.pdf, id=1797, page=7, 598.235pt x 845.1575pt>
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 7>
+Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 7>
+Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+
+
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 7>
+Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+[73
+
+ <./Regolamento2025.pdf>]
+<Regolamento2025.pdf, id=1807, page=8, 598.235pt x 845.1575pt>
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 8>
+Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 8>
+Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+
+
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 8>
+Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+[74
+
+ <./Regolamento2025.pdf>]
 Appendice B.
-<pseudocodice.pdf, id=1712, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=1823, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
 <use pseudocodice.pdf>
 Package pdftex.def Info: pseudocodice.pdf  used on input line 66.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<pseudocodice.pdf, id=1714, page=1, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=1825, page=1, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
 <use pseudocodice.pdf, page 1>
 Package pdftex.def Info: pseudocodice.pdf , page1 used on input line 66.
@@ -1736,7 +1843,7 @@ Package pdftex.def Info: pseudocodice.pdf , page1 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
-[72
+[75
 
 ]
 File: pseudocodice.pdf Graphic file (type pdf)
@@ -1753,493 +1860,493 @@ File: pseudocodice.pdf Graphic file (type pdf)
 <use pseudocodice.pdf, page 1>
 Package pdftex.def Info: pseudocodice.pdf , page1 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[73
-
- <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1745, page=2, 614.295pt x 794.97pt>
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 2>
-Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 2>
-Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 2>
-Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[74
-
- <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1769, page=3, 614.295pt x 794.97pt>
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 3>
-Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 3>
-Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 3>
-Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[75
-
- <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1786, page=4, 614.295pt x 794.97pt>
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 4>
-Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 4>
-Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 4>
-Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [76
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1839, page=5, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=1855, page=2, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 5>
-Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
+<use pseudocodice.pdf, page 2>
+Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 5>
-Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
+<use pseudocodice.pdf, page 2>
+Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 5>
-Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
+<use pseudocodice.pdf, page 2>
+Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [77
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1852, page=6, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=1879, page=3, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 6>
-Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
+<use pseudocodice.pdf, page 3>
+Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 6>
-Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
+<use pseudocodice.pdf, page 3>
+Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 6>
-Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
+<use pseudocodice.pdf, page 3>
+Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [78
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1862, page=7, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=1897, page=4, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 7>
-Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
+<use pseudocodice.pdf, page 4>
+Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 7>
-Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
+<use pseudocodice.pdf, page 4>
+Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 7>
-Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
+<use pseudocodice.pdf, page 4>
+Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [79
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1877, page=8, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=1950, page=5, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 8>
-Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
+<use pseudocodice.pdf, page 5>
+Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 8>
-Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
+<use pseudocodice.pdf, page 5>
+Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 8>
-Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
+<use pseudocodice.pdf, page 5>
+Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [80
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1882, page=9, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=1963, page=6, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 9>
-Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
+<use pseudocodice.pdf, page 6>
+Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 9>
-Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
+<use pseudocodice.pdf, page 6>
+Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 9>
-Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
+<use pseudocodice.pdf, page 6>
+Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [81
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1887, page=10, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=1972, page=7, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 10>
-Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
+<use pseudocodice.pdf, page 7>
+Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 10>
-Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
+<use pseudocodice.pdf, page 7>
+Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 10>
-Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
+<use pseudocodice.pdf, page 7>
+Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [82
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1892, page=11, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=1987, page=8, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 11>
-Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
+<use pseudocodice.pdf, page 8>
+Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 11>
-Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
+<use pseudocodice.pdf, page 8>
+Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 11>
-Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
+<use pseudocodice.pdf, page 8>
+Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [83
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1897, page=12, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=1992, page=9, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 12>
-Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
+<use pseudocodice.pdf, page 9>
+Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 12>
-Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
+<use pseudocodice.pdf, page 9>
+Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 12>
-Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
+<use pseudocodice.pdf, page 9>
+Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [84
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1903, page=13, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=1998, page=10, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 13>
-Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
+<use pseudocodice.pdf, page 10>
+Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 13>
-Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
+<use pseudocodice.pdf, page 10>
+Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 13>
-Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
+<use pseudocodice.pdf, page 10>
+Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [85
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1908, page=14, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2003, page=11, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 14>
-Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
+<use pseudocodice.pdf, page 11>
+Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 14>
-Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
+<use pseudocodice.pdf, page 11>
+Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 14>
-Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
+<use pseudocodice.pdf, page 11>
+Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [86
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1913, page=15, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2008, page=12, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 15>
-Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
+<use pseudocodice.pdf, page 12>
+Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 15>
-Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
+<use pseudocodice.pdf, page 12>
+Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 15>
-Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
+<use pseudocodice.pdf, page 12>
+Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [87
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1918, page=16, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2013, page=13, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 16>
-Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
+<use pseudocodice.pdf, page 13>
+Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 16>
-Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
+<use pseudocodice.pdf, page 13>
+Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 16>
-Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
+<use pseudocodice.pdf, page 13>
+Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [88
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1923, page=17, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2018, page=14, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 17>
-Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
+<use pseudocodice.pdf, page 14>
+Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 17>
-Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
+<use pseudocodice.pdf, page 14>
+Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 17>
-Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
+<use pseudocodice.pdf, page 14>
+Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [89
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1928, page=18, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2023, page=15, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 18>
-Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
+<use pseudocodice.pdf, page 15>
+Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 18>
-Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
+<use pseudocodice.pdf, page 15>
+Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 18>
-Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
+<use pseudocodice.pdf, page 15>
+Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [90
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1934, page=19, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2029, page=16, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 19>
-Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
+<use pseudocodice.pdf, page 16>
+Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 19>
-Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
+<use pseudocodice.pdf, page 16>
+Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 19>
-Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
+<use pseudocodice.pdf, page 16>
+Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [91
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1939, page=20, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2034, page=17, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 20>
-Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
+<use pseudocodice.pdf, page 17>
+Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 20>
-Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
+<use pseudocodice.pdf, page 17>
+Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 20>
-Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
+<use pseudocodice.pdf, page 17>
+Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [92
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1944, page=21, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2039, page=18, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 21>
-Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
+<use pseudocodice.pdf, page 18>
+Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 21>
-Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
+<use pseudocodice.pdf, page 18>
+Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 21>
-Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
+<use pseudocodice.pdf, page 18>
+Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [93
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1949, page=22, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2044, page=19, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 22>
-Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
+<use pseudocodice.pdf, page 19>
+Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 22>
-Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
+<use pseudocodice.pdf, page 19>
+Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 22>
-Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
+<use pseudocodice.pdf, page 19>
+Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [94
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1954, page=23, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2049, page=20, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 23>
-Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
+<use pseudocodice.pdf, page 20>
+Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 23>
-Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
+<use pseudocodice.pdf, page 20>
+Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 23>
-Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
+<use pseudocodice.pdf, page 20>
+Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [95
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1959, page=24, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2054, page=21, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 24>
-Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
+<use pseudocodice.pdf, page 21>
+Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 24>
-Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
+<use pseudocodice.pdf, page 21>
+Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 24>
-Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
+<use pseudocodice.pdf, page 21>
+Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [96
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1965, page=25, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2060, page=22, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 25>
-Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
+<use pseudocodice.pdf, page 22>
+Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 25>
-Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
+<use pseudocodice.pdf, page 22>
+Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 25>
-Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
+<use pseudocodice.pdf, page 22>
+Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [97
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1970, page=26, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2065, page=23, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 26>
-Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+<use pseudocodice.pdf, page 23>
+Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 26>
-Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+<use pseudocodice.pdf, page 23>
+Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 26>
-Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+<use pseudocodice.pdf, page 23>
+Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [98
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1975, page=27, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2070, page=24, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 27>
-Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+<use pseudocodice.pdf, page 24>
+Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 27>
-Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+<use pseudocodice.pdf, page 24>
+Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 27>
-Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+<use pseudocodice.pdf, page 24>
+Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [99
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1980, page=28, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2075, page=25, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 28>
-Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+<use pseudocodice.pdf, page 25>
+Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 28>
-Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+<use pseudocodice.pdf, page 25>
+Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 28>
-Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+<use pseudocodice.pdf, page 25>
+Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [100
+
+ <./pseudocodice.pdf>]
+<pseudocodice.pdf, id=2080, page=26, 614.295pt x 794.97pt>
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 26>
+Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 26>
+Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 26>
+Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[101
+
+ <./pseudocodice.pdf>]
+<pseudocodice.pdf, id=2085, page=27, 614.295pt x 794.97pt>
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 27>
+Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 27>
+Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 27>
+Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[102
+
+ <./pseudocodice.pdf>]
+<pseudocodice.pdf, id=2091, page=28, 614.295pt x 794.97pt>
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 28>
+Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 28>
+Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 28>
+Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[103
 
  <./pseudocodice.pdf>] (Preparazione alle olimpiadi.aux
 (TeX_files/0 - Introduzione.aux) (TeX_files/1 - Complessita Computazionale.aux)
@@ -2251,13 +2358,13 @@ L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `"Preparazione alle olimpiadi".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: BBCF76264C1CB6A4200D75909250FD5C;13238.
+(rerunfilecheck)             Checksum: F052767E685A9DDE3558100C6EE6EFB6;13243.
  ) 
 Here is how much of TeX's memory you used:
- 17080 strings out of 468130
- 281207 string characters out of 5430633
+ 17196 strings out of 468130
+ 282475 string characters out of 5430633
  1222070 words of memory out of 5000000
- 44394 multiletter control sequences out of 15000+600000
+ 44409 multiletter control sequences out of 15000+600000
  646278 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,17n,79p,598b,2055s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2292,10 +2399,10 @@ fb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 onts/cm/cmsy10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/symbols/msam7.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (101 pages, 1728541 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (104 pages, 1752236 bytes).
 
 PDF statistics:
- 2905 PDF objects out of 2984 (max. 8388607)
- 1046 named destinations out of 1200 (max. 500000)
+ 3037 PDF objects out of 3580 (max. 8388607)
+ 1147 named destinations out of 1200 (max. 500000)
  839 words of extra memory for PDF output out of 10000 (max. 10000000)
 

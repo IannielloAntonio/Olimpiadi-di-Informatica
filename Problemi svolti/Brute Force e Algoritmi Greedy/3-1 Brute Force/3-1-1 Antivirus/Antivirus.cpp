@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-      ifstream inputFile("antivirus_input_7.txt");
+      ifstream inputFile("antivirus_input_8.txt");
 
       int T;
       inputFile >> T;
@@ -33,7 +33,7 @@ int main()
                   ripetono, se non
             */
 
-            for(int i = 0; i <= (int)F1.length(); i++){
+            for(int i = 0; i < (int)F1.length(); i++){
 
                   F1_virus = i;
                   F2_virus = -1;

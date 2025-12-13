@@ -329,9 +329,236 @@ Di seguito vengono presentati due problemi risolti mediante un approccio \emph{b
 
 
 
+\newpage
+
+\subsection{Apple Division}
+\href{https://cses.fi/problemset/task/1623/}{Link al problema}
+
+\smallskip
+
+\noindent Time limit = 1.00s, Memory limit = 512 MB
+
+\bigskip
+
+There are n apples with known weights. Your task is to divide the apples into two groups so that the difference between the weights of the groups is minimal.
+
+
+\bigskip
+
+\noindent\textbf{Input}
+
+The first input line has an integer $n$: the number of apples.
+The next line has $n$ integers $p_1,p_2,\dots,p_n$: the weight of each apple.
+
+\bigskip
+
+\noindent\textbf{Output}
+
+Print one integer: the minimum difference between the weights of the groups.
+
+\bigskip
+
+\noindent\textbf{Constraints}
+
+\begin{itemize}
+	\item \(1 \le n \le 20\)
+	\item \(1 \le p_i \le 10^9\)
+\end{itemize}
+
+
+\noindent\textbf{Example}
+
+\smallskip
+\textbf{Input:}
+\begin{verbatim}
+	5
+	3 2 7 4 1
+\end{verbatim}
+
+\smallskip
+\textbf{Output:}
+\begin{verbatim}
+	1
+\end{verbatim}
+
+\smallskip
+Explanation: Group 1 has weights 2, 3 and 4 (total weight 9), and group 2 has weights 1 and 7 (total weight 8).
+
+\bigskip
+\noindent \textbf{Idea (brute force):}
+
+si associa alle \(N\) mele un array binario di lunghezza \(N\), comunemente chiamato \emph{bit mask}, che viene incrementato di \(1\) a ogni iterazione.  
+In questo modo la bit mask assume, in successione, tutti i possibili valori binari:
+
+\medskip
+\noindent$000001$ \\
+$000010$ \\
+$000011$ \\
+$000100$ \\
+$000101$ \\
+\dots \\
+$111111$
+\medskip
+
+Ogni configurazione rappresenta una possibile suddivisione delle mele in due gruppi:  
+se il bit in posizione \(i\) vale \(1\), la mela \(i\)-esima viene assegnata al primo gruppo;  
+se vale \(0\), viene assegnata al secondo gruppo.
+
+Scorrendo tutte le possibili bit mask, si esplorano tutte le combinazioni possibili di suddivisione delle mele.  
+Per ciascuna configurazione si calcola la differenza tra la somma dei pesi dei due gruppi, scegliendo infine quella che minimizza tale differenza.
 
 
 
+
+\newpage
+\noindent	\textbf{Implementazione C++ - Brute Force:}
+
+\begin{lstlisting}[language=C++]
+#include <bits/stdc++.h>
+using namespace std;
+
+// Funzione che calcola la somma dei pesi delle mele selezionate dalla bit mask apple_bit
+int64_t somma_apple(int N, vector<bool> apple_bit, vector<int64_t> &apples)
+{
+	// Variabile che conterra' la somma dei pesi selezionati
+	int64_t somma = 0;
+	
+	// Scorre tutte le N mele
+	for (int i = 0; i < N; i++)
+	{
+		// Se il bit i-esimo è a 1, la mela i-esima viene selezionata
+		if (apple_bit[i])
+		{
+			// Aggiunge il peso della mela alla somma
+			somma += apples[i];
+		}
+	}
+	// Ritorna la somma dei pesi del gruppo selezionato
+	return somma;
+}
+
+int main()
+{
+	// Numero di mele
+	int N;
+	cin >> N;
+	
+	// Vettore che contiene i pesi delle mele
+	vector<int64_t> apples;
+	
+	// Bit mask inizializzata a tutti 0 (nessuna mela selezionata)
+	vector<bool> apple_bit(N, 0);
+	
+	// Somma totale dei pesi di tutte le mele
+	int64_t somma_tot = 0;
+	
+	// Somma del gruppo selezionato dalla bit mask corrente
+	int64_t somma_provvisoria = 0;
+	
+	// Differenza minima trovata (inizializzata a un valore molto grande)
+	int64_t diff = INT_MAX;
+	
+	// Lettura dei pesi delle mele
+	for (int i = 0; i < N; i++)
+	{
+		int64_t apple;
+		cin >> apple;
+		
+		// Inserisce il peso nel vettore
+		apples.push_back(apple);
+	}
+	
+	// Calcolo della somma totale dei pesi
+	for (int apple : apples)
+	{
+		somma_tot += apple;
+	}
+	
+	// Ciclo che simula l'incremento della bit mask
+	// e prova tutte le possibili combinazioni
+	
+	//il while va avanti fin quando la somma di tutti i pesi delle mele non coincide con la somma totale. In pratica, va avanti fin quando la bit_mask non raggiunge il valore corrispondente a N 1
+	while (somma_provvisoria < somma_tot)
+	{
+		// Simula l'incremento binario della bit mask
+		for (int i = N - 1; i >= 0; i--)
+		{
+			// Se il bit è 0, lo porta a 1 e si ferma
+			if (apple_bit[i] == 0)
+			{
+				apple_bit[i] = 1;
+				
+				// Calcola la somma del gruppo selezionato
+				somma_provvisoria = somma_apple(N, apple_bit, apples);
+				
+				// Calcola la differenza tra i due gruppi
+				// (somma_tot - somma_provvisoria) è il peso del secondo gruppo
+				diff = min(diff, abs(somma_tot - somma_provvisoria - somma_provvisoria));
+				
+				// Interrompe il ciclo perché l'incremento è completato
+				break;
+			}
+			else
+			{
+				// Se il bit è 1, lo riporta a 0 (riporto binario)
+				apple_bit[i] = 0;
+			}
+		}
+	}
+	
+	// Stampa la minima differenza trovata
+	cout << diff << endl;
+	
+	return 0;
+}
+
+\end{lstlisting}
+
+
+
+\bigskip
+\noindent \textbf{Costo Computazionale}: \\
+Il costo computazionale è:
+\begin{itemize}
+	\item $O(n)$ per il ciclo for alla riga 56, che calcola la somma dei pesi delle $N$ mele
+	\item $O(n)$ per la funzione \texttt{somma\_apple}, che scorre tutte le $n$ mele alla riga 11.
+	\item $O(2^n)$ per il ciclo che genera tutte le possibili bit mask (riga 65)
+\end{itemize}
+
+La complessità è:
+\begin{align*}
+	&= O(n) + O(2^n) \cdot O(n) \\
+	&= O(2^n \cdot n)
+\end{align*}
+
+dove:
+\begin{itemize}
+	\item $n$ è il numero di mele
+\end{itemize}
+
+\bigskip
+Dai vincoli del problema:
+\[
+1 \le n \le 20
+\]
+
+il numero massimo di combinazioni da esplorare è:
+\[
+2^{20} = 1\,048\,576
+\]
+
+Sostituendo nella complessità, otteniamo:
+\[
+O(2^n \cdot n) = O(2^{20} \cdot 20) \approx O(2 \cdot 10^7)
+\]
+
+Considerando una macchina che esegue circa \(10^8\) operazioni al secondo, il tempo stimato di esecuzione è:
+\[
+\frac{2 \cdot 10^7}{10^8} = 0.2 \text{ secondi}
+\]
+
+\noindent
+Pertanto, questo approccio brute force risulta accettabile per i vincoli del problema e rientra nel time limit di 1 secondo.
 
 
 
@@ -507,6 +734,8 @@ int main()
 	
 	Per risolvere il problema in tempo ragionevole, è 
 	necessario un algoritmo più efficiente, ad esempio basato sulla mediana dei bastoncini che vedremo in seguito.
+	
+	
 	
 	
 
