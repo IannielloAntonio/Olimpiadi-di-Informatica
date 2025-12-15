@@ -75,6 +75,6 @@
 \contentsline {subsection}{\numberline {3.1.5}Nearest Smaller Values}{64}{subsection.3.1.5}%
 \contentsline {section}{\numberline {3.2}Idee Greedy}{67}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Calcolatrice Rotta}{69}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Precise Average}{71}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {A}Regolamento 2025/2026}{73}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Pseudocodice}{82}{appendix.Alph2}%
+\contentsline {subsection}{\numberline {3.2.2}Precise Average}{72}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {A}Regolamento 2025/2026}{75}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Pseudocodice}{84}{appendix.Alph2}%

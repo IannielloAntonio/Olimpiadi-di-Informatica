@@ -676,6 +676,7 @@ Nel \textbf{terzo caso d'esempio}, la somma minima dei premi è $51€$, e si ot
 
 \bigskip
 \noindent \textbf{Idea (brute force)}:
+
 Un approccio diretto al problema consiste nel fissare l’ordine di uno dei due vettori e provare tutte le possibili rotazioni dell’altro vettore.
 Per ogni rotazione si calcola il prodotto scalare tra i due vettori, sommando i prodotti degli elementi nelle stesse posizioni, e si mantiene il valore minimo ottenuto.
 
@@ -800,10 +801,10 @@ int main()
 		\noindent \textbf{Constraints:}
 		
 		
-		\begin{aligned}
-			1 &\le n \le 2 \cdot 10^{5} \\
-			1 &\le p_i \le 10^{9} 
-		\end{aligned}
+		\begin{itemize}
+			\item 1 \le n \le 2 \cdot 10^{5} 
+			\item 1 \le p_i \le 10^{9} 
+		\end{itemize}
 		
 	 
 		
@@ -959,14 +960,15 @@ int main()
 	
 	\bigskip
 	
-	\noindent \textbf{Constraints: } \\
-	\begin{equation*}
-		1 \le n \le 2 \cdot 10^5
-	\end{equation*}
+	\noindent \textbf{Constraints: }
+	\begin{itemize}
+		
+		\item $1 \le n \le 2 \cdot 10^5$
 	
-	\begin{equation*}
-		1 \le x_i \le 10^9
-	\end{equation*}
+		\item $1 \le x_i \le 10^9$
+		
+	\end{itemize}
+
 	
 	\bigskip
 	
@@ -987,6 +989,7 @@ int main()
 	\bigskip
 	
 	\noindent \textbf{Idea (brute force)}: 
+	
 	Dato un array di $N$ numeri interi, per ogni posizione $i$ si vogliono analizzare tutti gli elementi che si trovano alla sua sinistra (cioè con indice minore di $i$) per individuare un valore strettamente più piccolo di quello corrente.  
 	Tra tutti i valori più piccoli trovati, si seleziona quello più vicino alla posizione $i$, cioè quello con l'indice maggiore tra quelli validi.
 	
@@ -1193,9 +1196,74 @@ Quante operazioni deve fare al minimo per farlo?
 
 \noindent \textbf{Nota:} \emph{premere il tasto \(1\) o \(2\) all'inizio conta come un'operazione, inoltre la calcolatrice è danneggiata quindi Francesco è costretto a partire sempre da \(1\) o \(2\) (non può ad esempio premere \(2\) e poi \(1\) per partire dal numero \(21\)) e le uniche operazioni ammesse sono quelle precedentemente elencate (non può per esempio moltiplicare o sottrarre \(12\) o \(21\)).}
 
+\bigskip
+
+\noindent \textbf{Formato di input}
+
+La prima riga del file di input contiene un intero 
+$T$, il numero di casi di test. Seguono $T$ casi di test, numerati da $1$ a $T$. 
+Ogni caso di test è preceduto da una riga vuota.
+
+\medskip
+Ogni caso di test è composto come segue:
+\begin{itemize}
+	\item una riga contenente l'intero $N$.
+\end{itemize}
+
+\bigskip
+
+\noindent \textbf{Formato di output}
+
+Il file di output deve contenere la risposta ai casi di test che sei riuscito a risolvere.  
+Per ogni caso di test risolto, il file di output deve contenere una riga con la dicitura:
+
+\begin{center}
+	\begin{verbatim}
+									Case #test: operazioni
+	\end{verbatim}
+	
+\end{center}
+
+
+
+dove \texttt{test} è il numero del caso di test (a partire da 1) e \texttt{operazioni} è la risposta al caso di test: il minimo numero di operazioni necessarie per raggiungere \(N\).
+
+\bigskip
+\noindent \textbf{Assunzioni}
+
+\begin{itemize}
+	\item $T=10$, nei file di input che scaricherai saranno presenti esattamente $10$ casi di test.
+	\item 1\le N \le 10^{18}
+\end{itemize}
+
+\newpage
+
+\noindent\textbf{Esempio}  
+
+\smallskip  
+\textbf{Input:}  
+\begin{verbatim}
+2
+
+2
+
+5
+
+13
+\end{verbatim}
+
+\smallskip  
+\textbf{Output:}  
+\begin{verbatim}
+Case #1: 1
+Case #2: 5
+Case #3: 6
+\end{verbatim}
+
 
 \bigskip
 \noindent \textbf{Idea 1 (greedy):}
+
 Una prima idea greedy potrebbe essere quella di imporre come soluzione $1$ se il numero da raggiungere è $1$ o $2$ (infatti basta premere il corrispondente tasto).
 Se il numero da raggiungere dovesse essere più alto, allora si può partire da $2$ e raddoppiare il numero fin quando non si supera il numero obiettivo. Una volta superato, si sottrae 1 fino ad arrivare al numero obiettivo. 
 
@@ -1218,6 +1286,7 @@ Questo controesempio dimostra che la strategia detta non è ottimale.
 
 \medskip
 \noindent \textbf{Idea 2 (greedy):}
+
 Una seconda idea potrebbe essere quella di partire dal numero obiettivo e dividere per $2$ se il numero è pari, aggiungere $1$ se il numero è dispari. 
 Così facendo, il percorso inverso sarebbe:
 
@@ -1290,6 +1359,77 @@ int main()
 
 \subsection{Precise Average}
 
+\href{https://training.olinfo.it/task/ois_avg}{Link al Problema}
+	\smallskip
+
+\noindent Time limit = 1.00s, Memory limit = 512 MB
+
+\bigskip
+
+Your friend John works at a shop that sells $N$ types of products, numbered from $0$ to $N −1$. Product $i$ has a price of $P_i$ bytedollars, where $P_i$ is a positive integer.
+\medskip
+The government of Byteland has created a new law for shops. The law states that the average of the prices of all products in a shop should be exactly $K$, where $K$ is a positive integer. John’s boss gave him the task to change the prices of the products so the shop would comply with the new law.
+\medskip
+He has lots of other stuff to do, so he asked you for help: what is the minimum number of products whose prices should be changed? A product’s price can be changed to any positive integer amount of bytedollars.
+
+\bigskip
+
+\noindent \textbf{Input}
+
+The first line of the input contains two integers N and K. The next line contains N positive integers, $P_0, \dots, P_{N-1}$.
+
+\bigskip
+\noindent \textbf{Output}
+Output a single integer between $0$ and $N$, inclusive: the answer to the question. It can be proven that it is always possible to change the prices of some products so that the new prices comply with the law.
+
+		\bigskip
+
+\noindent \textbf{Constraints:}
+
+
+\begin{itemize}
+\item	$1 &\le N \le 200\hspace{0.1cm}000$ 
+\item	$1 &\le K \le 1\hspace{0.1cm}000\hspace{0.1cm}000$ 
+\item	$1 &\le p_i \le 1\hspace{0.1cm}000\hspace{0.1cm}000$ for each $i=0 \dots N-1$
+\end{itemize}
+
+\noindent \textbf{Idea (Greedy):}
+
+L'idea che risolve il problema consiste nel fare una trattazione matematica per poter capire di quanto bisogna ritoccare la somma dei prezzi $P_i$ al fine di arrivare alla media precisa $K$.
+
+Considerando che la somma iniziale è:
+
+\[S = \sum_{i=0}^{N-1} P_i\]
+
+e la corrispondente media è:
+
+\[
+M = \frac{\sum_{i=0}^{N-1} P_i}{N} 
+\]
+
+Lo scopo è quindi quello di trovare la correzione da effettuare alla somma ($X$), tale per cui la nuova media diventa esattamente $K$:
+
+\[
+K = \frac{S-X}{N}
+\]
+
+Da cui ricaviamo la correzione da fare:
+
+\[
+	X = S - K\cdot N
+\]
+
+Dobbiamo quindi sottrarre o aggiungere (a seconda del segno) $X$ ai prodotti $P_i$.
+In particolare, si verificano 3 casi:
+
+\begin{itemize}
+	\item Se la media obiettivo è superiore rispetto a quella iniziale, sarà sufficiente aggiungere $X$ ad un qualsiasi prodotto (quindi il numero minimo di prodotti da modificare è 1).
+	\item Se la media obiettivo coincide con quella iniziale, non sarà necessario modificare alcun prodotto.
+	\item Se la media obiettivo è inferiore alla media calcolata, sarà necessario sottrarre $X$ dal totale dei prezzi dei prodotti. In particolare, ordinando il \emph{vector} in ordine crescente, possiamo cominciare a sottrarre dall’elemento più grande (indice $N−1$) fino a portarlo al valore minimo di 1, e procedere così con gli altri elementi fino a raggiungere la sottrazione totale di $X$.
+\end{itemize}
+
+
+\noindent	\textbf{Implementazione C++ - Greedy:}
 \begin{lstlisting}[language=C++]
 #include <bits/stdc++.h> 
 using namespace std;
@@ -1321,28 +1461,28 @@ int main()
 	
 	// "correzione" rappresenta di quanto la somma attuale
 	// supera la somma ideale K * N
-	// Se è positiva, dobbiamo ridurre la somma
+	// Se e' positiva, dobbiamo ridurre la somma
 	int64_t correzione = somma_iniziale - K * N;
 	
-	// Caso 1: la somma è già minore di K*N
+	// Caso 1: la somma e' gia' minore di K*N
 	// Basta modificare solo un elemento
 	if (correzione < 0)
 	{
 		ans = 1;
 	}
-	// Caso 2: la media è già esattamente K
+	// Caso 2: la media e' gia' esattamente K
 	// Non serve alcuna modifica
 	else if (correzione == 0)
 	{
 		ans = 0;
 	}
-	// Caso 3: la somma è troppo grande e va ridotta
+	// Caso 3: la somma e' troppo grande e va ridotta
 	else
 	{
-		// Partiamo dall’elemento più grande
+		// Partiamo dall’elemento piu' grande
 		for (int i = N - 1; i >= 0; i--)
 		{
-			// P[i], se minore di correzione, può essere diminuito fino ad 1.
+			// P[i], se minore di correzione, puo' essere diminuito fino ad 1.
 			if (P[i] <= correzione && P[i] > 1)
 			{
 				// Dopo aver abbassato P[i], calcolo la correzione residua
@@ -1351,14 +1491,14 @@ int main()
 				// Aumento il numero di elementi modificati
 				ans++;
 			}
-			// Se P[i] è maggiore della correzione residua
+			// Se P[i] e' maggiore della correzione residua
 			// basta modificare solo questo elemento
 			else if (P[i] > correzione)
 			{
 				ans++; //Basta diminuire solo P[i] dell'intera correzione
-				break;   // La correzione è risolta
+				break;   // La correzione e' risolta
 			}
-			// Se l'elemento è già 1, non possiamo ridurlo e passiamo al prossimo
+			// Se l'elemento e' gia' 1, non possiamo ridurlo e passiamo al prossimo
 			else if (P[i] == 1)
 			{
 				continue;
