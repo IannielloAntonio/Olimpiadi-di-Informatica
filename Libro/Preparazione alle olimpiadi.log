@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  13 DEC 2025 20:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  15 DEC 2025 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -716,7 +716,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=398, 359.09157pt x 26
+<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=403, 359.09157pt x 26
 4.99pt>
 File: immagini/1 - Complessità Computazionale/Ogrande.jpg Graphic file (type j
 pg)
@@ -737,7 +737,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
 
-<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=400, 359.09157pt 
+<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=405, 359.09157pt 
 x 271.76532pt>
 File: immagini/1 - Complessità Computazionale/Sigmagrande.jpg Graphic file (ty
 pe jpg)
@@ -807,7 +807,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 
 
 ]
-<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=605, 231.11343pt x 
+<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=610, 231.11343pt x 
 82.80937pt>
 File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
  png)
@@ -815,7 +815,7 @@ File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectoriteratori.png
   used on input line 74.
 (pdftex.def)             Requested size: 193.47578pt x 69.32436pt.
-<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=607, 176.91093pt x 81
+<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=612, 176.91093pt x 81
 .30376pt>
 File: immagini/2 - Strutture Dati/vector/vectoraccesso.png Graphic file (type p
 ng)
@@ -827,7 +827,7 @@ used on input line 96.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=608, 228.10219pt x 1
+<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=613, 228.10219pt x 1
 40.02313pt>
 File: immagini/2 - Strutture Dati/vector/vectorpushback.png Graphic file (type 
 png)
@@ -841,7 +841,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [17 <./immagini/2 - Strutture Dati/vector/vectoriteratori.png>]
-<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=635, 200.24812pt x 12
+<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=640, 200.24812pt x 12
 7.22531pt>
 File: immagini/2 - Strutture Dati/vector/vectorpopback.png Graphic file (type p
 ng)
@@ -849,7 +849,7 @@ ng)
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectorpopback.png  
 used on input line 130.
 (pdftex.def)             Requested size: 145.11053pt x 92.20006pt.
-<immagini/2 - Strutture Dati/vector/vectorsize.png, id=636, 283.81032pt x 51.19
+<immagini/2 - Strutture Dati/vector/vectorsize.png, id=641, 283.81032pt x 51.19
 125pt>
 File: immagini/2 - Strutture Dati/vector/vectorsize.png Graphic file (type png)
 
@@ -866,7 +866,7 @@ ectorpopback.png> <./immagini/2 - Strutture Dati/vector/vectorsize.png>]
 [19]
 
 [20]
-<immagini/2 - Strutture Dati/map/map.png, id=681, 443.40656pt x 259.7203pt>
+<immagini/2 - Strutture Dati/map/map.png, id=686, 443.40656pt x 259.7203pt>
 File: immagini/2 - Strutture Dati/map/map.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/map/map.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/map/map.png  used on input
@@ -942,7 +942,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 [23]
 
 [24]
-<immagini/2 - Strutture Dati/Set/set.png, id=768, 344.03531pt x 137.01187pt>
+<immagini/2 - Strutture Dati/Set/set.png, id=773, 344.03531pt x 137.01187pt>
 File: immagini/2 - Strutture Dati/Set/set.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Set/set.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/Set/set.png  used on input
@@ -1046,7 +1046,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 [31]
 
 [32]
-<immagini/2 - Strutture Dati/Stack/stack.png, id=990, 353.82187pt x 212.29312pt
+<immagini/2 - Strutture Dati/Stack/stack.png, id=995, 353.82187pt x 212.29312pt
 >
 File: immagini/2 - Strutture Dati/Stack/stack.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Stack/stack.png>
@@ -1060,7 +1060,7 @@ nput line 881.
 [34]
 
 [35]
-<immagini/2 - Strutture Dati/queue/queue.png, id=1071, 310.91156pt x 91.09032pt
+<immagini/2 - Strutture Dati/queue/queue.png, id=1076, 310.91156pt x 91.09032pt
 >
 File: immagini/2 - Strutture Dati/queue/queue.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/queue/queue.png>
@@ -1161,7 +1161,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 [40]
 
 [41]
-<immagini/2 - Strutture Dati/Deque/deque.png, id=1223, 646.66594pt x 280.04625p
+<immagini/2 - Strutture Dati/Deque/deque.png, id=1228, 646.66594pt x 280.04625p
 t>
 File: immagini/2 - Strutture Dati/Deque/deque.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Deque/deque.png>
@@ -1428,13 +1428,127 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [56]
 
+[57]
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 665.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 665.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 665.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 665.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 665.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 665.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 665.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 665.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 665.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 665.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 668.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 668.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 668.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 668.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 668.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 668.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 671.
+
+Missing character: There is no � in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 674.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 674.
+
+Missing character: There is no � in font cmr12!
+
+
+[58]
+
+[59]
+
+[60]
+
 ! Package amsmath Error: \begin{aligned} allowed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.612 			1
+l.804 			1
            &\le n \le 2 \cdot 10^{5} \\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1442,7 +1556,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.612 			1
+l.804 			1
            &\le n \le 2 \cdot 10^{5} \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1450,7 +1564,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.614 		\end{aligned}
+l.806 		\end{aligned}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1460,7 +1574,7 @@ my insertion and my current dilemma will both disappear.
 
 
 
-[57]
+[61]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
@@ -1468,7 +1582,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.678 ...minimo se la somma dei costi corrente è 
+l.870 ...minimo se la somma dei costi corrente è 
                                                   inferiore
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1483,7 +1597,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.678 ...minimo se la somma dei costi corrente è 
+l.870 ...minimo se la somma dei costi corrente è 
                                                   inferiore
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1493,16 +1607,16 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[58]
+[62]
 
-[59]
-Underfull \hbox (badness 10000) in paragraph at lines 770--771
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 962--963
 
  []
 
 
 
-[60]
+[64]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
 
@@ -1510,7 +1624,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.825 ... inizializzata a 0 (nessun elemento più 
+l.1018 ...inizializzata a 0 (nessun elemento più 
                                                   piccolo a sinistra)
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1525,7 +1639,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.825 ... inizializzata a 0 (nessun elemento più 
+l.1018 ...inizializzata a 0 (nessun elemento più 
                                                   piccolo a sinistra)
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1540,8 +1654,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.843 			// Se troviamo un valore più 
-                                       piccolo di array[i]
+l.1036 			// Se troviamo un valore più 
+                                        piccolo di array[i]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -1555,8 +1669,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.843 			// Se troviamo un valore più 
-                                       piccolo di array[i]
+l.1036 			// Se troviamo un valore più 
+                                        piccolo di array[i]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -1570,7 +1684,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.847 ...nterrompiamo il ciclo. alla fine rimarrà
+l.1040 ...terrompiamo il ciclo. alla fine rimarrà
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1585,7 +1699,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.847 ...nterrompiamo il ciclo. alla fine rimarrà
+l.1040 ...terrompiamo il ciclo. alla fine rimarrà
                                                   
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1600,7 +1714,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.848 ...ULTIMA posizione valida trovata (la più 
+l.1041 ...LTIMA posizione valida trovata (la più 
                                                   vicina a i) */
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1615,7 +1729,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.848 ...ULTIMA posizione valida trovata (la più 
+l.1041 ...LTIMA posizione valida trovata (la più 
                                                   vicina a i) */
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1625,49 +1739,647 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 866--867
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
 
  []
 
 
 
-[62]
+[66]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introduttivo.p
-ng, id=1663, 685.05937pt x 449.42906pt>
+ng, id=1754, 685.05937pt x 449.42906pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutt
 ivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutti
 vo.png>
 Package pdftex.def Info: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greed
-y/Esempio Introduttivo.png  used on input line 934.
+y/Esempio Introduttivo.png  used on input line 1127.
 (pdftex.def)             Requested size: 338.58632pt x 222.13547pt.
 
 
-[63 <./immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdut
+[67 <./immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdut
 tivo.png>]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Introdut
-tivo.png, id=1672, 654.19406pt x 416.30531pt>
+tivo.png, id=1763, 654.19406pt x 416.30531pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Int
 roduttivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Intr
 oduttivo.png>
 Package pdftex.def Info: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greed
-y/Controesempio Introduttivo.png  used on input line 967.
+y/Controesempio Introduttivo.png  used on input line 1160.
 (pdftex.def)             Requested size: 338.58632pt x 215.46364pt.
 
 
-[64 <./immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio In
-troduttivo.png>])
+[68 <./immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio In
+troduttivo.png>]
 
-[65]
+[69]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1264 ...biettivo e divido per 2 se il numero è 
+                                                  pari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1264 ...biettivo e divido per 2 se il numero è 
+                                                  pari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1265 			sommo 1 se il numero è 
+                                  dispari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1265 			sommo 1 se il numero è 
+                                  dispari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1268 				if(N%2 == 0){ //se il numero è 
+                                           pari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1268 				if(N%2 == 0){ //se il numero è 
+                                           pari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1272 				else{ //se il numero è 
+                                   dispari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1272 				else{ //se il numero è 
+                                   dispari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[70]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1316 	// Ci servirà 
+                       per agire prima sugli elementi più grandi
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1316 	// Ci servirà 
+                       per agire prima sugli elementi più grandi
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1316 ...rà per agire prima sugli elementi più 
+                                                  grandi
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "B9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1316 ...rà per agire prima sugli elementi più 
+                                                  grandi
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1324 	// Se è 
+                 positiva, dobbiamo ridurre la somma
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1324 	// Se è 
+                 positiva, dobbiamo ridurre la somma
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1327 	// Caso 1: la somma è 
+                               già minore di K*N
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1327 	// Caso 1: la somma è 
+                               già minore di K*N
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1327 	// Caso 1: la somma è già 
+                                    minore di K*N
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1327 	// Caso 1: la somma è già 
+                                    minore di K*N
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1333 	// Caso 2: la media è 
+                               già esattamente K
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1333 	// Caso 2: la media è 
+                               già esattamente K
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1333 	// Caso 2: la media è già 
+                                    esattamente K
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1333 	// Caso 2: la media è già 
+                                    esattamente K
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1339 	// Caso 3: la somma è 
+                               troppo grande e va ridotta
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1339 	// Caso 3: la somma è 
+                               troppo grande e va ridotta
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1342 		// Partiamo dall’elemento 
+                                     più grande
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "80.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1342 		// Partiamo dall’elemento 
+                                     più grande
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "99.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1342 		// Partiamo dall’elemento 
+                                     più grande
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1342 		// Partiamo dall’elemento più 
+                                          grande
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "B9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1342 		// Partiamo dall’elemento più 
+                                          grande
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1345 			// P[i], se minore di correzione, può 
+                                                 essere diminuito fino ad 1.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "B2.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1345 			// P[i], se minore di correzione, può 
+                                                 essere diminuito fino ad 1.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[71]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1354 			// Se P[i] è 
+                        maggiore della correzione residua
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1354 			// Se P[i] è 
+                        maggiore della correzione residua
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1359 				break;   // La correzione è 
+                                        risolta
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1359 				break;   // La correzione è 
+                                        risolta
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1361 			// Se l'elemento è 
+                              già 1, non possiamo ridurlo e passiamo al pro...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1361 			// Se l'elemento è 
+                              già 1, non possiamo ridurlo e passiamo al pro...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1361 			// Se l'elemento è già 
+                                   1, non possiamo ridurlo e passiamo al pro...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1361 			// Se l'elemento è già 
+                                   1, non possiamo ridurlo e passiamo al pro...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+[72]
 Appendice A.
-<Regolamento2025.pdf, id=1684, 598.235pt x 845.1575pt>
+<Regolamento2025.pdf, id=1921, 598.235pt x 845.1575pt>
 File: Regolamento2025.pdf Graphic file (type pdf)
 <use Regolamento2025.pdf>
 Package pdftex.def Info: Regolamento2025.pdf  used on input line 62.
 (pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
-<Regolamento2025.pdf, id=1686, page=1, 598.235pt x 845.1575pt>
+<Regolamento2025.pdf, id=1923, page=1, 598.235pt x 845.1575pt>
 File: Regolamento2025.pdf Graphic file (type pdf)
 <use Regolamento2025.pdf, page 1>
 Package pdftex.def Info: Regolamento2025.pdf , page1 used on input line 62.
@@ -1678,7 +2390,7 @@ Package pdftex.def Info: Regolamento2025.pdf , page1 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 
 
-[66
+[73
 
 
 
@@ -1696,143 +2408,143 @@ Package pdftex.def Info: Regolamento2025.pdf , page1 used on input line 62.
 File: Regolamento2025.pdf Graphic file (type pdf)
 <use Regolamento2025.pdf, page 1>
 Package pdftex.def Info: Regolamento2025.pdf , page1 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[67
-
- <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1745, page=2, 598.235pt x 845.1575pt>
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 2>
-Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 2>
-Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-
-
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 2>
-Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[68
-
- <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1761, page=3, 598.235pt x 845.1575pt>
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 3>
-Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 3>
-Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-
-
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 3>
-Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[69
-
- <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1776, page=4, 598.235pt x 845.1575pt>
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 4>
-Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 4>
-Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-
-
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 4>
-Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[70
-
- <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1781, page=5, 598.235pt x 845.1575pt>
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 5>
-Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 5>
-Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-
-
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 5>
-Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[71
-
- <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1791, page=6, 598.235pt x 845.1575pt>
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 6>
-Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 6>
-Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-
-
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 6>
-Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[72
-
- <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1797, page=7, 598.235pt x 845.1575pt>
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 7>
-Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 7>
-Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-
-
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 7>
-Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[73
-
- <./Regolamento2025.pdf>]
-<Regolamento2025.pdf, id=1807, page=8, 598.235pt x 845.1575pt>
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 8>
-Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 8>
-Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-
-
-File: Regolamento2025.pdf Graphic file (type pdf)
-<use Regolamento2025.pdf, page 8>
-Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 [74
 
  <./Regolamento2025.pdf>]
+<Regolamento2025.pdf, id=1981, page=2, 598.235pt x 845.1575pt>
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 2>
+Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 2>
+Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+
+
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 2>
+Package pdftex.def Info: Regolamento2025.pdf , page2 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+[75
+
+ <./Regolamento2025.pdf>]
+<Regolamento2025.pdf, id=1997, page=3, 598.235pt x 845.1575pt>
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 3>
+Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 3>
+Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+
+
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 3>
+Package pdftex.def Info: Regolamento2025.pdf , page3 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+[76
+
+ <./Regolamento2025.pdf>]
+<Regolamento2025.pdf, id=2012, page=4, 598.235pt x 845.1575pt>
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 4>
+Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 4>
+Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+
+
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 4>
+Package pdftex.def Info: Regolamento2025.pdf , page4 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+[77
+
+ <./Regolamento2025.pdf>]
+<Regolamento2025.pdf, id=2017, page=5, 598.235pt x 845.1575pt>
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 5>
+Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 5>
+Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+
+
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 5>
+Package pdftex.def Info: Regolamento2025.pdf , page5 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+[78
+
+ <./Regolamento2025.pdf>]
+<Regolamento2025.pdf, id=2028, page=6, 598.235pt x 845.1575pt>
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 6>
+Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 6>
+Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+
+
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 6>
+Package pdftex.def Info: Regolamento2025.pdf , page6 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+[79
+
+ <./Regolamento2025.pdf>]
+<Regolamento2025.pdf, id=2033, page=7, 598.235pt x 845.1575pt>
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 7>
+Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 7>
+Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+
+
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 7>
+Package pdftex.def Info: Regolamento2025.pdf , page7 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+[80
+
+ <./Regolamento2025.pdf>]
+<Regolamento2025.pdf, id=2043, page=8, 598.235pt x 845.1575pt>
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 8>
+Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 8>
+Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+
+
+File: Regolamento2025.pdf Graphic file (type pdf)
+<use Regolamento2025.pdf, page 8>
+Package pdftex.def Info: Regolamento2025.pdf , page8 used on input line 62.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+[81
+
+ <./Regolamento2025.pdf>]
 Appendice B.
-<pseudocodice.pdf, id=1823, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2059, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
 <use pseudocodice.pdf>
 Package pdftex.def Info: pseudocodice.pdf  used on input line 66.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<pseudocodice.pdf, id=1825, page=1, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2061, page=1, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
 <use pseudocodice.pdf, page 1>
 Package pdftex.def Info: pseudocodice.pdf , page1 used on input line 66.
@@ -1843,7 +2555,7 @@ Package pdftex.def Info: pseudocodice.pdf , page1 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
-[75
+[82
 
 ]
 File: pseudocodice.pdf Graphic file (type pdf)
@@ -1860,493 +2572,493 @@ File: pseudocodice.pdf Graphic file (type pdf)
 <use pseudocodice.pdf, page 1>
 Package pdftex.def Info: pseudocodice.pdf , page1 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[76
-
- <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1855, page=2, 614.295pt x 794.97pt>
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 2>
-Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 2>
-Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 2>
-Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[77
-
- <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1879, page=3, 614.295pt x 794.97pt>
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 3>
-Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 3>
-Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 3>
-Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[78
-
- <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1897, page=4, 614.295pt x 794.97pt>
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 4>
-Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 4>
-Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 4>
-Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[79
-
- <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1950, page=5, 614.295pt x 794.97pt>
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 5>
-Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 5>
-Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 5>
-Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[80
-
- <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1963, page=6, 614.295pt x 794.97pt>
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 6>
-Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 6>
-Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 6>
-Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[81
-
- <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1972, page=7, 614.295pt x 794.97pt>
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 7>
-Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 7>
-Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 7>
-Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[82
-
- <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1987, page=8, 614.295pt x 794.97pt>
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 8>
-Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 8>
-Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-
-File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 8>
-Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [83
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1992, page=9, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2091, page=2, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 9>
-Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
+<use pseudocodice.pdf, page 2>
+Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 9>
-Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
+<use pseudocodice.pdf, page 2>
+Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 9>
-Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
+<use pseudocodice.pdf, page 2>
+Package pdftex.def Info: pseudocodice.pdf , page2 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [84
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=1998, page=10, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2116, page=3, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 10>
-Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
+<use pseudocodice.pdf, page 3>
+Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 10>
-Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
+<use pseudocodice.pdf, page 3>
+Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 10>
-Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
+<use pseudocodice.pdf, page 3>
+Package pdftex.def Info: pseudocodice.pdf , page3 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [85
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2003, page=11, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2133, page=4, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 11>
-Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
+<use pseudocodice.pdf, page 4>
+Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 11>
-Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
+<use pseudocodice.pdf, page 4>
+Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 11>
-Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
+<use pseudocodice.pdf, page 4>
+Package pdftex.def Info: pseudocodice.pdf , page4 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [86
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2008, page=12, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2186, page=5, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 12>
-Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
+<use pseudocodice.pdf, page 5>
+Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 12>
-Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
+<use pseudocodice.pdf, page 5>
+Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 12>
-Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
+<use pseudocodice.pdf, page 5>
+Package pdftex.def Info: pseudocodice.pdf , page5 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [87
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2013, page=13, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2199, page=6, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 13>
-Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
+<use pseudocodice.pdf, page 6>
+Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 13>
-Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
+<use pseudocodice.pdf, page 6>
+Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 13>
-Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
+<use pseudocodice.pdf, page 6>
+Package pdftex.def Info: pseudocodice.pdf , page6 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [88
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2018, page=14, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2208, page=7, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 14>
-Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
+<use pseudocodice.pdf, page 7>
+Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 14>
-Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
+<use pseudocodice.pdf, page 7>
+Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 14>
-Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
+<use pseudocodice.pdf, page 7>
+Package pdftex.def Info: pseudocodice.pdf , page7 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [89
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2023, page=15, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2223, page=8, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 15>
-Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
+<use pseudocodice.pdf, page 8>
+Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 15>
-Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
+<use pseudocodice.pdf, page 8>
+Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 15>
-Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
+<use pseudocodice.pdf, page 8>
+Package pdftex.def Info: pseudocodice.pdf , page8 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [90
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2029, page=16, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2229, page=9, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 16>
-Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
+<use pseudocodice.pdf, page 9>
+Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 16>
-Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
+<use pseudocodice.pdf, page 9>
+Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 16>
-Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
+<use pseudocodice.pdf, page 9>
+Package pdftex.def Info: pseudocodice.pdf , page9 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [91
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2034, page=17, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2234, page=10, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 17>
-Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
+<use pseudocodice.pdf, page 10>
+Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 17>
-Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
+<use pseudocodice.pdf, page 10>
+Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 17>
-Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
+<use pseudocodice.pdf, page 10>
+Package pdftex.def Info: pseudocodice.pdf , page10 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [92
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2039, page=18, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2239, page=11, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 18>
-Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
+<use pseudocodice.pdf, page 11>
+Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 18>
-Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
+<use pseudocodice.pdf, page 11>
+Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 18>
-Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
+<use pseudocodice.pdf, page 11>
+Package pdftex.def Info: pseudocodice.pdf , page11 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [93
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2044, page=19, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2244, page=12, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 19>
-Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
+<use pseudocodice.pdf, page 12>
+Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 19>
-Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
+<use pseudocodice.pdf, page 12>
+Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 19>
-Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
+<use pseudocodice.pdf, page 12>
+Package pdftex.def Info: pseudocodice.pdf , page12 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [94
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2049, page=20, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2249, page=13, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 20>
-Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
+<use pseudocodice.pdf, page 13>
+Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 20>
-Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
+<use pseudocodice.pdf, page 13>
+Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 20>
-Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
+<use pseudocodice.pdf, page 13>
+Package pdftex.def Info: pseudocodice.pdf , page13 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [95
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2054, page=21, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2254, page=14, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 21>
-Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
+<use pseudocodice.pdf, page 14>
+Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 21>
-Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
+<use pseudocodice.pdf, page 14>
+Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 21>
-Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
+<use pseudocodice.pdf, page 14>
+Package pdftex.def Info: pseudocodice.pdf , page14 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [96
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2060, page=22, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2260, page=15, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 22>
-Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
+<use pseudocodice.pdf, page 15>
+Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 22>
-Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
+<use pseudocodice.pdf, page 15>
+Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 22>
-Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
+<use pseudocodice.pdf, page 15>
+Package pdftex.def Info: pseudocodice.pdf , page15 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [97
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2065, page=23, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2265, page=16, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 23>
-Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
+<use pseudocodice.pdf, page 16>
+Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 23>
-Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
+<use pseudocodice.pdf, page 16>
+Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 23>
-Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
+<use pseudocodice.pdf, page 16>
+Package pdftex.def Info: pseudocodice.pdf , page16 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [98
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2070, page=24, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2270, page=17, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 24>
-Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
+<use pseudocodice.pdf, page 17>
+Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 24>
-Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
+<use pseudocodice.pdf, page 17>
+Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 24>
-Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
+<use pseudocodice.pdf, page 17>
+Package pdftex.def Info: pseudocodice.pdf , page17 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [99
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2075, page=25, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2275, page=18, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 25>
-Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
+<use pseudocodice.pdf, page 18>
+Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 25>
-Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
+<use pseudocodice.pdf, page 18>
+Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 25>
-Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
+<use pseudocodice.pdf, page 18>
+Package pdftex.def Info: pseudocodice.pdf , page18 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [100
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2080, page=26, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2280, page=19, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 26>
-Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+<use pseudocodice.pdf, page 19>
+Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 26>
-Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+<use pseudocodice.pdf, page 19>
+Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 26>
-Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+<use pseudocodice.pdf, page 19>
+Package pdftex.def Info: pseudocodice.pdf , page19 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [101
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2085, page=27, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2285, page=20, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 27>
-Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+<use pseudocodice.pdf, page 20>
+Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 27>
-Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+<use pseudocodice.pdf, page 20>
+Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 27>
-Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+<use pseudocodice.pdf, page 20>
+Package pdftex.def Info: pseudocodice.pdf , page20 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [102
 
  <./pseudocodice.pdf>]
-<pseudocodice.pdf, id=2091, page=28, 614.295pt x 794.97pt>
+<pseudocodice.pdf, id=2291, page=21, 614.295pt x 794.97pt>
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 28>
-Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+<use pseudocodice.pdf, page 21>
+Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 28>
-Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+<use pseudocodice.pdf, page 21>
+Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 
 File: pseudocodice.pdf Graphic file (type pdf)
-<use pseudocodice.pdf, page 28>
-Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+<use pseudocodice.pdf, page 21>
+Package pdftex.def Info: pseudocodice.pdf , page21 used on input line 66.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [103
+
+ <./pseudocodice.pdf>]
+<pseudocodice.pdf, id=2296, page=22, 614.295pt x 794.97pt>
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 22>
+Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 22>
+Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 22>
+Package pdftex.def Info: pseudocodice.pdf , page22 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[104
+
+ <./pseudocodice.pdf>]
+<pseudocodice.pdf, id=2301, page=23, 614.295pt x 794.97pt>
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 23>
+Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 23>
+Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 23>
+Package pdftex.def Info: pseudocodice.pdf , page23 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[105
+
+ <./pseudocodice.pdf>]
+<pseudocodice.pdf, id=2306, page=24, 614.295pt x 794.97pt>
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 24>
+Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 24>
+Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 24>
+Package pdftex.def Info: pseudocodice.pdf , page24 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[106
+
+ <./pseudocodice.pdf>]
+<pseudocodice.pdf, id=2311, page=25, 614.295pt x 794.97pt>
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 25>
+Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 25>
+Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 25>
+Package pdftex.def Info: pseudocodice.pdf , page25 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[107
+
+ <./pseudocodice.pdf>]
+<pseudocodice.pdf, id=2316, page=26, 614.295pt x 794.97pt>
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 26>
+Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 26>
+Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 26>
+Package pdftex.def Info: pseudocodice.pdf , page26 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[108
+
+ <./pseudocodice.pdf>]
+<pseudocodice.pdf, id=2322, page=27, 614.295pt x 794.97pt>
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 27>
+Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 27>
+Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 27>
+Package pdftex.def Info: pseudocodice.pdf , page27 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[109
+
+ <./pseudocodice.pdf>]
+<pseudocodice.pdf, id=2327, page=28, 614.295pt x 794.97pt>
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 28>
+Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 28>
+Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: pseudocodice.pdf Graphic file (type pdf)
+<use pseudocodice.pdf, page 28>
+Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[110
 
  <./pseudocodice.pdf>] (Preparazione alle olimpiadi.aux
 (TeX_files/0 - Introduzione.aux) (TeX_files/1 - Complessita Computazionale.aux)
@@ -2356,15 +3068,26 @@ Package pdftex.def Info: pseudocodice.pdf , page28 used on input line 66.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-Package rerunfilecheck Info: File `"Preparazione alle olimpiadi".out' has not c
-hanged.
-(rerunfilecheck)             Checksum: F052767E685A9DDE3558100C6EE6EFB6;13243.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `"Preparazione alle olimpiadi".out' has ch
+anged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Preparazione alle olimpiadi".out':
+
+(rerunfilecheck)             Before: 50A5FBAFF22984C4F7373A74BFC7A0E2;13406
+(rerunfilecheck)             After:  F01A677228605C95655821D8675DE758;13546.
  ) 
 Here is how much of TeX's memory you used:
- 17196 strings out of 468130
- 282475 string characters out of 5430633
+ 17437 strings out of 468130
+ 286089 string characters out of 5430633
  1222070 words of memory out of 5000000
- 44409 multiletter control sequences out of 15000+600000
+ 44441 multiletter control sequences out of 15000+600000
  646278 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,17n,79p,598b,2055s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2399,10 +3122,10 @@ fb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 onts/cm/cmsy10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/symbols/msam7.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (104 pages, 1752236 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (111 pages, 1808412 bytes).
 
 PDF statistics:
- 3037 PDF objects out of 3580 (max. 8388607)
- 1147 named destinations out of 1200 (max. 500000)
- 839 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3322 PDF objects out of 3580 (max. 8388607)
+ 1356 named destinations out of 1440 (max. 500000)
+ 847 words of extra memory for PDF output out of 10000 (max. 10000000)
 

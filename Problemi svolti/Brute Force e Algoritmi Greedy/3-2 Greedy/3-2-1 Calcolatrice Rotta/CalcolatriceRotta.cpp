@@ -15,7 +15,6 @@ int main()
             inputFile >> N;
 
             int64_t operazioni = 1;
-            int64_t mio_numero = 2;
 
             if(N==1 || N == 2){
                   operazioni = 1;
@@ -25,24 +24,19 @@ int main()
             }
             else{
                  
-                  // Con il primo while moltiplico per 2 fin quando non ho raggiunto
-                  // o superato il numero da raggiungere.
-                  while(mio_numero <= N){
-                        mio_numero *= 2;
-                        operazioni += 1;
-                  }
-
-                  // Con il secondo while vado a sottrarre 1 o 2
-                  // Fin quando i numeri non risultano uguali
-                  while(mio_numero > N){
-                        if(mio_numero - N >= 2){
-                              mio_numero -= 2;
+                  /* 
+                  Parto dal numero obiettivo e divido per 2 se il numero è pari
+                  sommo 1 se il numero è dispari
+                  */
+                  while(N > 2){
+                        if(N%2 == 0){ //se il numero è pari
+                              N = N / 2; //divido per 2
                               operazioni += 1;
                         }
-                        else{
-                              mio_numero -= 1;
+                        else{ //se il numero è dispari
+                              N = N + 1; //sommo 1
                               operazioni += 1;
-                        }
+                        }                 
                   }
             }
 

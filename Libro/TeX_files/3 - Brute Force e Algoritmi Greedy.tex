@@ -565,6 +565,198 @@ Pertanto, questo approccio brute force risulta accettabile per i vincoli del pro
 
 
 \newpage
+\subsection{Ruota della fortuna}
+\href{https://territoriali.olinfo.it/task/fortuna}{Link al problema}
+
+\smallskip
+
+\noindent Time limit = 1.00s, Memory limit = 512 MB
+
+\bigskip
+
+Giorgio gestisce una ruota della fortuna a premi.
+
+La ruota è suddivisa in \(N\) spicchi uguali, numerati da \(0\) a \(N-1\), in senso orario. Lo spicchio \(i\) corrisponde a un premio di valore \(V_i\).  
+
+\medskip
+I premi vengono assegnati in questo modo. 
+Dopo aver comprato il biglietto, ognuno dei giocatori si posiziona davanti allo spicchio di sua scelta e non si muove più. Quando la ruota viene fatta girare e si ferma, ciascun giocatore vince un premio in base al valore del nuovo spicchio che si trova davanti a lui.
+
+\medskip
+
+Giorgio ha taroccato il meccanismo della ruota per fermarla quando gli conviene di più. Ti viene dato il valore dei premi per ogni spicchio, e il numero \(G_i\) di giocatori posizionati davanti a ciascuno spicchio i. Aiuta Giorgio a calcolare la somma totale dei premi che dovrà pagar, fermando la ruota in modo che questa somma sia minima!
+
+\bigskip
+
+\noindent\textbf{Dati di input}
+
+La prima riga contiene un intero \(T\), il numero di casi di test.  
+Seguono \(T\) casi di test, numerati da 1 a \(T\). Ogni caso di test è preceduto da una riga vuota.
+
+\medskip
+
+Ogni caso test è composto da \(3\) righe:
+
+\begin{itemize}
+	\item La prima riga contiene l'intero \(N\).
+	\item la seconda riga contiene il valore dei premi \(V_0, \dots, V_{N-1}\) di ciascuno spicchio;
+	\item la terza riga contiene il numero di giocatori \(G_0, \dots, G_{N-1}\) che si sono posizionati in corrispondenza di ciascuno spicchio.
+\end{itemize}
+
+\bigskip
+
+\noindent\textbf{Dati di output}
+
+Il file di output deve contenere la risposta ai casi di test che sei riuscito a risolvere. Per ogni caso di test che hai risolto, il file di output deve contenere una riga con la dicitura:
+
+\medskip
+
+\begin{verbatim}
+	Case #t: x
+\end{verbatim}
+
+\medskip
+dove $t$ è il numero del caso di test (a partire da \(1\)) e il valore $x$ è la somma totale dei premi minima.
+
+\bigskip
+
+\noindent\textbf{Assunzioni e vincoli}
+
+\begin{itemize}
+	\item \(T = 13\), nei file di input che scaricherai saranno presenti esattamente \(13\) casi di test.
+	\item \(2 \le N \le 1000\)
+	\item \(0 \le V_i \le 1000\) per \(i = 0, \dots, N-1\)
+	\item \(0 \le G_i \le 1000\) per \(i = 0, \dots, N-1\)
+\end{itemize}
+
+
+\newpage
+\noindent\textbf{Esempi di input/output}
+\smallskip  
+\textbf{Input:}  
+\begin{verbatim}
+	3
+	
+	5
+	7 2 5 3 4
+	1 0 0 1 0
+	
+	5
+	7 2 5 3 4
+	2 4 1 3 7
+	
+	5
+	7 2 5 3 4
+	3 8 1 3 0
+\end{verbatim}
+
+\smallskip  
+\textbf{Output:}  
+\begin{verbatim}
+	Case #1: 5
+	Case #2: 61
+	Case #3: 51
+\end{verbatim}
+
+\bigskip
+
+\noindent\textbf{Spiegazione dell'esempio:}
+
+In tutti e tre i casi la ruota ha \(N=5\) spicchi con premi $7€$, $2€$, $5€$, $3€$ e $4€$.
+\medskip
+
+Nel \textbf{primo caso di esempio}, ci sono solo due giocatori. La somma minima dei premi è $5€$, e si ottiene fermando la ruota ruotata di $2$ spicchi in senso orario. In questo modo il primo giocatore riceverà un premio di $3€$ e il secondo un premio di $2€$.
+\medskip
+
+Nel \textbf{secondo caso d'esempio}, la somma minima dei premi è $61€$, e si ottiene fermando la ruota ruotata di $3$ spicchi in senso orario. (Quindi $2$ giocatori riceveranno un premio da $5€$, $4$ da $3€$, $1$ da $4€$, $3$ da $7€$, e $7$ da $2€$. La somma totale dei premi in euro è data da $2\cdot5+4\cdot3+1\cdot4+3\cdot7+7\cdot2 = 61$).
+
+\medskip
+Nel \textbf{terzo caso d'esempio}, la somma minima dei premi è $51€$, e si ottiene fermando la ruota esattamente nella posizione di partenza.
+
+
+\bigskip
+\noindent \textbf{Idea (brute force)}:
+Un approccio diretto al problema consiste nel fissare l’ordine di uno dei due vettori e provare tutte le possibili rotazioni dell’altro vettore.
+Per ogni rotazione si calcola il prodotto scalare tra i due vettori, sommando i prodotti degli elementi nelle stesse posizioni, e si mantiene il valore minimo ottenuto.
+
+\newpage
+
+\noindent \textbf{Implementazione C++ - Brute Force:}
+
+\begin{lstlisting}[language=C++]
+#include <bits/stdc++.h>      
+using namespace std;            
+
+// Funzione che ruota a destra di una posizione il vettore 'valori'
+vector<int> rotate(vector<int> valori, int N){
+	int temp = valori[N-1];     // Salva l'ultimo elemento del vettore
+	
+	// Shift a destra di tutti gli elementi
+	for(int i = N-1; i > 0; i--){
+		valori[i] = valori[i-1];
+	}
+	
+	valori[0] = temp;           // Inserisce l'ultimo elemento in prima posizione
+	
+	return valori;              // Restituisce il vettore ruotato
+}
+
+int main()
+{
+	ifstream inputFile("fortuna_input_4.txt"); // Apertura del file di input
+	
+	int T;
+	inputFile >> T;             // Numero di casi di test
+	
+	// Ciclo sui casi di test
+	for(int test = 1; test <= T; test++){
+		int ans = INT_MAX;    // Valore minimo del prodotto scalare trovato
+		int temp_ans = 0;     // Valore temporaneo del prodotto scalare
+		
+		int N;
+		inputFile >> N;       // Numero di elementi dei vettori
+		
+		vector<int> V, G;     // Vettori di input
+		
+		// Lettura del vettore V
+		for(int i = 0; i < N; i++){
+			int v;
+			inputFile >> v; // Legge un elemento
+			V.push_back(v); // Inserisce l'elemento nel vettore V
+		}
+		
+		// Lettura del vettore G
+		for(int i = 0; i < N; i++){
+			int g;
+			inputFile >> g; // Legge un elemento
+			G.push_back(g); // Inserisce l'elemento nel vettore G
+		}
+		
+		// Prova tutte le N rotazioni del vettore V
+		for(int i = 0; i < N; i++){
+			temp_ans = 0;   // Azzera la somma per la rotazione corrente
+			
+			// Calcolo del prodotto scalare tra V e G
+			for(int j = 0; j < N; j++){
+				temp_ans += G[j] * V[j];
+			}
+			
+			V = rotate(V, N);        // Ruota il vettore V di una posizione
+			ans = min(temp_ans, ans); // Aggiorna il minimo trovato
+		}
+		
+	
+		cout << "Case #" << test << ": " << ans << endl;
+	}
+	
+	return 0;              
+}
+
+\end{lstlisting}
+
+
+
+\newpage
 
 
 \subsection{Stick Lengths}
@@ -809,7 +1001,8 @@ int main()
 	
 	Se per una determinata posizione non viene trovato alcun valore più piccolo, il risultato rimane pari a $0$, indicando che non esiste una posizione valida alla sua sinistra.
 	
-	\newpage
+	\newpage	
+	\noindent	\textbf{Implementazione C++ - Brute Force:}
 	
 	\begin{lstlisting}[language=C++]
 #include <bits/stdc++.h>
@@ -951,7 +1144,7 @@ Un approccio \textbf{Greedy}, invece, consiste nel prendere, ad ogni piazza, la 
 In altre parole, a ogni nodo del grafo, si seleziona localmente il percorso che massimizza la quantità di monete raccolte in quel passo, senza considerare tutte le possibili combinazioni future.
 
 Con riferimento alla figura \ref{fig:Brute-Force-Algoritmi-Greedy:Idee-Greedy:Esempio-Introduttivo}, partendo dalla piazza $M_1$, la scelta greedy consiste nel confrontare le piazze raggiungibili ($M_2$ e $M_4$) e scegliere immediatamente quella con il maggior numero di monete. 
-Successivamente, si ripete lo stesso criterio per la piazza successiva fino a raggiungere una piazza terminale o senza uscite disponibili.
+Successivamente, si ripete lo stesso criterio per la piazza successiva fino a raggiungere una piazza terminale.
 
 Come detto, l'approccio si concretizza nel fare la scelta migliore \emph{localmente}, senza considerare le conseguenze future.
 
@@ -971,7 +1164,7 @@ A tal proposito, in figura \ref{fig:Brute-Force-Algoritmi-Greedy:Idee-Greedy:Con
 
 
 
-
+\newpage
 
 
 \subsection{Calcolatrice Rotta}
@@ -1002,11 +1195,184 @@ Quante operazioni deve fare al minimo per farlo?
 
 
 \bigskip
-\noindent \textbf{Idea (greedy):}
+\noindent \textbf{Idea 1 (greedy):}
+Una prima idea greedy potrebbe essere quella di imporre come soluzione $1$ se il numero da raggiungere è $1$ o $2$ (infatti basta premere il corrispondente tasto).
+Se il numero da raggiungere dovesse essere più alto, allora si può partire da $2$ e raddoppiare il numero fin quando non si supera il numero obiettivo. Una volta superato, si sottrae 1 fino ad arrivare al numero obiettivo. 
+
+\medskip
+\noindent \textbf{Controesempio:}
+La strategia greedy descritta non garantisce una soluzione ottimale.
+Ad esempio, per raggiungere il valore $20$, l’approccio porta al seguente percorso:
+\[
+2 \rightarrow 4 \rightarrow 8 \rightarrow 16 \rightarrow 32 
+\rightarrow 31 \rightarrow 30 \rightarrow \dots \rightarrow 20
+\]
+che richiede complessivamente $17$ operazioni.
+
+Tuttavia, è possibile raggiungere lo stesso valore obiettivo con un numero minore di operazioni seguendo il percorso:
+\[
+2 \rightarrow 4 \rightarrow 8 \rightarrow 7 \rightarrow 6 \rightarrow 5 \rightarrow 10 \rightarrow 20
+\]
+che utilizza esclusivamente operazioni ammesse e richiede soltanto $7$ operazioni.
+Questo controesempio dimostra che la strategia detta non è ottimale.
+
+\medskip
+\noindent \textbf{Idea 2 (greedy):}
+Una seconda idea potrebbe essere quella di partire dal numero obiettivo e dividere per $2$ se il numero è pari, aggiungere $1$ se il numero è dispari. 
+Così facendo, il percorso inverso sarebbe:
+
+\[20 \rightarrow 10 \rightarrow 5 \rightarrow 6 \rightarrow 3 \rightarrow 4 \rightarrow 2\]
+
+Così facendo, il percorso reale sarebbe:
+
+\[2 \rightarrow 4 \rightarrow 3 \rightarrow 6 \rightarrow 5 \rightarrow 10 \rightarrow 20\]
+
+Ciò garantisce il minimo numero di operazioni senza controesempi!
+
+\newpage
+
+\noindent	\textbf{Implementazione C++ - Greedy:}
+
+\begin{lstlisting}
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	ifstream inputFile("calcolatrice_input_1.txt");
+	
+	int T;
+	inputFile >> T;
+	
+	for (int test = 1; test <= T; ++test)
+	{     
+		
+		int64_t N;
+		inputFile >> N;
+		
+		int64_t operazioni = 1;
+		
+		if(N==1 || N == 2){
+			operazioni = 1;
+		}
+		else if(N == 0){
+			operazioni = 2;
+		}
+		else{
+			
+			/* 
+			Parto dal numero obiettivo e divido per 2 se il numero è pari
+			sommo 1 se il numero è dispari
+			*/
+			while(N > 2){
+				if(N%2 == 0){ //se il numero è pari
+					N = N / 2; //divido per 2
+					operazioni += 1;
+				}
+				else{ //se il numero è dispari
+					N = N + 1; //sommo 1
+					operazioni += 1;
+				}
+			}
+		}
+		
+		cout << "Case #" << test << ": ";
+		cout << operazioni << endl;
+	}
+	
+	inputFile.close();
+	
+	return 0;
+}
+
+\end{lstlisting}
 
 
+\subsection{Precise Average}
 
+\begin{lstlisting}[language=C++]
+#include <bits/stdc++.h> 
+using namespace std;
 
+int main()
+{
+	// N = numero di prodotti
+	// K = valore della media desiderata
+	int64_t N, K;
+	cin >> N >> K;
+	
+	// Somma iniziale di tutti gli elementi
+	int64_t somma_iniziale = 0;
+	
+	// Vettore dei valori
+	vector<int> P(N);
+	for (int i = 0; i < N; ++i)
+	{
+		cin >> P[i];
+		somma_iniziale += P[i];      // Aggiorna la somma totale
+	}
+	
+	// Ordiniamo i valori in ordine crescente
+	// Ci servirà per agire prima sugli elementi più grandi
+	sort(P.begin(), P.end());
+	
+	// Risposta finale: numero minimo di elementi da modificare
+	int64_t ans = 0;
+	
+	// "correzione" rappresenta di quanto la somma attuale
+	// supera la somma ideale K * N
+	// Se è positiva, dobbiamo ridurre la somma
+	int64_t correzione = somma_iniziale - K * N;
+	
+	// Caso 1: la somma è già minore di K*N
+	// Basta modificare solo un elemento
+	if (correzione < 0)
+	{
+		ans = 1;
+	}
+	// Caso 2: la media è già esattamente K
+	// Non serve alcuna modifica
+	else if (correzione == 0)
+	{
+		ans = 0;
+	}
+	// Caso 3: la somma è troppo grande e va ridotta
+	else
+	{
+		// Partiamo dall’elemento più grande
+		for (int i = N - 1; i >= 0; i--)
+		{
+			// P[i], se minore di correzione, può essere diminuito fino ad 1.
+			if (P[i] <= correzione && P[i] > 1)
+			{
+				// Dopo aver abbassato P[i], calcolo la correzione residua
+				correzione -= P[i] - 1;
+				
+				// Aumento il numero di elementi modificati
+				ans++;
+			}
+			// Se P[i] è maggiore della correzione residua
+			// basta modificare solo questo elemento
+			else if (P[i] > correzione)
+			{
+				ans++; //Basta diminuire solo P[i] dell'intera correzione
+				break;   // La correzione è risolta
+			}
+			// Se l'elemento è già 1, non possiamo ridurlo e passiamo al prossimo
+			else if (P[i] == 1)
+			{
+				continue;
+			}
+		}
+	}
+	
+	// Stampa il numero minimo di modifiche necessarie
+	cout << ans << endl;
+	
+	return 0;
+}
+
+\end{lstlisting}
 
 
 
