@@ -1,3 +1,5 @@
+// https://training.olinfo.it/task/ois_biglietti
+
 #include <bits/stdc++.h>
 using namespace std;
 

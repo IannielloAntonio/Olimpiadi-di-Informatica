@@ -1,3 +1,5 @@
+// https://training.olinfo.it/task/ois_3x2
+
 #include <bits/stdc++.h>
 using namespace std;
 

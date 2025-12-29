@@ -1,3 +1,5 @@
+// https://training.olinfo.it/task/sortilegio_ribalta
+
 #include <bits/stdc++.h>
 using namespace std;
 

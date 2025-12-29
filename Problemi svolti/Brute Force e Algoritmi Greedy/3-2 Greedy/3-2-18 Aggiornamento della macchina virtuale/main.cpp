@@ -1,3 +1,5 @@
+// https://training.olinfo.it/task/preoii_vm
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -15,14 +17,6 @@ long long aggiorna(int N, vector<int> A, vector<int> B)
 
             A[i - 1] += aggiornamenti * B[i - 1];
 
-            // while(A[i-1] <  A[i]){
-            //       A[i-1] += B[i-1];
-            //       aggiornamenti++;
-            // }
-            // if(A[i-1] > A[i]){
-            //       A[i-1] -= B[i-1];
-            //       aggiornamenti--;
-            // }
       }
 
       return ans;

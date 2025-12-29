@@ -1,3 +1,5 @@
+// https://training.olinfo.it/task/ois_coinchange
+
 #include <bits/stdc++.h>
 using namespace std;
 

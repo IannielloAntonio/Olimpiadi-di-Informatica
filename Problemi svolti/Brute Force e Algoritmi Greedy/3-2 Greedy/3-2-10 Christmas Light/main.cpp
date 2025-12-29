@@ -1,3 +1,5 @@
+// https://training.olinfo.it/task/ois_lights
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -30,7 +32,9 @@ int main()
                   total_color++;
             }
 
-            while (total_color == C)
+            while (total_color == C) // nella sliding window il while è un classico
+                                    // quando è rispettata la condizione (o non rispettata, 
+                                    // a seconda del problema), si riduce la finestra con "left++"
             {
                   dist = min(dist, right - left + 1);
 

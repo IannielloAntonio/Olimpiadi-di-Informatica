@@ -1,4 +1,4 @@
-// NOTE: it is recommended to use this even if you don't understand the following code.
+// https://training.olinfo.it/task/ois_snacks
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -43,6 +43,6 @@ int main()
             }
       }
 
-      cout << minuti << endl; // print the result
+      cout << minuti << endl;
       return 0;
 }
