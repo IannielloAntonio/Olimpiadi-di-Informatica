@@ -76,5 +76,7 @@
 \contentsline {section}{\numberline {3.2}Idee Greedy}{67}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Calcolatrice Rotta}{69}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Precise Average}{72}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {A}Regolamento 2025/2026}{75}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Pseudocodice}{84}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {4}Prefix Sum}{75}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Equilibrium Index of an Array}{78}{section.4.1}%
+\contentsline {chapter}{\numberline {A}Regolamento 2025/2026}{79}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Pseudocodice}{88}{appendix.Alph2}%
