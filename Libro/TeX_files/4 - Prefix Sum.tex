@@ -1,0 +1,209 @@
+% !TEX root = ../Preparazione alle olimpiadi.tex
+
+\chapter{Prefix Sum}
+
+Supponiamo di avere un array di $N$ interi del tipo
+
+\begin{equation*}
+	a_0, a_1, ... , a_n
+\end{equation*}
+
+e di voler rispondere alla domanda: qual è la somma degli elementi da $a_l$ ad $a_r$? Con $0 \le l \le r < N$.
+In altre parole ci stiamo chiedendo qual è la somma dall'elemento $l$ all'elemento $r$.
+
+Per risolvere questo problema potremmo essere tentati di utilizzare una tecnica del tipo \textbf{brute force} che, in C++, potremmo codificare così:
+
+\begin{lstlisting}[language=C++]
+	#include <bits/stdc++.h>
+	using namespace std;
+	
+	int main(){
+		int N;
+		cin >> N;
+		
+		vector<int> v(N); // vettore di dimensione N
+		
+		for(int i = 0; i < N; i++){
+			cin >> v[i];
+		}
+		
+		int l, r;
+		cin >> l >> r; // si assume 0 <= l <= r < N
+		
+		int somma = 0;
+		
+		// brute force: somma degli elementi nell'intervallo [l, r]
+		for(int i = l; i <= r; i++){
+			somma += v[i];
+		}
+		
+		cout << somma << endl;
+	}
+\end{lstlisting}
+
+Supponiamo di dover calcolare $Q$ somme su intervalli $[l, r]$, 
+differenti per ogni query $Q_i$. Qual è la complessità computazionale totale in questo caso?
+
+Proviamo a scrivere il codice seguendo, ancora una volta, un approccio \textbf{brute force}.
+
+\begin{lstlisting}[language=C++]
+	#include <bits/stdc++.h>
+	using namespace std;
+	
+	int main(){
+		int N;
+		cin >> N;
+		
+		vector<int> v(N); // vettore di dimensione N
+		for(int i = 0; i < N; i++){
+			cin >> v[i];
+		}
+		
+		int Q;
+		cin >> Q; // numero di query
+		
+		for(int q = 0; q < Q; q++){
+			int l, r;
+			cin >> l >> r; // si assume 0 <= l <= r < N
+			
+			int somma = 0;
+			for(int i = l; i <= r; i++){
+				somma += v[i]; // brute force: somma degli elementi nell'intervallo [l, r]
+			}
+			
+			cout << somma << endl;
+		}
+		
+		return 0;
+	}
+\end{lstlisting}
+\bigskip
+\noindent \textbf{Costo Computazionale}: \\
+
+Il costo computazionale dell'approccio brute force è il seguente:
+\begin{itemize}
+	\item $O(Q)$ per il ciclo esterno sulle $Q$ query
+	\item $O(N)$ per il ciclo interno che calcola la somma nell'intervallo $[l, r]$ nel caso peggiore
+\end{itemize}
+
+Pertanto, la complessità computazionale totale è:
+
+\begin{equation*}
+	O(Q) \cdot O(N) = O(Q \cdot N)
+\end{equation*}
+
+Questo approccio, sebbene semplice e intuitivo, non è ottimale per valori grandi di $N$ e $Q$. 
+
+\medskip
+\noindent La soluzione più efficiente utilizza la tecnica delle \textbf{somme prefisse} (prefix sum).  
+L'idea consiste nel creare un secondo vettore $S$ di dimensione $N$ in cui ogni elemento contiene la somma cumulativa degli elementi dell'array originale $v$ fino a quella posizione:
+
+\begin{equation*}
+	S[i] = v[0] + v[1] + \dots + v[i] \quad \text{per } i = 0, 1, \dots, N-1
+\end{equation*}
+
+In questo modo, la somma di un intervallo qualsiasi $[l, r]$ può essere calcolata in tempo costante tramite:
+
+\begin{equation*}
+	\sum_{i=l}^{r} v[i] =
+	\begin{cases}
+		S[r], & \text{se } l = 0 \\
+		S[r] - S[l-1], & \text{se } l > 0
+	\end{cases}
+\end{equation*}
+
+In altre parole, una volta costruito il vettore $S$ (con complessità $O(N)$), per calcolare una qualsiasi somma da $l$ ad $r$ non faccio altro che eseguire il seguente calcolo:
+
+\begin{equation}
+	S[r] - S[l-1]
+\end{equation}
+
+Quindi, ad esempio, per calcolare la somma degli elementi dall'indice 3 all'indice 6, basta prendere la somma cumulativa di tutti gli elementi fino all'indice 6 e sottrarre la somma cumulativa fino all'indice 2. In questo modo si ottiene direttamente la somma degli elementi dall'elemento 3 all'elemento 6, estremi inclusi.
+
+Come detto, il preprocessing per costruire l'array delle somme prefisse richiede $O(N)$, mentre ogni query può essere risolta in $O(1)$.  
+Pertanto, la complessità totale diventa:
+
+\begin{equation*}
+	O(N) + O(Q) = O(N + Q)
+\end{equation*}
+
+Questa soluzione è estremamente più efficiente rispetto al brute force quando sia $N$ che $Q$ sono grandi.
+
+Proviamo a codificare il problema:
+
+\begin{lstlisting}[language=C++]
+	#include <bits/stdc++.h>
+	using namespace std;
+	
+	int main(){
+		int N;
+		cin >> N;
+		
+		vector<int> v(N); // vettore di dimensione N
+		for(int i = 0; i < N; i++){
+			cin >> v[i];
+		}
+		
+		vector<int> prefix(N); // vettore delle somme prefisse
+		prefix[0] = v[0];      // il primo elemento è lo stesso di v[0]
+		
+		// costruisco le somme prefisse
+		for(int i = 1; i < N; i++){
+			prefix[i] = v[i] + prefix[i-1]; // sommo l'elemento corrente v[i] con la somma precedente
+		}
+		
+		// Una volta costruito prefix, la somma di un intervallo [l, r] si calcola in O(1)
+		int Q;
+		cin >> Q;
+		
+		for(int q = 0; q < Q; q++){ 
+			int l, r;
+			cin >> l >> r;
+			
+			int somma;
+			if(l == 0)
+				somma = prefix[r]; // se l = 0, la somma e' prefix[r]
+			else
+				somma = prefix[r] - prefix[l-1]; // altrimenti sottraggo prefix[l-1]
+			
+			cout << somma << endl;
+		}
+		
+		return 0;
+	}
+\end{lstlisting}
+
+\bigskip
+\noindent \textbf{Costo Computazionale}: \\
+
+Il costo computazionale è il seguente:
+\begin{itemize}
+	\item $O(N)$ per riempire il vettore $prefix$ (riga 17)
+	\item $O(Q)$ per il ciclo esterno sulle $Q$ query
+	\item $O(1)$ per il calcolo di $somma$
+\end{itemize}
+
+Pertanto, la complessità computazionale totale è:
+
+\begin{equation*}
+	O(N) + O(Q) = O(N + Q)
+\end{equation*}
+
+Rispetto all'approccio \emph{brute force} (come mostrato in precedenza), 
+questo metodo permette un notevole risparmio di tempo quando $Q$ ed $N$ sono molto grandi.
+
+
+
+\section{Equilibrium Index of an Array}
+
+Given an array $\texttt{arr[]}$ of size $n$, the task is to return an \emph{equilibrium index} (if any) or $-1$ if no equilibrium index exists.
+
+An \emph{equilibrium index} of an array is an index such that the sum of all elements at lower indexes is equal to the sum of all elements at higher indexes. More formally, an index $i$ is called an equilibrium index if:
+
+\[
+\sum_{j=0}^{i-1} \texttt{arr[j]} \;=\; \sum_{j=i+1}^{n-1} \texttt{arr[j]}
+\]
+
+When the index is at the start of the array, the left sum is considered to be $0$, and when it is at the end, the right sum is considered to be $0$.
+
+If multiple equilibrium indices exist, return the \emph{first} one encountered from left to right. If no such index exists, return $-1$.
