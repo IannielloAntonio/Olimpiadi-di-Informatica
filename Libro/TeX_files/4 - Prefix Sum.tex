@@ -194,16 +194,263 @@ questo metodo permette un notevole risparmio di tempo quando $Q$ ed $N$ sono mol
 
 
 
-\section{Equilibrium Index of an Array}
+\subsection{C - Index × A(Continuous ver.)}
+\label{problema:prefix:C-IndexxA}
 
-Given an array $\texttt{arr[]}$ of size $n$, the task is to return an \emph{equilibrium index} (if any) or $-1$ if no equilibrium index exists.
+\href{https://atcoder.jp/contests/abc267/tasks/abc267_c}{Link al problema}
+\noindent Time limit = 1.00s, Memory limit = 512 MB
+\bigskip
 
-An \emph{equilibrium index} of an array is an index such that the sum of all elements at lower indexes is equal to the sum of all elements at higher indexes. More formally, an index $i$ is called an equilibrium index if:
+\subsubsection*{Problem Statement}
+
+You are given an integer sequence $A = (A_1, A_2, \dots, A_N)$ of length $N$.
+Find the maximum value of $\sum_{i=1}^{M} i \times B_i.$ for a contiguous subarray $B = (B_1, B_2, \dots, B_M)$ of $A$ of length $M$.
+
+\subsubsection*{Notes}
+A contiguous subarray of a number sequence is a sequence that is obtained by removing 
+$0$ or more initial terms and $0$ or more final terms from the original number sequence.
+
+For example, $(2,3)$ and $(1,2,3)$ are contiguous subarrays of $(1,2,3,4)$, but $(1,3)$ and $(3,2,1)$ are not contiguous subarrays of $(1,2,3,4)$.
+
+\subsubsection*{Constraints}
+\begin{itemize}
+	\item	$1 &\le M \le N \le 2\cdot10^5 \hspace{0.1cm}000$ 
+	\item	$−2\cdot10^5 &\le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace{0.1cm}000$ 
+	\item	All values in input are integer.
+\end{itemize}
+
+\subsubsection*{Input}
+
+Input is given from Standard Input in the following format:
+
+$N\ M$  
+
+$A_1\ A_2\ \dots\ A_N$
+
+\subsubsection*{Output}
+Print the answer.
+
+\subsubsection*{Sample Input1}
+\begin{verbatim}
+	4 2
+	5 4 -1 8
+\end{verbatim}
+
+\subsubsection*{Sample Output1}
+\begin{verbatim}
+	15
+\end{verbatim}
+
+
+\vspace{0.5cm}
+
+When $B=(A_3,A_4)$, we have $\sum_{i=1}^{M} i\cdot B_i=1\cdot(-1)+2\cdot8=15$. Since it is impossible to achieve 
+16 or a larger value, the solution is 
+15.
+
+Note that you are not allowed to choose, for instance, 
+$B=(A_1, A_4)$.
+
+\subsubsection*{Sample Input2}
+
+\begin{verbatim}
+	10 4
+	-3 1 -4 1 -5 0 -2 6 -5 3
+\end{verbatim}
+
+\subsubsection*{Sample Output2}
+\begin{verbatim}
+	31
+\end{verbatim}
+
+
+\bigskip
+\noindent \textbf{Idea 1:} 
+
+Il problema richiede di calcolare la seguente somma:
+
+\begin{equation}
+	S = \sum_{i=1}^{M} i \cdot B_i
+\end{equation}
+
+in modo tale che \(S\) sia massima, dove
+\(B = (B_1, B_2, \dots, B_M)\) è un \textbf{sotto-array contiguo} della sequenza \(A\).
+
+Un approccio intuitivo consiste nei seguenti passi:
+
+\begin{enumerate}
+	\item Consideriamo una \textbf{finestra di lunghezza \(M\)} che scorre lungo l'array \(A\).  
+	Denotiamo questa finestra come \(B\) inizialmente posizionata sugli indici \(0, \dots, M-1\).
+	
+	\item Per la finestra corrente, calcoliamo la sommatoria richiesta:
+	\begin{equation}
+		S = \sum_{i=1}^{M} i \cdot B_i
+	\end{equation}
+	
+	\item Spostiamo la finestra di \textbf{un passo verso destra} (cioè agli indici \(1, \dots, M\)) e ricalcoliamo la sommatoria \(S\).  
+	Ad ogni passo, confrontiamo il valore corrente con il massimo trovato finora e aggiorniamo il massimo se necessario.
+	
+	\item Ripetiamo questo procedimento per tutte le finestre contigue di lunghezza \(M\) presenti in \(A\).
+\end{enumerate}
+
+Alla fine, il \textbf{massimo valore} ottenuto tra tutte le finestre corrisponde alla soluzione del problema.
+
+Come possiamo calcolare la sommatoria richiesta?  
+Ricalcolarla da zero per ogni finestra sarebbe molto dispendioso in termini computazionali (lasciamo al lettore l'implementazione di questo metodo).  
+Perciò, dobbiamo trovare una strategia più efficiente.
+
+Possiamo osservare che:
+
+\begin{equation}
+	\label{prefix:Cindex:equation:S}
+	S = \sum_{i=1}^{M} i \cdot B_i = \sum_{j = left}^{right} (j - left + 1) \cdot A[j]
+\end{equation}
+
+dove con \(left\) indichiamo l'indice del limite sinistro della finestra e con \(right\) l'indice del limite destro.
+
+Espandendo i termini della sommatoria, si può notare che la quantità all'ultimo membro della equazione \ref{prefix:Cindex:equation:S} è proprio $S$.
+
+Infatti, considerando che $j$ parta da $left$ e finisca a $right = left+M-1$, $S$ diventa:
+
+
+\begin{align}
+	S &= \sum_{j = left}^{right} (j - left + 1) \cdot A[j] \\
+	&= (left - left + 1) \cdot A[left] 
+	+ (left + 1 - left + 1) \cdot A[left+1] + \notag \\
+	&\quad + (left + 2 - left + 1) \cdot A[left+2] 
+	+ \dots \notag \\
+	&\quad + (left + M - 1 - left + 1) \cdot A[left + M - 1] \notag
+\end{align}
+
+Ovvero, in forma compatta:
+
+\begin{equation}
+	S = 1 \cdot A[left] + 2 \cdot A[left+1] + \dots + M \cdot A[right]
+\end{equation}
+
+Che è esattamente la quantità che vogliamo massimizzare.
+
+\vspace{0.5cm}
+
+Ripartendo quindi dalla equazione \ref{prefix:Cindex:equation:S}, possiamo riarrangiarla in questo modo
+
+\begin{align}
+	S &= \sum_{j = left}^{right} (j - left + 1) \cdot A[j] = \notag \\
+	&= \sum_{j = left}^{right} j \cdot A[j] + (left - 1) \cdot \sum_{j = left}^{right} A[j]
+\end{align}
+
+Da qui possiamo notare due contributi importanti:
+\begin{itemize}
+	\item $\sum_{j = left}^{right} A[j]$ (contributo destro)
+	\item $\sum_{j = left}^{right} j \cdot A[j]$ (contributo sinistro)
+\end{itemize}
+
+Creiamo quindi due vector prefix tali per cui l'i-esimo elemento è:
+\begin{itemize}
+	\item \(\text{prefix}[i] = A[0] + A[1] + \dots + A[i], \quad \text{per } i = 0, 1, \dots, N-1\)
+	
+	\item \(\text{w\_prefix}[i] = 0 \cdot A[0] + 1 \cdot A[1] + \dots + i \cdot A[i], \quad \text{per } i = 0, 1, \dots, N-1\)
+\end{itemize}
+
+Dopo aver costruito i due vettori, possiamo calcolare i due contributi in $O(1)$:
+
+\medskip
+\textbf{Contributo destro}
 
 \[
-\sum_{j=0}^{i-1} \texttt{arr[j]} \;=\; \sum_{j=i+1}^{n-1} \texttt{arr[j]}
+\sum_{j = left}^{right} A[j] =
+\begin{cases}
+	\text{prefix}[right], & \text{se } left = 0,\\
+	\text{prefix}[right] - \text{prefix}[left-1], & \text{se } left > 0
+\end{cases}
 \]
 
-When the index is at the start of the array, the left sum is considered to be $0$, and when it is at the end, the right sum is considered to be $0$.
+\textbf{Contributo sinistro}
 
-If multiple equilibrium indices exist, return the \emph{first} one encountered from left to right. If no such index exists, return $-1$.
+\[
+\sum_{j = left}^{right} j \cdot A[j] =
+\begin{cases}
+	\text{w\_prefix}[right], & \text{se } left = 0,\\
+	\text{w\_prefix}[right] - \text{w\_prefix}[left-1], & \text{se } left > 0
+\end{cases}
+\]
+
+\bigskip
+
+\noindent	\textbf{Implementazione C++:}
+\begin{lstlisting}[language=C++]	
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int N, M;
+	cin >> N >> M; // Leggiamo la lunghezza dell'array e la dimensione della finestra
+	
+	vector<int64_t> A(N);
+	for (int i = 0; i < N; i++)
+	{
+		cin >> A[i]; // Leggiamo gli elementi dell'array
+	}
+	
+	// COSTRUZIONE DEL VETTORE prefix
+	// prefix[i] = somma dei primi i+1 elementi di A
+	vector<int64_t> prefix(N);
+	prefix[0] = A[0]; // il primo elemento della somma cumulativa è A[0]
+	
+	for (int i = 1; i < N; i++)
+	{
+		prefix[i] = A[i] + prefix[i - 1]; // somma cumulativa fino all'indice i
+	}
+	
+	// COSTRUZIONE DEL VETTORE w_prefix
+	// w_prefix[i] = somma pesata dei primi i+1 elementi: 0*A[0] + 1*A[1] + ... + i*A[i]
+	vector<int64_t> w_prefix(N);
+	w_prefix[0] = 0; // il primo elemento pesato è 0*A[0]
+	
+	for (int i = 1; i < N; i++)
+	{
+		w_prefix[i] = i * A[i] + w_prefix[i - 1]; // somma pesata cumulativa fino all'indice i
+	}
+	
+	int left = 0;                 // limite sinistro della finestra
+	int64_t ans = INT64_MIN;      // variabile per salvare il massimo valore trovato
+	int64_t current_value;        // valore della sommatoria per la finestra corrente
+	
+	// Scorriamo l'array per calcolare tutte le finestre di lunghezza M
+	for (int right = left + M - 1; right < N; right++)
+	{
+		// Assicuriamoci che la finestra sia lunga esattamente M
+		while (right - left > M - 1)
+		{
+			left++; // spostiamo il limite sinistro verso destra
+		}
+		
+		// CALCOLO DELLA SOMMA PESATA NELLA FINESTRA [left, right]
+		if (left == 0)
+		{
+			// Se la finestra parte dall'inizio dell'array
+			// allora la sommatoria pesata e' semplicemente w_prefix[right]
+			// e aggiungiamo prefix[right] per correggere l'indicizzazione
+			current_value = w_prefix[right] + prefix[right];
+		}
+		else
+		{
+			// Se la finestra parte da left > 0
+			// Usiamo la formula generale per le somme pesate di una finestra
+			current_value = (w_prefix[right] - w_prefix[left - 1])  
+			- (left - 1) * (prefix[right] - prefix[left - 1]); 
+		}
+		
+		// Aggiorniamo il massimo trovato
+		ans = max(current_value, ans);
+	}
+	
+	// Stampa del risultato finale
+	cout << ans;
+	
+	return 0;
+}
+
+	
+\end{lstlisting}
