@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  24 JAN 2026 14:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  26 JAN 2026 23:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"./Preparazione alle olimpiadi.tex"
 (Preparazione alle olimpiadi.tex
-LaTeX2e <2025-06-01>
-L3 programming layer <2025-05-26>
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
@@ -33,23 +33,23 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 )
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/05/14 v25.9 The multilingual framework for pdfLaTeX, LuaLaT
-eX and XeLaTeX
+Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
 \babel@savecnt=\count284
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2043.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
 ne 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2047.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2047.
+e 2049.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2048.
+e 2050.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2049.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
 on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2053.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2076.
+on input line 2078.
 \U@D=\dimen149
 \l@unhyphenated=\language79
 
@@ -71,7 +71,7 @@ Language: italian 2024/10/10 v.1.5.01 Italian support for the babel system
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/it\babel
 -italian.tex
 Package babel Info: Importing font and identification data for italian
-(babel)             from babel-it.ini. Reported on input line 11.
+(babel)             from babel-it.ini. Reported on input line 12.
 )
 \it@lettering=\count286
 \it@doublequoteactive=\count287
@@ -109,7 +109,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2025-05-20 v7.01m Hypertext links for LaTeX
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
@@ -142,7 +142,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -165,7 +165,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 \Hy@linkcounter=\count294
 \Hy@pagecounter=\count295
  (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2025-05-20 v7.01m Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
@@ -173,24 +173,24 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count296
  (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2025-05-20 v7.01m Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
+Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count297
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
+LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen159
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
@@ -204,25 +204,21 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count298
 \Field@Width=\dimen160
 \Fld@charsize=\dimen161
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
-
-(C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
 \Hy@abspage=\count299
 \c@Item=\count300
 \c@Hfootnote=\count301
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
+
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-05-20 v7.01m Hyperref driver for pdfTeX
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count302
 \c@bookmark@seq@number=\count303
 
@@ -346,7 +342,7 @@ File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2025/05/18 v2.17x AMS math features
+Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
@@ -417,7 +413,7 @@ LaTeX Info: Redefining \] on input line 2950.
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2025/05/19 v2.6i Tabular extension package (FMi)
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen184
 \ar@mcellbox=\box59
 \extrarowheight=\dimen185
@@ -436,11 +432,11 @@ Package: mdframed 2013/07/01 1.9b: mdframed
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
 e.sty
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-05-26 L3 programming layer (loader) 
+Package: expl3 2025-09-02 L3 programming layer (loader) 
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
-File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count331
 ))
 Package: xparse 2024-08-16 L3 Experimental document command parser
@@ -2370,12 +2366,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.273 
+l.247 
        <./immagini/4 - Pattern Algoritmici/Sliding window mobile.png (PNG copy)
 >]
 
 [80]
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
@@ -2389,7 +2385,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.419 ...[0] = v[0];      // il primo elemento è 
+l.429 ...[0] = v[0];      // il primo elemento è 
                                                   lo stesso di v[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2404,7 +2400,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.419 ...[0] = v[0];      // il primo elemento è 
+l.429 ...[0] = v[0];      // il primo elemento è 
                                                   lo stesso di v[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2415,12 +2411,15 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 [82]
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 
  []
 
+
+
+[83]
 ! Misplaced alignment tab character &.
-l.488 	\item	$1 &
+l.498 	\item	$1 &
                  \le M \le N \le 2\cdot10^5 \hspace{0.1cm}000$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2437,14 +2436,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.489 	\item	$−
+l.499 	\item	$−
                  2\cdot10^5 &\le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace{...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 ! Misplaced alignment tab character &.
-l.489 	\item	$−2\cdot10^5 &
+l.499 	\item	$−2\cdot10^5 &
                              \le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2454,8 +2453,6 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-
-[83]
 
 [84]
 
@@ -2467,7 +2464,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.670 ...primo elemento della somma cumulativa è 
+l.680 ...primo elemento della somma cumulativa è 
                                                   A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2482,7 +2479,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.670 ...primo elemento della somma cumulativa è 
+l.680 ...primo elemento della somma cumulativa è 
                                                   A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2490,6 +2487,9 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
+
+
+[86]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
@@ -2497,7 +2497,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.680 ...x[0] = 0; // il primo elemento pesato è 
+l.690 ...x[0] = 0; // il primo elemento pesato è 
                                                   0*A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2512,7 +2512,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.680 ...x[0] = 0; // il primo elemento pesato è 
+l.690 ...x[0] = 0; // il primo elemento pesato è 
                                                   0*A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2522,65 +2522,76 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[86])
+[87])
 
-[87] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
+[88] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
 (TeX_files/1 - Complessita Computazionale.aux)
 (TeX_files/2 - Strutture Dati.aux)
 (TeX_files/3 - Brute Force e Algoritmi Greedy.aux)
 (TeX_files/4 - Pattern Algoritmici.aux))
  ***********
-LaTeX2e <2025-06-01>
-L3 programming layer <2025-05-26>
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
  ***********
 
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `"Preparazione alle olimpiadi".out' has not c
-hanged.
-(rerunfilecheck)             Checksum: E8A33ED82C01F36B1212E4AC2ABC390B;14071.
+
+Package rerunfilecheck Warning: File `"Preparazione alle olimpiadi".out' has ch
+anged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Preparazione alle olimpiadi".out':
+
+(rerunfilecheck)             Before: 8BEFD8FE4DA86EAD17B96B9C18BDF9C4;14148
+(rerunfilecheck)             After:  0FCBD870DC368634F77F5A7D9EE63270;13984.
  ) 
 Here is how much of TeX's memory you used:
- 17762 strings out of 468225
- 290817 string characters out of 5432973
- 1220200 words of memory out of 5000000
- 44380 multiletter control sequences out of 15000+600000
+ 17740 strings out of 468130
+ 290206 string characters out of 5430633
+ 1249465 words of memory out of 5000000
+ 44455 multiletter control sequences out of 15000+600000
  646619 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,15n,79p,598b,2055s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx
-1440.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ectt1000.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ectt1440.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ectt1095.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Anton\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Anton\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Anton\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Anton\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\
-Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\
-Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk
-> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
-200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecrm1200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\ecbx1200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\ecbx2488.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/Anton/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Anton/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Anton/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Anton/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/User
-s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (88 pages, 1125048 bytes).
+
+pdfTeX warning (dest): name{subsection.4.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+ <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx14
+40.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+ectt1000.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\ectt1440.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ectt1095.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecrm0600.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Anton\AppData\Local\MiKTeX
+\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Anton\AppData\Local\
+MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Anton\AppData\
+Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Anton\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\An
+ton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Us
+ers\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> 
+<C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt120
+0.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
+crm1200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecbx1200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecbx2488.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecrm1440.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljf
+our/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/Anton/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Anton/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Anton/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Anton/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
+Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
+/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb>
+Output written on "Preparazione alle olimpiadi.pdf" (89 pages, 1127727 bytes).
 PDF statistics:
- 3376 PDF objects out of 3580 (max. 8388607)
- 1632 named destinations out of 1728 (max. 500000)
+ 3381 PDF objects out of 3580 (max. 8388607)
+ 1633 named destinations out of 1728 (max. 500000)
  697 words of extra memory for PDF output out of 10000 (max. 10000000)
 

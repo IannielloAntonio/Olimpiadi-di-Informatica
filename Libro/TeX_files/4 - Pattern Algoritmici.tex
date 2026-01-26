@@ -242,6 +242,20 @@ Questo schema è molto utilizzato per problemi con vincoli dinamici sulla finest
 
 
 \section{Bitmask}
+La tecnica del \textit{bitmask} è un metodo che consente di rappresentare sottoinsiemi di un insieme finito utilizzando la rappresentazione binaria degli interi.  
+Ogni bit di un numero intero viene associato a un elemento dell’insieme: il valore $1$ indica la presenza dell’elemento nel sottoinsieme, mentre il valore $0$ ne indica l’assenza.
+
+Dato un insieme di $n$ elementi $\{e_0, e_1, \dots, e_{n-1}\}$, ogni sottoinsieme può essere rappresentato tramite un intero compreso tra $0$ e $2^n - 1$.  
+Incrementando progressivamente di una unità tale valore (da $0$ fino a $2^n - 1$) e osservandone la rappresentazione binaria, si ottengono tutte le possibili combinazioni di presenza e assenza degli elementi, ovvero tutti i sottoinsiemi dell’insieme dato.
+
+La tecnica del bitmask può essere vista come una forma di bruteforce sui sottoinsiemi; tuttavia, grazie alla rappresentazione compatta degli stati e all’uso delle operazioni bitwise, consente un’implementazione più efficiente e leggibile rispetto a un approccio ingenuo.
+
+Essa è particolarmente utile nei problemi di programmazione competitiva e di progettazione di algoritmi in cui è necessario:
+\begin{itemize}
+	\item generare tutti i sottoinsiemi di un insieme;
+	\item verificare rapidamente l’appartenenza di un elemento a un insieme;
+	\item ridurre l’uso della memoria rispetto a strutture dati più complesse.
+\end{itemize}
 
 
 
