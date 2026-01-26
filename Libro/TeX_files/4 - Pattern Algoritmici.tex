@@ -35,7 +35,9 @@ Grazie a questo approccio, molti problemi che richiederebbero un tempo di esecuz
 La tecnica della Sliding Window è ampiamente utilizzata in ambiti quali l’elaborazione di array, stringhe e flussi di dati, e rappresenta uno strumento fondamentale nella progettazione di algoritmi efficienti.
 
 \newpage
-\subsection{Sliding Window fissa}
+\noindent \textbf{Sliding Window fissa} 
+\medskip
+
 Supponiamo di avere un \texttt{vector} $A = (A_0, A_1, \dots, A_{N-1})$ e di voler determinare la somma massima degli elementi appartenenti a sottoarray contigui di lunghezza fissa $k$.
 
 Un approccio ingenuo consiste nel calcolare la somma di tutti i possibili sottoarray di lunghezza $k$, ottenendo una complessità computazionale pari a $O(N \cdot k)$.  
@@ -141,8 +143,11 @@ int main() {
 
 Questo approccio evita il ricalcolo completo della somma per ogni sottoarray e permette di ridurre la complessità temporale da $O(N \cdot k)$ a $O(N)$.
 
+\vspace{0.5cm}
 
-\subsection{Sliding Window variabile}
+\noindent \textbf{Sliding Window variabile} 
+
+\medskip
 
 Supponiamo di avere un \texttt{vector} $A = (A_0, A_1, \dots, A_{N-1})$ e di voler determinare la massima somma di un sottoarray contiguo tale che la somma non superi un certo valore $M$ (oppure soddisfi un'altra condizione definita dal problema).  
 
@@ -233,7 +238,7 @@ Questo schema è molto utilizzato per problemi con vincoli dinamici sulla finest
 	\item lunghezza massima di sottosequenze valide, ecc.
 \end{itemize}
 
-
+\subsection{title}
 
 
 
