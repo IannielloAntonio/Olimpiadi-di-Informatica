@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  27 JAN 2026 13:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  27 JAN 2026 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,6 +558,38 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks33
 \@floatcapt=\box67
 )
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \
+      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen187
+\lightrulewidth=\dimen188
+\cmidrulewidth=\dimen189
+\belowrulesep=\dimen190
+\belowbottomsep=\dimen191
+\aboverulesep=\dimen192
+\abovetopsep=\dimen193
+\cmidrulesep=\dimen194
+\cmidrulekern=\dimen195
+\defaultaddspace=\dimen196
+\@cmidla=\count340
+\@cmidlb=\count341
+\@aboverulesep=\dimen197
+\@belowrulesep=\dimen198
+\@thisruleclass=\count342
+\@lastruleclass=\count343
+\@thisrulewidth=\dimen199
+)
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
@@ -574,26 +606,26 @@ File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 (TeX_files/4 - Pattern Algoritmici.aux))
 \openout1 = `"Preparazione alle olimpiadi.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Info: Redefining \it@ocap on input line 41.
-LaTeX Info: Redefining \it@ccap on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Info: Redefining \it@ocap on input line 45.
+LaTeX Info: Redefining \it@ccap on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -629,7 +661,7 @@ LaTeX Info: Redefining \it@ccap on input line 41.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 45.
 (Preparazione alle olimpiadi.out) (Preparazione alle olimpiadi.out)
 \@outlinefile=\write3
 \openout3 = `"Preparazione alle olimpiadi.out"'.
@@ -638,16 +670,16 @@ Package hyperref Info: Link coloring OFF on input line 41.
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count340
-\scratchdimen=\dimen187
+\scratchcounter=\count344
+\scratchdimen=\dimen256
 \scratchbox=\box68
-\nofMPsegments=\count341
-\nofMParguments=\count342
+\nofMPsegments=\count345
+\nofMParguments=\count346
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count343
-\MPscratchDim=\dimen188
-\MPnumerator=\count344
-\makeMPintoPDFobject=\count345
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen257
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
 \everyMPtoPDFconversion=\toks35
 )
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -673,13 +705,20 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@lstlisting=\count346
+\c@lstlisting=\count350
 
 
 [1
 
 {C:/Users/Anton/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(Preparazione alle olimpiadi.toc
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 	\newpage
+               [1] (Preparazione alle olimpiadi.toc
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -733,7 +772,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=436, 359.09157pt x 26
+<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=439, 359.09157pt x 26
 4.99pt>
 File: immagini/1 - Complessità Computazionale/Ogrande.jpg Graphic file (type j
 pg)
@@ -754,7 +793,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
 
-<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=438, 359.09157pt 
+<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=441, 359.09157pt 
 x 271.76532pt>
 File: immagini/1 - Complessità Computazionale/Sigmagrande.jpg Graphic file (ty
 pe jpg)
@@ -842,7 +881,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 
 
 ]
-<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=643, 231.11343pt x 
+<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=646, 231.11343pt x 
 82.80937pt>
 File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
  png)
@@ -850,7 +889,7 @@ File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectoriteratori.png
   used on input line 74.
 (pdftex.def)             Requested size: 193.47578pt x 69.32436pt.
-<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=645, 176.91093pt x 81
+<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=648, 176.91093pt x 81
 .30376pt>
 File: immagini/2 - Strutture Dati/vector/vectoraccesso.png Graphic file (type p
 ng)
@@ -862,7 +901,7 @@ used on input line 96.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=646, 228.10219pt x 1
+<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=649, 228.10219pt x 1
 40.02313pt>
 File: immagini/2 - Strutture Dati/vector/vectorpushback.png Graphic file (type 
 png)
@@ -882,7 +921,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.119 	\newpage
                 <./immagini/2 - Strutture Dati/vector/vectoriteratori.png>]
-<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=673, 200.24812pt x 12
+<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=677, 200.24812pt x 12
 7.22531pt>
 File: immagini/2 - Strutture Dati/vector/vectorpopback.png Graphic file (type p
 ng)
@@ -890,7 +929,7 @@ ng)
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectorpopback.png  
 used on input line 130.
 (pdftex.def)             Requested size: 145.11053pt x 92.20006pt.
-<immagini/2 - Strutture Dati/vector/vectorsize.png, id=674, 283.81032pt x 51.19
+<immagini/2 - Strutture Dati/vector/vectorsize.png, id=678, 283.81032pt x 51.19
 125pt>
 File: immagini/2 - Strutture Dati/vector/vectorsize.png Graphic file (type png)
 
@@ -938,7 +977,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.244 \newpage
               ]
-<immagini/2 - Strutture Dati/map/map.png, id=719, 443.40656pt x 259.7203pt>
+<immagini/2 - Strutture Dati/map/map.png, id=722, 443.40656pt x 259.7203pt>
 File: immagini/2 - Strutture Dati/map/map.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/map/map.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/map/map.png  used on input
@@ -1026,7 +1065,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.450 \newpage
               ]
-<immagini/2 - Strutture Dati/Set/set.png, id=806, 344.03531pt x 137.01187pt>
+<immagini/2 - Strutture Dati/Set/set.png, id=809, 344.03531pt x 137.01187pt>
 File: immagini/2 - Strutture Dati/Set/set.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Set/set.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/Set/set.png  used on input
@@ -1148,7 +1187,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.869 \newpage
               ]
-<immagini/2 - Strutture Dati/Stack/stack.png, id=1028, 353.82187pt x 212.29312p
+<immagini/2 - Strutture Dati/Stack/stack.png, id=1031, 353.82187pt x 212.29312p
 t>
 File: immagini/2 - Strutture Dati/Stack/stack.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Stack/stack.png>
@@ -1175,7 +1214,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1037 \newpage
                ]
-<immagini/2 - Strutture Dati/queue/queue.png, id=1109, 310.91156pt x 91.09032pt
+<immagini/2 - Strutture Dati/queue/queue.png, id=1113, 310.91156pt x 91.09032pt
 >
 File: immagini/2 - Strutture Dati/queue/queue.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/queue/queue.png>
@@ -1302,7 +1341,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1363 \newpage
                ]
-<immagini/2 - Strutture Dati/Deque/deque.png, id=1261, 646.66594pt x 280.04625p
+<immagini/2 - Strutture Dati/Deque/deque.png, id=1265, 646.66594pt x 280.04625p
 t>
 File: immagini/2 - Strutture Dati/Deque/deque.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Deque/deque.png>
@@ -1722,7 +1761,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [62]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introduttivo.p
-ng, id=1696, 685.05937pt x 449.42906pt>
+ng, id=1699, 685.05937pt x 449.42906pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutt
 ivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutti
@@ -1741,7 +1780,7 @@ l.867 	\item $
               M_1 + M_4 + M_5$ <./immagini/3 - Brute Force e Algoritmi Greedy/I
 dee Greedy/Esempio Introduttivo.png>]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Introdut
-tivo.png, id=1705, 654.19406pt x 416.30531pt>
+tivo.png, id=1708, 654.19406pt x 416.30531pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Int
 roduttivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Intr
@@ -2099,7 +2138,7 @@ Capitolo 4.
 
 
 ]
-<immagini/4 - Pattern Algoritmici/Sliding window.png, id=1888, 284.39583pt x 17
+<immagini/4 - Pattern Algoritmici/Sliding window.png, id=1892, 284.39583pt x 17
 1.97583pt>
 File: immagini/4 - Pattern Algoritmici/Sliding window.png Graphic file (type pn
 g)
@@ -2151,7 +2190,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 [74]
-<immagini/4 - Pattern Algoritmici/Sliding window mobile.png, id=1999, 963.6pt x
+<immagini/4 - Pattern Algoritmici/Sliding window mobile.png, id=2002, 963.6pt x
  542.025pt>
 File: immagini/4 - Pattern Algoritmici/Sliding window mobile.png Graphic file (
 type png)
@@ -2172,18 +2211,15 @@ l.253
 
 [76]
 
-[77]
-
-[78]
-
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.435 				// Se il bit è 
-                          0, lo porto a 1 e mi fermo
+l.323 .... Nella posizione 1, ad esempio, se c'è 
+                                                  il numero 2, vuol dire che...
+
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -2197,8 +2233,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.435 				// Se il bit è 
-                          0, lo porto a 1 e mi fermo
+l.323 .... Nella posizione 1, ad esempio, se c'è 
+                                                  il numero 2, vuol dire che...
+
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -2206,15 +2243,85 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 
+
+[77]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.347 		// quando è 
+                     rispettata la condizione (o non rispettata,
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.347 		// quando è 
+                     rispettata la condizione (o non rispettata,
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[78]
 
 [79]
 
 [80]
 
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 				// Se il bit è 
+                          0, lo porto a 1 e mi fermo
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 				// Se il bit è 
+                          0, lo porto a 1 e mi fermo
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
 [81]
 
 [82]
-Underfull \hbox (badness 10000) in paragraph at lines 619--620
+
+[83]
+
+[84]
+Underfull \hbox (badness 10000) in paragraph at lines 718--719
 
  []
 
@@ -2225,7 +2332,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.686 ...[0] = v[0];      // il primo elemento è 
+l.785 ...[0] = v[0];      // il primo elemento è 
                                                   lo stesso di v[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2240,7 +2347,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.686 ...[0] = v[0];      // il primo elemento è 
+l.785 ...[0] = v[0];      // il primo elemento è 
                                                   lo stesso di v[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2250,16 +2357,16 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[83]
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+[85]
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
 
  []
 
 
 
-[84]
+[86]
 ! Misplaced alignment tab character &.
-l.756 	\item	$1 &
+l.855 	\item	$1 &
                  \le M \le N \le 2\cdot10^5 \hspace{0.1cm}000$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2276,14 +2383,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.757 	\item	$−
+l.856 	\item	$−
                  2\cdot10^5 &\le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace{...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 ! Misplaced alignment tab character &.
-l.757 	\item	$−2\cdot10^5 &
+l.856 	\item	$−2\cdot10^5 &
                              \le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2294,19 +2401,19 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[85]
-
-[86]
-
 [87]
 
+[88]
+
+[89]
+
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.937 ...primo elemento della somma cumulativa è 
+l.1036 ...rimo elemento della somma cumulativa è 
                                                   A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2321,7 +2428,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.937 ...primo elemento della somma cumulativa è 
+l.1036 ...rimo elemento della somma cumulativa è 
                                                   A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2336,7 +2443,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.947 ...x[0] = 0; // il primo elemento pesato è 
+l.1046 ...[0] = 0; // il primo elemento pesato è 
                                                   0*A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2351,7 +2458,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.947 ...x[0] = 0; // il primo elemento pesato è 
+l.1046 ...[0] = 0; // il primo elemento pesato è 
                                                   0*A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2361,9 +2468,9 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[88])
+[90])
 
-[89] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
+[91] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
 (TeX_files/1 - Complessita Computazionale.aux)
 (TeX_files/2 - Strutture Dati.aux)
 (TeX_files/3 - Brute Force e Algoritmi Greedy.aux)
@@ -2381,10 +2488,10 @@ hanged.
 (rerunfilecheck)             Checksum: F0172AF3F22B7529BF92F27D34ED8815;14414.
  ) 
 Here is how much of TeX's memory you used:
- 17801 strings out of 468130
- 290976 string characters out of 5430633
- 1238465 words of memory out of 5000000
- 44461 multiletter control sequences out of 15000+600000
+ 17944 strings out of 468130
+ 293235 string characters out of 5430633
+ 1239044 words of memory out of 5000000
+ 44535 multiletter control sequences out of 15000+600000
  646619 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,15n,79p,755b,2055s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2404,11 +2511,11 @@ Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\
 Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk
 > <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
 200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecrm1200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\ecbx1200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\ecbx2488.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/Anton/AppData/Local/Programs/MiK
+\ecbx1200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\ecbx2488.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecrm1440.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Anton/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Anton/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Anton/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Anton/
@@ -2417,9 +2524,9 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (90 pages, 1139866 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (93 pages, 1158254 bytes).
 PDF statistics:
- 3457 PDF objects out of 3580 (max. 8388607)
- 1688 named destinations out of 1728 (max. 500000)
+ 3547 PDF objects out of 3580 (max. 8388607)
+ 1753 named destinations out of 2073 (max. 500000)
  713 words of extra memory for PDF output out of 10000 (max. 10000000)
 

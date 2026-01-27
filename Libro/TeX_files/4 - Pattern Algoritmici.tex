@@ -271,6 +271,105 @@ You need to write a single line with an integer: the length of a shortest segmen
 \end{itemize}
 
 
+\subsubsection*{Examples}
+\renewcommand{\arraystretch}{1.5}  
+
+\begin{table}[h]
+	\begin{tabular}{|l|c|}
+		\hline
+		\multicolumn{1}{|c|}{\textbf{Input}} & \textbf{Output} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}10 4\\ 0 1 3 0 0 1 2 0 2 3\end{tabular} & 5 \\ \hline
+		\begin{tabular}[c]{@{}l@{}}11 3\\ 1 1 0 0 2 2 1 1 1 2 2\end{tabular} & 4 \\ \hline
+	\end{tabular}
+\end{table}
+
+
+È consigliato visionare il link al problema \href{https://training.olinfo.it/task/ois_lights}{(clicca qui)} per comprendere al meglio il significato dell'output.
+
+
+\subsubsection*{Idea (Sliding Window)}
+
+Si considera la fila di $N$ luci come un array $L$ di lunghezza $N$, in cui ogni elemento rappresenta il colore della luce corrispondente.  
+L'obiettivo è individuare un segmento di luci consecutive contenente almeno una volta ogni colore tra $0$ e $C-1$.
+
+Utilizziamo quindi una sliding window per esplorare tutti i segmenti possibili in maniera efficiente.  
+Si mantengono due indici, $left$ e $right$, che rappresentano rispettivamente l'inizio e la fine della finestra corrente.  
+
+\noindent Procedura generale:
+\begin{itemize}
+	\item Si estende la finestra aumentando $right$ e aggiornando un array $count$ che tiene traccia del numero di occorrenze di ciascun colore all'interno della finestra.
+	\item Si aggiorna una variabile $total\_color$ che indica quanti colori distinti sono presenti nella finestra.
+	\item Quando $total\_color$ raggiunge $C$, significa che la finestra contiene tutti i colori almeno una volta. In questo caso, si prova a restringere la finestra spostando $left$ verso destra, aggiornando di volta in volta la lunghezza minima della finestra.
+\end{itemize}
+
+In questo modo si esplorano tutti i segmenti validi contenenti tutti i colori, senza dover controllare tutte le possibili sotto-sequenze.  
+La lunghezza minima trovata durante il processo rappresenta la soluzione del problema.
+
+
+\subsubsection*{Implementazione C++:}
+
+\begin{lstlisting}[language=C++]
+// https://training.olinfo.it/task/ois_lights
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int64_t N, C;
+	cin >> N;
+	cin >> C;
+	
+	vector<int> count(C, 0); // count e' il vettore che contiene quante luci accese ci sono per ogni colore. Nella posizione 1, ad esempio, se c'è il numero 2, vuol dire che ci sono 2 luci accesi del colore 1.
+	vector<int64_t> L(N);
+	
+	for (int i = 0; i < N; i++)
+	{
+		cin >> L[i];
+	}
+	
+	// Metodo della sliding window credo
+	
+	int left = 0, right = 0; //finestra iniziale
+	int total_color = 0;
+	int dist = INT_MAX;
+	
+	for (right = 0; right < N; right++) //il for praticamente sposta automaticamente la finestra a destra
+	{
+		count[L[right]]++;
+		
+		if (count[L[right]] == 1)
+		{
+			total_color++;
+		}
+		
+		while (total_color == C) // nella sliding window variabile il while e' un classico
+		// quando è rispettata la condizione (o non rispettata, 
+		// a seconda del problema), si riduce la finestra con "left++"
+		{
+			dist = min(dist, right - left + 1);
+			
+			
+			count[L[left]]--; // stiamo per restringere la finestra, quindi andiamo a togliere il colore corrispondente
+			// all'elemento uscente.
+			
+			if(count[L[left]] == 0){ // se il contatore relativo a quel colore arriva a 0, allora il numero totale
+				// di colori diminuisce.
+				total_color--;
+			}
+			
+			left++; // contrazione della finestra.
+			
+		}
+		
+	}
+	
+	cout << dist << endl;
+	
+	return 0;
+}
+\end{lstlisting}
+
 
 \subsection{Playlist}
 
