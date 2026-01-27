@@ -72,9 +72,8 @@ Le posizioni dei caratteri nelle stringhe sono numerati a partire da \(0\). Per 
 
 L’obiettivo è: per ciascuno dei quattro file \(F_i\), trovare la posizione (indice, a partire da 0) in cui compare \(V\), ovvero l’indice del primo carattere di \(V\) dentro \(F_i\).
 
-\bigskip
 
-\noindent\textbf{Formato di input}  
+\subsubsection*{Formato di input}  
 
 La prima riga contiene un intero \(T\), il numero di casi di test.  
 Seguono \(T\) casi di test, ognuno preceduto da una riga vuota.  
@@ -86,9 +85,8 @@ Per ciascun caso di test:
 	\item Quattro righe contenenti le stringhe \(F_1, F_2, F_3, F_4\).
 \end{itemize}
 
-\bigskip
 
-\noindent\textbf{Formato di output}  
+\subsubsection*{Formato di output}  
 
 Per ogni caso di test, stampare:
 \[
@@ -96,9 +94,8 @@ Per ogni caso di test, stampare:
 \]
 dove \(t\) è il numero del caso (a partire da 1), e \(p_i\) è la posizione (indice 0‑based) della prima occorrenza della stringa virus \(V\) dentro \(F_i\).
 
-\bigskip
 
-\noindent\textbf{Assunzioni e Vincoli}  
+\subsubsection*{Assunzioni e Vincoli}  
 
 
 \begin{itemize}
@@ -122,9 +119,8 @@ dove \(t\) è il numero del caso (a partire da 1), e \(p_i\) è la posizione (in
 
 
 
-\newpage
 
-\noindent\textbf{Esempio}  
+\subsubsection*{Esempio}  
 
 \smallskip  
 \textbf{Input:}  
@@ -160,9 +156,7 @@ Nel primo caso il virus è “asso”: anan\textbf{asso}, \textbf{asso}ciazione,
 Nel secondo caso il virus è “one”: sim\textbf{one}, p\textbf{one}ssimo, mili\textbf{one}simo, cass\textbf{one}tto.
 
 
-\bigskip
-
-\noindent \textbf{Idea (brute force)}: 
+\subsubsection*{Idea (brute force)}
 
 Si considerano tutte le possibili sottostringhe di lunghezza \(M\) della prima stringa \(F_1\).
 Ogni sottostringa di questo tipo costituisce una possibile candidata a essere il virus.
@@ -183,9 +177,7 @@ a questo punto l’algoritmo può terminare.
 
 Infine, si memorizzano le posizioni in cui il virus compare all’interno di ciascuna stringa.
 
-\newpage
-
-\noindent \textbf{Implementazione C++ - Brute Force}
+\subsubsection*{Implementazione C++ - Brute Force}
 
 
 \begin{lstlisting}[language=C++]
@@ -278,8 +270,7 @@ Infine, si memorizzano le posizioni in cui il virus compare all’interno di cia
 	
 \end{lstlisting}
 
-\bigskip
-\noindent \textbf{Costo Computazionale}: \\
+\subsubsection*{Costo Computazionale}
 
 Il costo computazionale è:
 \begin{itemize}
@@ -329,239 +320,6 @@ Di seguito vengono presentati due problemi risolti mediante un approccio \emph{b
 
 
 
-\newpage
-
-\subsection{Apple Division}
-\href{https://cses.fi/problemset/task/1623/}{Link al problema}
-
-\smallskip
-
-\noindent Time limit = 1.00s, Memory limit = 512 MB
-
-\bigskip
-
-There are n apples with known weights. Your task is to divide the apples into two groups so that the difference between the weights of the groups is minimal.
-
-
-\bigskip
-
-\noindent\textbf{Input}
-
-The first input line has an integer $n$: the number of apples.
-The next line has $n$ integers $p_1,p_2,\dots,p_n$: the weight of each apple.
-
-\bigskip
-
-\noindent\textbf{Output}
-
-Print one integer: the minimum difference between the weights of the groups.
-
-\bigskip
-
-\noindent\textbf{Constraints}
-
-\begin{itemize}
-	\item \(1 \le n \le 20\)
-	\item \(1 \le p_i \le 10^9\)
-\end{itemize}
-
-
-\noindent\textbf{Example}
-
-\smallskip
-\textbf{Input:}
-\begin{verbatim}
-	5
-	3 2 7 4 1
-\end{verbatim}
-
-\smallskip
-\textbf{Output:}
-\begin{verbatim}
-	1
-\end{verbatim}
-
-\smallskip
-Explanation: Group 1 has weights 2, 3 and 4 (total weight 9), and group 2 has weights 1 and 7 (total weight 8).
-
-\bigskip
-\noindent \textbf{Idea (brute force):}
-
-si associa alle \(N\) mele un array binario di lunghezza \(N\), comunemente chiamato \emph{bit mask}, che viene incrementato di \(1\) a ogni iterazione.  
-In questo modo la bit mask assume, in successione, tutti i possibili valori binari:
-
-\medskip
-\noindent$000001$ \\
-$000010$ \\
-$000011$ \\
-$000100$ \\
-$000101$ \\
-\dots \\
-$111111$
-\medskip
-
-Ogni configurazione rappresenta una possibile suddivisione delle mele in due gruppi:  
-se il bit in posizione \(i\) vale \(1\), la mela \(i\)-esima viene assegnata al primo gruppo;  
-se vale \(0\), viene assegnata al secondo gruppo.
-
-Scorrendo tutte le possibili bit mask, si esplorano tutte le combinazioni possibili di suddivisione delle mele.  
-Per ciascuna configurazione si calcola la differenza tra la somma dei pesi dei due gruppi, scegliendo infine quella che minimizza tale differenza.
-
-
-
-
-\newpage
-\noindent	\textbf{Implementazione C++ - Brute Force:}
-
-\begin{lstlisting}[language=C++]
-#include <bits/stdc++.h>
-using namespace std;
-
-// Funzione che calcola la somma dei pesi delle mele selezionate dalla bit mask apple_bit
-int64_t somma_apple(int N, vector<bool> apple_bit, vector<int64_t> &apples)
-{
-	// Variabile che conterra' la somma dei pesi selezionati
-	int64_t somma = 0;
-	
-	// Scorre tutte le N mele
-	for (int i = 0; i < N; i++)
-	{
-		// Se il bit i-esimo è a 1, la mela i-esima viene selezionata
-		if (apple_bit[i])
-		{
-			// Aggiunge il peso della mela alla somma
-			somma += apples[i];
-		}
-	}
-	// Ritorna la somma dei pesi del gruppo selezionato
-	return somma;
-}
-
-int main()
-{
-	// Numero di mele
-	int N;
-	cin >> N;
-	
-	// Vettore che contiene i pesi delle mele
-	vector<int64_t> apples;
-	
-	// Bit mask inizializzata a tutti 0 (nessuna mela selezionata)
-	vector<bool> apple_bit(N, 0);
-	
-	// Somma totale dei pesi di tutte le mele
-	int64_t somma_tot = 0;
-	
-	// Somma del gruppo selezionato dalla bit mask corrente
-	int64_t somma_provvisoria = 0;
-	
-	// Differenza minima trovata (inizializzata a un valore molto grande)
-	int64_t diff = INT_MAX;
-	
-	// Lettura dei pesi delle mele
-	for (int i = 0; i < N; i++)
-	{
-		int64_t apple;
-		cin >> apple;
-		
-		// Inserisce il peso nel vettore
-		apples.push_back(apple);
-	}
-	
-	// Calcolo della somma totale dei pesi
-	for (int apple : apples)
-	{
-		somma_tot += apple;
-	}
-	
-	// Ciclo che simula l'incremento della bit mask
-	// e prova tutte le possibili combinazioni
-	
-	//il while va avanti fin quando la somma di tutti i pesi delle mele non coincide con la somma totale. In pratica, va avanti fin quando la bit_mask non raggiunge il valore corrispondente a N 1
-	while (somma_provvisoria < somma_tot)
-	{
-		// Simula l'incremento binario della bit mask
-		for (int i = N - 1; i >= 0; i--)
-		{
-			// Se il bit è 0, lo porta a 1 e si ferma
-			if (apple_bit[i] == 0)
-			{
-				apple_bit[i] = 1;
-				
-				// Calcola la somma del gruppo selezionato
-				somma_provvisoria = somma_apple(N, apple_bit, apples);
-				
-				// Calcola la differenza tra i due gruppi
-				// (somma_tot - somma_provvisoria) è il peso del secondo gruppo
-				diff = min(diff, abs(somma_tot - somma_provvisoria - somma_provvisoria));
-				
-				// Interrompe il ciclo perché l'incremento è completato
-				break;
-			}
-			else
-			{
-				// Se il bit è 1, lo riporta a 0 (riporto binario)
-				apple_bit[i] = 0;
-			}
-		}
-	}
-	
-	// Stampa la minima differenza trovata
-	cout << diff << endl;
-	
-	return 0;
-}
-
-\end{lstlisting}
-
-
-
-\bigskip
-\noindent \textbf{Costo Computazionale}: \\
-Il costo computazionale è:
-\begin{itemize}
-	\item $O(n)$ per il ciclo for alla riga 56, che calcola la somma dei pesi delle $N$ mele
-	\item $O(n)$ per la funzione \texttt{somma\_apple}, che scorre tutte le $n$ mele alla riga 11.
-	\item $O(2^n)$ per il ciclo che genera tutte le possibili bit mask (riga 65)
-\end{itemize}
-
-La complessità è:
-\begin{align*}
-	&= O(n) + O(2^n) \cdot O(n) \\
-	&= O(2^n \cdot n)
-\end{align*}
-
-dove:
-\begin{itemize}
-	\item $n$ è il numero di mele
-\end{itemize}
-
-\bigskip
-Dai vincoli del problema:
-\[
-1 \le n \le 20
-\]
-
-il numero massimo di combinazioni da esplorare è:
-\[
-2^{20} = 1\,048\,576
-\]
-
-Sostituendo nella complessità, otteniamo:
-\[
-O(2^n \cdot n) = O(2^{20} \cdot 20) \approx O(2 \cdot 10^7)
-\]
-
-Considerando una macchina che esegue circa \(10^8\) operazioni al secondo, il tempo stimato di esecuzione è:
-\[
-\frac{2 \cdot 10^7}{10^8} = 0.2 \text{ secondi}
-\]
-
-\noindent
-Pertanto, questo approccio brute force risulta accettabile per i vincoli del problema e rientra nel time limit di 1 secondo.
-
-
-
 
 
 \newpage
@@ -586,9 +344,7 @@ Dopo aver comprato il biglietto, ognuno dei giocatori si posiziona davanti allo 
 
 Giorgio ha taroccato il meccanismo della ruota per fermarla quando gli conviene di più. Ti viene dato il valore dei premi per ogni spicchio, e il numero \(G_i\) di giocatori posizionati davanti a ciascuno spicchio i. Aiuta Giorgio a calcolare la somma totale dei premi che dovrà pagar, fermando la ruota in modo che questa somma sia minima!
 
-\bigskip
-
-\noindent\textbf{Dati di input}
+\subsubsection*{Dati di input}
 
 La prima riga contiene un intero \(T\), il numero di casi di test.  
 Seguono \(T\) casi di test, numerati da 1 a \(T\). Ogni caso di test è preceduto da una riga vuota.
@@ -603,9 +359,7 @@ Ogni caso test è composto da \(3\) righe:
 	\item la terza riga contiene il numero di giocatori \(G_0, \dots, G_{N-1}\) che si sono posizionati in corrispondenza di ciascuno spicchio.
 \end{itemize}
 
-\bigskip
-
-\noindent\textbf{Dati di output}
+\subsubsection*{Dati di output}
 
 Il file di output deve contenere la risposta ai casi di test che sei riuscito a risolvere. Per ogni caso di test che hai risolto, il file di output deve contenere una riga con la dicitura:
 
@@ -618,9 +372,7 @@ Il file di output deve contenere la risposta ai casi di test che sei riuscito a 
 \medskip
 dove $t$ è il numero del caso di test (a partire da \(1\)) e il valore $x$ è la somma totale dei premi minima.
 
-\bigskip
-
-\noindent\textbf{Assunzioni e vincoli}
+\subsubsection*{Assunzioni e vincoli}
 
 \begin{itemize}
 	\item \(T = 13\), nei file di input che scaricherai saranno presenti esattamente \(13\) casi di test.
@@ -630,9 +382,8 @@ dove $t$ è il numero del caso di test (a partire da \(1\)) e il valore $x$ è l
 \end{itemize}
 
 
-\newpage
-\noindent\textbf{Esempi di input/output}
-\smallskip  
+\subsubsection*{Esempi di input/output}
+
 \textbf{Input:}  
 \begin{verbatim}
 	3
@@ -674,15 +425,12 @@ Nel \textbf{secondo caso d'esempio}, la somma minima dei premi è $61€$, e si 
 Nel \textbf{terzo caso d'esempio}, la somma minima dei premi è $51€$, e si ottiene fermando la ruota esattamente nella posizione di partenza.
 
 
-\bigskip
-\noindent \textbf{Idea (brute force)}:
+\subsubsection*{Idea (brute force)}
 
 Un approccio diretto al problema consiste nel fissare l’ordine di uno dei due vettori e provare tutte le possibili rotazioni dell’altro vettore.
 Per ogni rotazione si calcola il prodotto scalare tra i due vettori, sommando i prodotti degli elementi nelle stesse posizioni, e si mantiene il valore minimo ottenuto.
 
-\newpage
-
-\noindent \textbf{Implementazione C++ - Brute Force:}
+\subsubsection*{Implementazione C++ - Brute Force}
 
 \begin{lstlisting}[language=C++]
 #include <bits/stdc++.h>      
@@ -779,9 +527,7 @@ int main()
 	
 	What is the minimum total cost?
 		
-		\bigskip
-		
-		\noindent	\textbf{Input:} 
+	\subsubsection*{Input:} 
 		
 		The first input line contains an integer $n$: the number of sticks.
 		
@@ -790,9 +536,7 @@ int main()
 	
 	
 		
-		\bigskip
-		
-		\noindent \textbf{Output:}  
+	\subsubsection*{Output:}  
 		
 	Print one integer: the minimum total cost.
 		
@@ -809,9 +553,7 @@ int main()
 	 
 		
 		
-		\bigskip
-		
-		\noindent \textbf{Example:}
+\subsubsection*{Example:}
 		\begin{verbatim}
 			Input:
 			5
@@ -827,9 +569,7 @@ int main()
 		Nel caso d'esempio d'input, occorre calcolare quanto costa uniformare tutti i numeri a 1, poi a 2, poi a 3, poi a 4 ed infine a 5
 		
 	
-	\bigskip
-		
-	\noindent	\textbf{Implementazione C++ - Brute Force:}
+\subsubsection*{Implementazione C++ - Brute Force}
 		
 		\begin{lstlisting}[language=C++]
 #include <bits/stdc++.h>
@@ -879,8 +619,7 @@ int main()
 
 	\end{lstlisting}
 	
-	\bigskip
-	\noindent \textbf{Costo Computazionale}: \\
+\subsubsection*{Costo Computazionale}
 	Il costo computazionale è:
 	\begin{itemize}
 		\item $O(n)$ per il for della riga 13
@@ -948,19 +687,14 @@ int main()
 	
 	Given an array of n integers, your task is to find for each array position the nearest position to its left having a smaller value.
 	
-	\bigskip
-	
-	\noindent \textbf{Input:}
+	\subsubsection*{Input:}
 	The first input line has an integer n: the size of the array.
 	The second line has n integers $x_1,x_2,\dots,x_n$: the array values.
 	
-	\bigskip
-	\noindent \textbf{Output:}
+	\subsubsection*{Output}
 	Print $n$ integers: for each array position the nearest position with a smaller value. If there is no such position, print 0.
 	
-	\bigskip
-	
-	\noindent \textbf{Constraints: }
+	\subsubsection*{Constraints: }
 	\begin{itemize}
 		
 		\item $1 \le n \le 2 \cdot 10^5$
@@ -970,9 +704,7 @@ int main()
 	\end{itemize}
 
 	
-	\bigskip
-	
-	\noindent \textbf{Example:} 
+\subsubsection*{Example} 
 	
 	\begin{verbatim}
 		Input: 
@@ -986,9 +718,7 @@ int main()
 		0 1 0 3 4 3 3 7
 	\end{verbatim}
 	
-	\bigskip
-	
-	\noindent \textbf{Idea (brute force)}: 
+\subsubsection*{Idea (brute force)}
 	
 	Dato un array di $N$ numeri interi, per ogni posizione $i$ si vogliono analizzare tutti gli elementi che si trovano alla sua sinistra (cioè con indice minore di $i$) per individuare un valore strettamente più piccolo di quello corrente.  
 	Tra tutti i valori più piccoli trovati, si seleziona quello più vicino alla posizione $i$, cioè quello con l'indice maggiore tra quelli validi.
@@ -1004,8 +734,7 @@ int main()
 	
 	Se per una determinata posizione non viene trovato alcun valore più piccolo, il risultato rimane pari a $0$, indicando che non esiste una posizione valida alla sua sinistra.
 	
-	\newpage	
-	\noindent	\textbf{Implementazione C++ - Brute Force:}
+	\subsubsection*{Implementazione C++ - Brute Force:}
 	
 	\begin{lstlisting}[language=C++]
 #include <bits/stdc++.h>
@@ -1058,8 +787,7 @@ int main()
 		
 	\end{lstlisting}
 	
-	\newpage
-	\noindent \textbf{Costo Computazionale}: \\
+	\subsubsection*{Costo Computazionale}
 	
 	Il costo computazionale di questo programma può essere analizzato come segue:
 	
@@ -1196,9 +924,7 @@ Quante operazioni deve fare al minimo per farlo?
 
 \noindent \textbf{Nota:} \emph{premere il tasto \(1\) o \(2\) all'inizio conta come un'operazione, inoltre la calcolatrice è danneggiata quindi Francesco è costretto a partire sempre da \(1\) o \(2\) (non può ad esempio premere \(2\) e poi \(1\) per partire dal numero \(21\)) e le uniche operazioni ammesse sono quelle precedentemente elencate (non può per esempio moltiplicare o sottrarre \(12\) o \(21\)).}
 
-\bigskip
-
-\noindent \textbf{Formato di input}
+\subsubsection*{Formato di input}
 
 La prima riga del file di input contiene un intero 
 $T$, il numero di casi di test. Seguono $T$ casi di test, numerati da $1$ a $T$. 
@@ -1210,9 +936,7 @@ Ogni caso di test è composto come segue:
 	\item una riga contenente l'intero $N$.
 \end{itemize}
 
-\bigskip
-
-\noindent \textbf{Formato di output}
+\subsubsection*{Formato di output}
 
 Il file di output deve contenere la risposta ai casi di test che sei riuscito a risolvere.  
 Per ogni caso di test risolto, il file di output deve contenere una riga con la dicitura:
@@ -1228,17 +952,14 @@ Per ogni caso di test risolto, il file di output deve contenere una riga con la 
 
 dove \texttt{test} è il numero del caso di test (a partire da 1) e \texttt{operazioni} è la risposta al caso di test: il minimo numero di operazioni necessarie per raggiungere \(N\).
 
-\bigskip
-\noindent \textbf{Assunzioni}
+\subsubsection*{Assunzioni}
 
 \begin{itemize}
 	\item $T=10$, nei file di input che scaricherai saranno presenti esattamente $10$ casi di test.
 	\item 1\le N \le 10^{18}
 \end{itemize}
 
-\newpage
-
-\noindent\textbf{Esempio}  
+\subsubsection*{Esempio}  
 
 \smallskip  
 \textbf{Input:}  
@@ -1261,8 +982,7 @@ Case #3: 6
 \end{verbatim}
 
 
-\bigskip
-\noindent \textbf{Idea 1 (greedy):}
+\subsubsection*{Idea 1 (greedy)}
 
 Una prima idea greedy potrebbe essere quella di imporre come soluzione $1$ se il numero da raggiungere è $1$ o $2$ (infatti basta premere il corrispondente tasto).
 Se il numero da raggiungere dovesse essere più alto, allora si può partire da $2$ e raddoppiare il numero fin quando non si supera il numero obiettivo. Una volta superato, si sottrae 1 fino ad arrivare al numero obiettivo. 
@@ -1284,8 +1004,7 @@ Tuttavia, è possibile raggiungere lo stesso valore obiettivo con un numero mino
 che utilizza esclusivamente operazioni ammesse e richiede soltanto $7$ operazioni.
 Questo controesempio dimostra che la strategia detta non è ottimale.
 
-\medskip
-\noindent \textbf{Idea 2 (greedy):}
+\subsubsection*{Idea 2 (greedy)}
 
 Una seconda idea potrebbe essere quella di partire dal numero obiettivo e dividere per $2$ se il numero è pari, aggiungere $1$ se il numero è dispari. 
 Così facendo, il percorso inverso sarebbe:
@@ -1298,9 +1017,7 @@ Così facendo, il percorso reale sarebbe:
 
 Ciò garantisce il minimo numero di operazioni senza controesempi!
 
-\newpage
-
-\noindent	\textbf{Implementazione C++ - Greedy:}
+\subsubsection*{Implementazione C++ - Greedy:}
 
 \begin{lstlisting}
 #include <bits/stdc++.h>
@@ -1372,19 +1089,14 @@ The government of Byteland has created a new law for shops. The law states that 
 \medskip
 He has lots of other stuff to do, so he asked you for help: what is the minimum number of products whose prices should be changed? A product’s price can be changed to any positive integer amount of bytedollars.
 
-\bigskip
-
-\noindent \textbf{Input}
+\subsubsection*{Input}
 
 The first line of the input contains two integers N and K. The next line contains N positive integers, $P_0, \dots, P_{N-1}$.
 
-\bigskip
-\noindent \textbf{Output}
+\subsubsection*{Output}
 Output a single integer between $0$ and $N$, inclusive: the answer to the question. It can be proven that it is always possible to change the prices of some products so that the new prices comply with the law.
 
-		\bigskip
-
-\noindent \textbf{Constraints:}
+\subsubsection*{Constraints:}
 
 
 \begin{itemize}
@@ -1393,7 +1105,7 @@ Output a single integer between $0$ and $N$, inclusive: the answer to the questi
 \item	$1 &\le p_i \le 1\hspace{0.1cm}000\hspace{0.1cm}000$ for each $i=0 \dots N-1$
 \end{itemize}
 
-\noindent \textbf{Idea (Greedy):}
+\subsubsection*{Idea (Greedy)}
 
 L'idea che risolve il problema consiste nel fare una trattazione matematica per poter capire di quanto bisogna ritoccare la somma dei prezzi $P_i$ al fine di arrivare alla media precisa $K$.
 
@@ -1429,7 +1141,7 @@ In particolare, si verificano 3 casi:
 \end{itemize}
 
 
-\noindent	\textbf{Implementazione C++ - Greedy:}
+\subsubsection*{Implementazione C++ - Greedy}
 \begin{lstlisting}[language=C++]
 #include <bits/stdc++.h> 
 using namespace std;

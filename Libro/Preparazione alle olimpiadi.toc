@@ -69,15 +69,19 @@
 \contentsline {chapter}{\numberline {3}Brute Force e Algoritmi Greedy}{47}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Algoritmi Brute Force}{47}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Antivirus}{48}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Apple Division}{53}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Ruota della fortuna}{57}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Stick Lengths}{61}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Nearest Smaller Values}{64}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}Idee Greedy}{67}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Calcolatrice Rotta}{69}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Precise Average}{72}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {4}Pattern Algoritmici}{75}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Sliding Window}{75}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Bitmask}{80}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Prefix Sum}{80}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}C - Index × A(Continuous ver.)}{83}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {3.1.2}Ruota della fortuna}{53}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Stick Lengths}{57}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Nearest Smaller Values}{60}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Idee Greedy}{63}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Calcolatrice Rotta}{65}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Precise Average}{68}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Pattern Algoritmici}{71}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Sliding Window}{71}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Christmas Light}{76}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Playlist}{76}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Distinct Values Subarray}{76}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Bitmask}{76}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Apple Division}{77}{subsection.4.2.1}%
+\contentsline {subsubsection}{Idea (Bitmask)}{78}{section*.52}%
+\contentsline {section}{\numberline {4.3}Prefix Sum}{81}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}C - Index × A(Continuous ver.)}{85}{subsection.4.3.1}%

@@ -239,6 +239,46 @@ Questo schema è molto utilizzato per problemi con vincoli dinamici sulla finest
 \end{itemize}
 
 
+\subsection{Christmas Light}
+\label{problema:pattern-algoritmici:sliding-window:christmas-light}
+
+\href{https://training.olinfo.it/task/ois_lights}{Link al problema}
+
+\noindent Time limit = 1.00s, Memory limit = 512 MB
+\bigskip
+
+Davide wants to decorate his home for Christmas, even though his budget as a student is pretty limited,
+and he needs to avoid excessive expenses. After days of searching around the city, he finally found a nice
+row of almost new Christmas lights: it is time to start the decorations!
+
+\bigskip
+
+The row consists of $N$ consecutive lights, numbered from $0$ to $N-1$. Each light has a colour $L_i$ ($i = 0\dots N-1$), represented by a number between $0$ and $C-1$. Every colour between $0$ and $C-1$ appears at least once in the row of lights. In order to save energy (running the house dynamo is tiring!), he wants to cut off a segment of consecutive lights from the row containing every colour between $0$ and $C-1$ at least once. What is the length of the shortest segment he can cut?
+
+\subsubsection*{Input}
+The first line contains the two integers $N$ and $C$. The second line contains $N$ integers $L_i$.
+
+
+\subsubsection*{Output}
+You need to write a single line with an integer: the length of a shortest segment of lights containing every colour.
+
+\subsubsection*{Constraints}
+
+\begin{itemize}
+	\item $3 \le C \le N \le 200000$.
+	\item $0 \le L_i < C$ for each $i = 0 \dots N-1$.
+	\item Every colour $c$ between $0$ and $C-1$ appears at least once in the row of lights, i.e., there exists at least one $i$ ($0 \le i < N$) such that $L_i = c$.
+\end{itemize}
+
+
+
+\subsection{Playlist}
+
+
+
+\subsection{Distinct Values Subarray}
+
+
 
 
 \section{Bitmask}
@@ -261,14 +301,231 @@ Essa è particolarmente utile nei problemi di programmazione competitiva e di pr
 
 
 
+\subsection{Apple Division}
+\label{problema:bitmask:Apple-division}
+
+\href{https://cses.fi/problemset/task/1623/}{Link al problema}
+
+\noindent Time limit = 1.00s, Memory limit = 512 MB
+\bigskip
+
+There are $n$ apples with known weights. Your task is to divide the apples into two groups so that the difference between the weights of the groups is minimal.
+
+\subsubsection*{Input}
+The first input line has an integer $n$: the number of apples.
+\medskip
+The next line has $n$ integers $p_1,p_2,\dots,p_n$: the weight of each apple.
+
+
+\subsubsection*{Output}
+Print one integer: the minimum difference between the weights of the groups.
+
+\subsubsection*{Constraints}
+\begin{itemize}
+	\item $1 \le n \le 20$
+	\item $1 \le p_i \le 10^9$
+\end{itemize}
+
+\subsubsection*{Example}
+
+Input
+
+\begin{verbatim}
+	5
+	3 2 7 4 1
+\end{verbatim}
+
+\noindent Output
+
+\begin{verbatim}
+	1
+\end{verbatim}
+
+\textbf{Explanation}: Group 1 has weights 2, 3 and 4 (total weight 9), and group 2 has weights 1 and 7 (total weight 8).
+
+
+\subsubsection{Idea (Bitmask)}
+
+Si associa alle \(N\) mele un array binario di lunghezza \(N\), comunemente chiamato \emph{bit mask}, che viene incrementato di \(1\) a ogni iterazione.  
+In questo modo la bit mask assume, in successione, tutti i possibili valori binari:
+
+\medskip
+\noindent$000001$ \\
+$000010$ \\
+$000011$ \\
+$000100$ \\
+$000101$ \\
+\dots \\
+$111111$
+\medskip
+
+Ogni configurazione rappresenta una possibile suddivisione delle mele in due gruppi:  
+se il bit in posizione \(i\) vale \(1\), la mela \(i\)-esima viene assegnata al primo gruppo;  
+se vale \(0\), viene assegnata al secondo gruppo.
+
+Scorrendo tutte le possibili bit mask, si esplorano tutte le combinazioni possibili di suddivisione delle mele.  
+Per ciascuna configurazione si calcola la differenza tra la somma delle mele dei due gruppi, scegliendo infine quella che minimizza tale differenza.
+
+Al termine dell'esplorazione di tutte le possibili bitmask, il valore minimo ottenuto rappresenta la soluzione del problema.
+
+\subsubsection*{Implementazione C++:}
+\begin{lstlisting}[language=C++]	
+#include <bits/stdc++.h>
+using namespace std;
+
+/*
+Funzione che calcola la somma delle mele appartenenti al gruppo
+rappresentato dalla bitmask apple_bit.
+Se apple_bit[i] == 1, allora apples[i] viene sommato.
+*/
+int64_t somma_apple(int N, vector<bool> apple_bit, vector<int64_t> &apples)
+{
+	int64_t somma = 0;
+	
+	// Scorre tutte le N posizioni della bitmask
+	for (int i = 0; i < N; i++)
+	{
+		// Se il bit vale 1, la mela i-esima appartiene al gruppo
+		if (apple_bit[i])
+		{
+			somma += apples[i];
+		}
+	}
+	
+	return somma;
+}
+
+int main()
+{
+	int N;
+	cin >> N;   // Numero di mele
+	
+	vector<int64_t> apples;              // Vettore contenente il numero di mele in ogni posizione
+	vector<bool> apple_bit(N, 0);        // Bitmask iniziale: tutti 0 (tutte le mele nel secondo gruppo)
+	
+	int64_t somma_tot = 0;               // Somma totale delle mele
+	int64_t somma_provvisoria = 0;       // Somma del gruppo selezionato dalla bitmask corrente
+	int64_t diff = INT_MAX;              // Differenza minima trovata (inizialmente molto grande)
+	
+	// Lettura dei valori delle mele
+	for (int i = 0; i < N; i++)
+	{
+		int64_t apple;
+		cin >> apple;
+		apples.push_back(apple);
+	}
+	
+	// Calcolo della somma totale delle mele
+	for (int apple : apples)
+	{
+		somma_tot += apple;
+	}
+	
+	/*
+	Ciclo che genera tutte le possibili bitmask incrementando
+	il "numero binario" rappresentato da apple_bit.
+	*/
+	while (somma_provvisoria < somma_tot)
+	{
+		// Simula l'incremento di un numero binario partendo dal bit meno significativo
+		for (int i = N - 1; i >= 0; i--)
+		{
+			if (apple_bit[i] == 0)
+			{
+				// Se il bit è 0, lo porto a 1 e mi fermo
+				apple_bit[i] = 1;
+				
+				// Calcolo la somma del gruppo rappresentato dalla bitmask
+				somma_provvisoria = somma_apple(N, apple_bit, apples);
+				
+				// Calcolo la differenza tra i due gruppi:
+				// gruppo1 = somma_provvisoria
+				// gruppo2 = somma_tot - somma_provvisoria
+				diff = min(diff, abs(somma_tot - somma_provvisoria - somma_provvisoria));
+				
+				break;
+			}
+			else
+			{
+				// Se il bit e' 1, lo riporto a 0 e continuo verso sinistra
+				apple_bit[i] = 0;
+			}
+		}
+	}
+	
+	// Stampa della differenza minima trovata
+	cout << diff << endl;
+	
+	return 0;
+}
+
+\end{lstlisting}
+
+
+Si osserva che l’implementazione presentata può essere semplificata e resa più efficiente utilizzando una rappresentazione delle configurazioni tramite un’unica variabile intera (\textit{bitmask}). In questo modo è possibile generare direttamente tutte le possibili suddivisioni con un ciclo che varia da $0$ a $2^N - 1$, evitando la simulazione manuale dell’incremento binario mediante un vettore di booleani. Tale tecnica migliora la leggibilità del codice e riduce la complessità dell’implementazione. Un possibile esempio di questa soluzione è riportato di seguito; un’analisi più approfondita viene lasciata al lettore interessato.
+
+\begin{lstlisting}
+	for (int mask = 0; mask < (1 << N); mask++)
+	{
+		int64_t somma = 0;
+		
+		for (int i = 0; i < N; i++)
+		{
+			if (mask & (1 << i))
+			somma += apples[i];
+		}
+		
+		diff = min(diff, abs(somma_tot - 2 * somma));
+	}
+\end{lstlisting}
 
 
 
 
 
 
+\subsubsection*{Costo Computazionale}
+Il costo computazionale è:
+\begin{itemize}
+	\item $O(n)$ per il ciclo for alla riga 56, che calcola la somma dei pesi delle $N$ mele
+	\item $O(n)$ per la funzione \texttt{somma\_apple}, che scorre tutte le $n$ mele alla riga 11.
+	\item $O(2^n)$ per il ciclo che genera tutte le possibili bit mask (riga 65)
+\end{itemize}
 
+La complessità è:
+\begin{align*}
+	&= O(n) + O(2^n) \cdot O(n) \\
+	&= O(2^n \cdot n)
+\end{align*}
 
+dove:
+\begin{itemize}
+	\item $n$ è il numero di mele
+\end{itemize}
+
+\bigskip
+Dai vincoli del problema:
+\[
+1 \le n \le 20
+\]
+
+il numero massimo di combinazioni da esplorare è:
+\[
+2^{20} = 1\,048\,576
+\]
+
+Sostituendo nella complessità, otteniamo:
+\[
+O(2^n \cdot n) = O(2^{20} \cdot 20) \approx O(2 \cdot 10^7)
+\]
+
+Considerando una macchina che esegue circa \(10^8\) operazioni al secondo, il tempo stimato di esecuzione è:
+\[
+\frac{2 \cdot 10^7}{10^8} = 0.2 \text{ secondi}
+\]
+
+\noindent
+Pertanto, questo approccio brute force risulta accettabile per i vincoli del problema e rientra nel time limit di 1 secondo.
 
 
 
@@ -358,7 +615,7 @@ Proviamo a scrivere il codice seguendo, ancora una volta, un approccio \textbf{b
 		return 0;
 	}
 \end{lstlisting}
-\bigskip
+\newpage
 \noindent \textbf{Costo Computazionale}: \\
 
 Il costo computazionale dell'approccio brute force è il seguente:
@@ -474,11 +731,12 @@ Rispetto all'approccio \emph{brute force} (come mostrato in precedenza),
 questo metodo permette un notevole risparmio di tempo quando $Q$ ed $N$ sono molto grandi.
 
 
-
+\newpage
 \subsection{C - Index × A(Continuous ver.)}
 \label{problema:prefix:C-IndexxA}
 
 \href{https://atcoder.jp/contests/abc267/tasks/abc267_c}{Link al problema}
+
 \noindent Time limit = 1.00s, Memory limit = 512 MB
 \bigskip
 
@@ -545,8 +803,7 @@ $B=(A_1, A_4)$.
 \end{verbatim}
 
 
-\bigskip
-\noindent \textbf{Idea 1:} 
+\subsubsection*{Idea (prefix)} 
 
 Il problema richiede di calcolare la seguente somma:
 
