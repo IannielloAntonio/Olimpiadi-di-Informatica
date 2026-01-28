@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  27 JAN 2026 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  28 JAN 2026 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2289,7 +2289,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.534 				// Se il bit è 
+l.536 				// Se il bit è 
                           0, lo porto a 1 e mi fermo
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2304,7 +2304,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.534 				// Se il bit è 
+l.536 				// Se il bit è 
                           0, lo porto a 1 e mi fermo
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2321,7 +2321,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 [83]
 
 [84]
-Underfull \hbox (badness 10000) in paragraph at lines 718--719
+Underfull \hbox (badness 10000) in paragraph at lines 720--721
 
  []
 
@@ -2332,7 +2332,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.785 ...[0] = v[0];      // il primo elemento è 
+l.787 ...[0] = v[0];      // il primo elemento è 
                                                   lo stesso di v[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2347,7 +2347,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.785 ...[0] = v[0];      // il primo elemento è 
+l.787 ...[0] = v[0];      // il primo elemento è 
                                                   lo stesso di v[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2358,7 +2358,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 [85]
-Underfull \hbox (badness 10000) in paragraph at lines 814--815
+Underfull \hbox (badness 10000) in paragraph at lines 816--817
 
  []
 
@@ -2366,7 +2366,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 814--815
 
 [86]
 ! Misplaced alignment tab character &.
-l.855 	\item	$1 &
+l.857 	\item	$1 &
                  \le M \le N \le 2\cdot10^5 \hspace{0.1cm}000$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2383,14 +2383,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.856 	\item	$−
+l.858 	\item	$−
                  2\cdot10^5 &\le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace{...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 ! Misplaced alignment tab character &.
-l.856 	\item	$−2\cdot10^5 &
+l.858 	\item	$−2\cdot10^5 &
                              \le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2413,7 +2413,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1036 ...rimo elemento della somma cumulativa è 
+l.1038 ...rimo elemento della somma cumulativa è 
                                                   A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2428,7 +2428,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1036 ...rimo elemento della somma cumulativa è 
+l.1038 ...rimo elemento della somma cumulativa è 
                                                   A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2443,7 +2443,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1046 ...[0] = 0; // il primo elemento pesato è 
+l.1048 ...[0] = 0; // il primo elemento pesato è 
                                                   0*A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2458,7 +2458,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1046 ...[0] = 0; // il primo elemento pesato è 
+l.1048 ...[0] = 0; // il primo elemento pesato è 
                                                   0*A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2524,7 +2524,7 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (93 pages, 1158254 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (93 pages, 1158249 bytes).
 PDF statistics:
  3547 PDF objects out of 3580 (max. 8388607)
  1753 named destinations out of 2073 (max. 500000)
