@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  28 JAN 2026 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  28 JAN 2026 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2679,9 +2679,6 @@ L3 programming layer <2025-09-02>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `"Preparazione alle olimpiadi".out' has not c
 hanged.
 (rerunfilecheck)             Checksum: C9316A7014AFB6E7DDB8D3FB303ABF99;14414.
@@ -2723,7 +2720,7 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (98 pages, 1189253 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (98 pages, 1189237 bytes).
 PDF statistics:
  3694 PDF objects out of 4296 (max. 8388607)
  1861 named destinations out of 2073 (max. 500000)
