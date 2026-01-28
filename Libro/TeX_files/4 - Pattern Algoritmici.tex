@@ -238,6 +238,262 @@ Questo schema è molto utilizzato per problemi con vincoli dinamici sulla finest
 	\item lunghezza massima di sottosequenze valide, ecc.
 \end{itemize}
 
+\subsection{Distinct Values Subarray}
+
+
+\label{problema:pattern-algoritmici:sliding-window:distinct-values-subarray}
+
+\href{https://cses.fi/problemset/task/3420}{Link al problema}
+
+\noindent Time limit = 1.00s, Memory limit = 512 MB
+\bigskip
+
+Given an array of $n$ integers, count the number of subarrays where each element is distinct.
+
+
+\subsubsection*{Input}
+The first line has an integer $n$: the array size.
+
+\medskip
+
+The second line has n integers $x_1,x_2,\dots,x_n$: the array contents.
+
+\subsubsection*{Output}
+Print the number of subarrays with distinct elements.
+
+
+\subsubsection*{Constraints}
+
+\begin{itemize}
+	\item $1 \le n \le 2 \cdot 10^5$.
+	\item $1 \le x_i \le 10^9$.
+\end{itemize}
+
+
+\subsubsection*{Examples} 
+
+\smallskip  
+\textbf{Input:}  
+\begin{verbatim}
+	4
+	1 2 1 3
+\end{verbatim}
+
+\smallskip  
+\noindent \textbf{Output:}  
+\begin{verbatim}
+	8
+\end{verbatim}
+
+\medskip
+
+\noindent \texttt{Explanation:} The subarrays are $[1]$ (two times), $[2]$, $[3]$, $[1,2]$, $[1,3]$, $[2,1]$ and $[2,1,3]$.
+
+
+\subsubsection*{Idea (Sliding Window)}
+
+Vogliamo contare tutti i sottoarray di un array $X$ che contengono solo elementi distinti.
+
+Utilizziamo la tecnica della \emph{sliding window} (due puntatori):
+\begin{itemize}
+	\item $left$ = inizio della finestra
+	\item $right$ = fine della finestra
+\end{itemize}
+
+Manteniamo una mappa che conta quante volte compare ogni valore all'interno della finestra $[left, right]$.
+
+Per ogni posizione $right$:
+\begin{enumerate}
+	\item Aggiungiamo $X[right]$ alla finestra.
+	\item Se $X[right]$ compare più di una volta, spostiamo $left$ verso destra finché la finestra torna ad avere tutti elementi distinti.
+\end{enumerate}
+
+A questo punto la finestra $[left, right]$ contiene solo elementi distinti.  
+Tutti i sottoarray che terminano in $right$ e partono tra $left$ e $right$ sono distinti e validi.  
+
+Il numero di questi sottoarray è:
+\[
+right - left + 1
+\]
+
+Sommiamo questo valore al risultato totale.  
+In questo modo ogni sottoarray viene contato esattamente una volta, quando il suo estremo destro coincide con $right$.
+
+
+
+\subsubsection*{Implementazione C++:}
+\begin{lstlisting}
+	// https://cses.fi/problemset/task/3420
+	
+	#include <bits/stdc++.h>
+	using namespace std;
+	
+	int main(){
+		int64_t N;
+		cin >> N; // Legge la dimensione dell'array
+		
+		vector<int64_t> X(N);
+		
+		// Legge gli N elementi dell'array
+		for(int i = 0; i < N; i++){
+			cin >> X[i];
+		}
+		
+		int left = 0;           // Puntatore sinistro della finestra (sliding window)
+		int64_t count = 0;     // Contatore totale dei sottoarray validi
+		map<int64_t,int64_t> m; // Mappa che tiene il conteggio delle frequenze degli elementi nella finestra
+		
+		// Il puntatore right scorre l'array da sinistra a destra
+		for(int right = 0; right < N; right++){
+			m[X[right]]++; // Inserisce X[right] nella finestra (incrementa la sua frequenza)
+			
+			// Se X[right] è già presente (frequenza > 1), restringiamo la finestra da sinistra
+			while(m[X[right]] > 1){
+				m[X[left]]--; // Rimuove X[left] dalla finestra (decrementa la sua frequenza)
+				left++;       // Sposta il puntatore sinistro verso destra
+			}
+			
+			// A questo punto la finestra [left, right] contiene solo elementi distinti
+			// Tutti i sottoarray che finiscono in 'right' e partono tra left e right sono validi
+			count += right - left + 1;
+		}
+		
+		// Stampa il numero totale di sottoarray con elementi distinti
+		cout << count << "\n";
+	}
+	
+	
+\end{lstlisting}
+
+\newpage
+
+\subsection{Playlist}
+
+\label{problema:pattern-algoritmici:sliding-window:playlist}
+
+\href{https://cses.fi/problemset/task/1141}{Link al problema}
+
+\noindent Time limit = 1.00s, Memory limit = 512 MB
+\bigskip
+
+You are given a playlist of a radio station since its establishment. The playlist has a total of $n$ songs.
+
+\medskip
+
+What is the longest sequence of successive songs where each song is unique?
+
+\subsubsection*{Input}
+The first input line contains an integer $n$: the number of songs.
+
+\medskip
+\noindent The next line has $n$ integers $k_1,k_2,\ldots,k_n$: the id number of each song.
+
+\subsubsection*{Output}
+Print the length of the longest sequence of unique songs.
+
+
+\subsubsection*{Constraints}
+
+\begin{itemize}
+	\item $1 \le n \le 2 \cdot 10^5$.
+	\item $1 \le k_i \le 10^9$.
+\end{itemize}
+
+
+\subsubsection*{Examples}
+\renewcommand{\arraystretch}{1.5}  
+
+\smallskip  
+\textbf{Input:}  
+\begin{verbatim}
+	8
+	1 2 1 3 2 7 4 2
+\end{verbatim}
+
+\smallskip  
+\noindent \textbf{Output:}  
+\begin{verbatim}
+	5
+\end{verbatim}
+
+
+\subsubsection*{Idea (Sliding Window)}
+
+Si considera la sequenza di $n$ canzoni come un array $K$ di lunghezza $n$, in cui ogni elemento rappresenta l'identificativo della canzone corrispondente.  
+L'obiettivo è determinare la massima lunghezza di un segmento consecutivo di canzoni in cui ciascun elemento compare una sola volta.
+
+Si utilizza la tecnica della \emph{sliding window} (finestra scorrevole) per esaminare in modo efficiente tutti i segmenti consecutivi possibili.  
+Si mantengono due indici, $left$ e $right$, che rappresentano rispettivamente l'inizio e la fine della finestra corrente.
+
+\medskip
+\noindent Procedura generale:
+\begin{itemize}
+	\item Si estende la finestra incrementando l'indice $right$ e aggiornando una struttura dati che memorizza il numero di occorrenze di ciascuna canzone all'interno della finestra.
+	\item Se l'inserimento di una nuova canzone provoca una ripetizione, la finestra non rispetta più il vincolo di unicità; in tal caso, si riduce la finestra incrementando l'indice $left$ finché la condizione di unicità non viene nuovamente soddisfatta.
+	\item Ogni volta che la finestra rispetta il vincolo richiesto, si aggiorna la lunghezza massima del segmento trovato.
+\end{itemize}
+
+\medskip
+In questo modo si esplorano tutti i segmenti consecutivi che non contengono ripetizioni senza dover considerare tutte le possibili sotto-sequenze.  
+La lunghezza massima individuata durante il processo rappresenta la soluzione del problema.
+
+
+\subsubsection*{Implementazione C++:}
+
+\begin{lstlisting}[language=C++]
+// https://cses.fi/problemset/task/1141
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+	int64_t n;
+	cin >> n;   // Numero totale di canzoni
+	
+	vector<int> K(n);   // Vettore che contiene gli ID delle canzoni
+	
+	// Lettura degli ID delle canzoni
+	for(int i=0; i<n; i++){
+		cin >> K[i];
+	}
+	
+	// Il problema richiede di trovare la sottosequenza consecutiva piu' lunga
+	// in cui ogni canzone compare una sola volta.
+	// Si utilizza la tecnica della sliding window (finestra scorrevole).
+	
+	map<int, int> m;    // Mappa che tiene trac6cia del numero di occorrenze
+	// di ogni canzone nella finestra corrente. Essa e' composta dalla coppia <ID_canzone, occorrenze> (ovvero <chiave, valore>).
+	
+	int left = 0;       // Indice di inizio della finestra
+	int massimo = 0;    // Lunghezza massima trovata
+	
+	// L'indice right scorre il vettore da sinistra verso destra
+	for(int right = 0; right < n; right++){
+		
+		// Inserisce la canzone K[right] nella finestra
+		m[K[right]]++;
+		
+		// Se la canzone K[right] è già presente (occorrenze > 1),
+		// la finestra non è più valida (ci sono duplicati)
+		while(m[K[right]] > 1){
+			
+			// Riduce la finestra da sinistra
+			m[K[left]]--;
+			left++;
+		}
+		
+		// A questo punto la finestra [left, right] contiene solo canzoni distinte
+		// Aggiorna la lunghezza massima trovata
+		massimo = max(massimo, right - left + 1);
+	}
+	
+	// Stampa la lunghezza massima della sottosequenza senza ripetizioni
+	cout << massimo << endl;
+}
+
+\end{lstlisting}
+
+\newpage
 
 \subsection{Christmas Light}
 \label{problema:pattern-algoritmici:sliding-window:christmas-light}
@@ -309,75 +565,67 @@ La lunghezza minima trovata durante il processo rappresenta la soluzione del pro
 \subsubsection*{Implementazione C++:}
 
 \begin{lstlisting}[language=C++]
-// https://training.olinfo.it/task/ois_lights
-
-#include <bits/stdc++.h>
-using namespace std;
-
-int main()
-{
-	int64_t N, C;
-	cin >> N;
-	cin >> C;
+	// https://training.olinfo.it/task/ois_lights
 	
-	vector<int> count(C, 0); // count e' il vettore che contiene quante luci accese ci sono per ogni colore. Nella posizione 1, ad esempio, se c'è il numero 2, vuol dire che ci sono 2 luci accesi del colore 1.
-	vector<int64_t> L(N);
+	#include <bits/stdc++.h>
+	using namespace std;
 	
-	for (int i = 0; i < N; i++)
+	int main()
 	{
-		cin >> L[i];
-	}
-	
-	// Metodo della sliding window credo
-	
-	int left = 0, right = 0; //finestra iniziale
-	int total_color = 0;
-	int dist = INT_MAX;
-	
-	for (right = 0; right < N; right++) //il for praticamente sposta automaticamente la finestra a destra
-	{
-		count[L[right]]++;
+		int64_t N, C;
+		cin >> N;
+		cin >> C;
 		
-		if (count[L[right]] == 1)
+		vector<int> count(C, 0); // count e' il vettore che contiene quante luci accese ci sono per ogni colore. Nella posizione 1, ad esempio, se c'è il numero 2, vuol dire che ci sono 2 luci accesi del colore 1.
+		vector<int64_t> L(N);
+		
+		for (int i = 0; i < N; i++)
 		{
-			total_color++;
+			cin >> L[i];
 		}
 		
-		while (total_color == C) // nella sliding window variabile il while e' un classico
-		// quando è rispettata la condizione (o non rispettata, 
-		// a seconda del problema), si riduce la finestra con "left++"
+		// Metodo della sliding window credo
+		
+		int left = 0, right = 0; //finestra iniziale
+		int total_color = 0;
+		int dist = INT_MAX;
+		
+		for (right = 0; right < N; right++) //il for praticamente sposta automaticamente la finestra a destra
 		{
-			dist = min(dist, right - left + 1);
+			count[L[right]]++;
 			
-			
-			count[L[left]]--; // stiamo per restringere la finestra, quindi andiamo a togliere il colore corrispondente
-			// all'elemento uscente.
-			
-			if(count[L[left]] == 0){ // se il contatore relativo a quel colore arriva a 0, allora il numero totale
-				// di colori diminuisce.
-				total_color--;
+			if (count[L[right]] == 1)
+			{
+				total_color++;
 			}
 			
-			left++; // contrazione della finestra.
+			while (total_color == C) // nella sliding window variabile il while e' un classico
+			// quando è rispettata la condizione (o non rispettata, 
+			// a seconda del problema), si riduce la finestra con "left++"
+			{
+				dist = min(dist, right - left + 1);
+				
+				
+				count[L[left]]--; // stiamo per restringere la finestra, quindi andiamo a togliere il colore corrispondente
+				// all'elemento uscente.
+				
+				if(count[L[left]] == 0){ // se il contatore relativo a quel colore arriva a 0, allora il numero totale
+					// di colori diminuisce.
+					total_color--;
+				}
+				
+				left++; // contrazione della finestra.
+				
+			}
 			
 		}
 		
+		cout << dist << endl;
+		
+		return 0;
 	}
-	
-	cout << dist << endl;
-	
-	return 0;
-}
 \end{lstlisting}
 
-
-\subsection{Playlist}
-
-
-
-
-
-\subsection{Distinct Values Subarray}
 
 
 

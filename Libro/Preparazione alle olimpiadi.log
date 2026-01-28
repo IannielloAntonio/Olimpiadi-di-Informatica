@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  28 JAN 2026 12:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  28 JAN 2026 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2205,9 +2205,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.253 
-       <./immagini/4 - Pattern Algoritmici/Sliding window mobile.png (PNG copy)
->]
+l.254 \subsubsection
+                    *{Input} <./immagini/4 - Pattern Algoritmici/Sliding window
+ mobile.png (PNG copy)>]
 
 [76]
 
@@ -2217,8 +2217,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.323 .... Nella posizione 1, ad esempio, se c'è 
-                                                  il numero 2, vuol dire che...
+l.350 			// Se X[right] è 
+                           già presente (frequenza > 1), restringiamo la fi...
 
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2233,8 +2233,40 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.323 .... Nella posizione 1, ad esempio, se c'è 
-                                                  il numero 2, vuol dire che...
+l.350 			// Se X[right] è 
+                           già presente (frequenza > 1), restringiamo la fi...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.350 			// Se X[right] è già 
+                                presente (frequenza > 1), restringiamo la fi...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.350 			// Se X[right] è già 
+                                presente (frequenza > 1), restringiamo la fi...
 
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2246,14 +2278,16 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [77]
 
+[78]
+
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.347 		// quando è 
-                     rispettata la condizione (o non rispettata,
+l.476 		// Se la canzone K[right] è 
+                                     già presente (occorrenze > 1),
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -2267,8 +2301,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.347 		// quando è 
-                     rispettata la condizione (o non rispettata,
+l.476 		// Se la canzone K[right] è 
+                                     già presente (occorrenze > 1),
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -2276,21 +2310,112 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
 
-[78]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.476 		// Se la canzone K[right] è già 
+                                          presente (occorrenze > 1),
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.476 		// Se la canzone K[right] è già 
+                                          presente (occorrenze > 1),
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 		// la finestra non è 
+                              più valida (ci sono duplicati)
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 		// la finestra non è 
+                              più valida (ci sono duplicati)
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 		// la finestra non è più 
+                                   valida (ci sono duplicati)
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "B9.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 		// la finestra non è più 
+                                   valida (ci sono duplicati)
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
 
 [79]
 
 [80]
 
+[81]
+
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.536 				// Se il bit è 
-                          0, lo porto a 1 e mi fermo
+l.579 .... Nella posizione 1, ad esempio, se c'è 
+                                                  il numero 2, vuol dire che...
+
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -2304,8 +2429,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.536 				// Se il bit è 
-                          0, lo porto a 1 e mi fermo
+l.579 .... Nella posizione 1, ad esempio, se c'è 
+                                                  il numero 2, vuol dire che...
+
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -2314,14 +2440,84 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[81]
-
 [82]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.603 			// quando è 
+                      rispettata la condizione (o non rispettata,
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.603 			// quando è 
+                      rispettata la condizione (o non rispettata,
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
 
 [83]
 
 [84]
-Underfull \hbox (badness 10000) in paragraph at lines 720--721
+
+[85]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.784 				// Se il bit è 
+                          0, lo porto a 1 e mi fermo
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.784 				// Se il bit è 
+                          0, lo porto a 1 e mi fermo
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[86]
+
+[87]
+
+[88]
+
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 968--969
 
  []
 
@@ -2332,7 +2528,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.787 ...[0] = v[0];      // il primo elemento è 
+l.1035 ...0] = v[0];      // il primo elemento è 
                                                   lo stesso di v[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2347,7 +2543,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.787 ...[0] = v[0];      // il primo elemento è 
+l.1035 ...0] = v[0];      // il primo elemento è 
                                                   lo stesso di v[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2357,17 +2553,17 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[85]
-Underfull \hbox (badness 10000) in paragraph at lines 816--817
+[90]
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1065
 
  []
 
 
 
-[86]
+[91]
 ! Misplaced alignment tab character &.
-l.857 	\item	$1 &
-                 \le M \le N \le 2\cdot10^5 \hspace{0.1cm}000$
+l.1105 	\item	$1 &
+                  \le M \le N \le 2\cdot10^5 \hspace{0.1cm}000$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2383,15 +2579,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.858 	\item	$−
-                 2\cdot10^5 &\le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace{...
+l.1106 	\item	$−
+                  2\cdot10^5 &\le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 ! Misplaced alignment tab character &.
-l.858 	\item	$−2\cdot10^5 &
-                             \le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace{...
+l.1106 	\item	$−2\cdot10^5 &
+                              \le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2401,11 +2597,11 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[87]
+[92]
 
-[88]
+[93]
 
-[89]
+[94]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
@@ -2413,7 +2609,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1038 ...rimo elemento della somma cumulativa è 
+l.1286 ...rimo elemento della somma cumulativa è 
                                                   A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2428,7 +2624,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1038 ...rimo elemento della somma cumulativa è 
+l.1286 ...rimo elemento della somma cumulativa è 
                                                   A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2443,7 +2639,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1048 ...[0] = 0; // il primo elemento pesato è 
+l.1296 ...[0] = 0; // il primo elemento pesato è 
                                                   0*A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2458,7 +2654,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1048 ...[0] = 0; // il primo elemento pesato è 
+l.1296 ...[0] = 0; // il primo elemento pesato è 
                                                   0*A[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2468,9 +2664,9 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[90])
+[95])
 
-[91] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
+[96] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
 (TeX_files/1 - Complessita Computazionale.aux)
 (TeX_files/2 - Strutture Dati.aux)
 (TeX_files/3 - Brute Force e Algoritmi Greedy.aux)
@@ -2483,15 +2679,18 @@ L3 programming layer <2025-09-02>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `"Preparazione alle olimpiadi".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: F0172AF3F22B7529BF92F27D34ED8815;14414.
+(rerunfilecheck)             Checksum: C9316A7014AFB6E7DDB8D3FB303ABF99;14414.
  ) 
 Here is how much of TeX's memory you used:
- 17944 strings out of 468130
- 293235 string characters out of 5430633
+ 18056 strings out of 468130
+ 294958 string characters out of 5430633
  1239044 words of memory out of 5000000
- 44535 multiletter control sequences out of 15000+600000
+ 44539 multiletter control sequences out of 15000+600000
  646619 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,15n,79p,755b,2055s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2524,9 +2723,9 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (93 pages, 1158249 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (98 pages, 1189253 bytes).
 PDF statistics:
- 3547 PDF objects out of 3580 (max. 8388607)
- 1753 named destinations out of 2073 (max. 500000)
+ 3694 PDF objects out of 4296 (max. 8388607)
+ 1861 named destinations out of 2073 (max. 500000)
  713 words of extra memory for PDF output out of 10000 (max. 10000000)
 
