@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  30 JAN 2026 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  3 FEB 2026 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2674,16 +2674,9 @@ L3 programming layer <2025-09-02>
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `"Preparazione alle olimpiadi".out' has ch
-anged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Preparazione alle olimpiadi".out':
-
-(rerunfilecheck)             Before: 44B0AA20CE4525FDBA6FAC6E7323E9C9;15038
-(rerunfilecheck)             After:  05DE3AD57DC6645D85944A770ECC365E;15028.
+Package rerunfilecheck Info: File `"Preparazione alle olimpiadi".out' has not c
+hanged.
+(rerunfilecheck)             Checksum: 05DE3AD57DC6645D85944A770ECC365E;15028.
  ) 
 Here is how much of TeX's memory you used:
  18088 strings out of 468130
@@ -2722,7 +2715,7 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (98 pages, 1194903 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (98 pages, 1194885 bytes).
 PDF statistics:
  3715 PDF objects out of 4296 (max. 8388607)
  1865 named destinations out of 2073 (max. 500000)
