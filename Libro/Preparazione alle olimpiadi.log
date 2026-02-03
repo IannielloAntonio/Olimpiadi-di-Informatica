@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  28 JAN 2026 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  30 JAN 2026 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,18 +558,6 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks33
 \@floatcapt=\box67
 )
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \
-      
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen187
@@ -603,29 +591,30 @@ File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 (TeX_files/1 - Complessita Computazionale.aux)
 (TeX_files/2 - Strutture Dati.aux)
 (TeX_files/3 - Brute Force e Algoritmi Greedy.aux)
-(TeX_files/4 - Pattern Algoritmici.aux))
+(TeX_files/4 - Pattern Algoritmici.aux)
+(TeX_files/5 - Programmazione Dinamica.aux))
 \openout1 = `"Preparazione alle olimpiadi.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Info: Redefining \it@ocap on input line 45.
-LaTeX Info: Redefining \it@ccap on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Info: Redefining \it@ocap on input line 44.
+LaTeX Info: Redefining \it@ccap on input line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -661,7 +650,7 @@ LaTeX Info: Redefining \it@ccap on input line 45.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 44.
 (Preparazione alle olimpiadi.out) (Preparazione alle olimpiadi.out)
 \@outlinefile=\write3
 \openout3 = `"Preparazione alle olimpiadi.out"'.
@@ -711,14 +700,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 [1
 
 {C:/Users/Anton/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.48 	\newpage
-               [1] (Preparazione alle olimpiadi.toc
+(Preparazione alle olimpiadi.toc
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -772,7 +754,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=439, 359.09157pt x 26
+<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=451, 359.09157pt x 26
 4.99pt>
 File: immagini/1 - Complessità Computazionale/Ogrande.jpg Graphic file (type j
 pg)
@@ -793,7 +775,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
 
-<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=441, 359.09157pt 
+<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=453, 359.09157pt 
 x 271.76532pt>
 File: immagini/1 - Complessità Computazionale/Sigmagrande.jpg Graphic file (ty
 pe jpg)
@@ -881,7 +863,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 
 
 ]
-<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=646, 231.11343pt x 
+<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=658, 231.11343pt x 
 82.80937pt>
 File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
  png)
@@ -889,7 +871,7 @@ File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectoriteratori.png
   used on input line 74.
 (pdftex.def)             Requested size: 193.47578pt x 69.32436pt.
-<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=648, 176.91093pt x 81
+<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=660, 176.91093pt x 81
 .30376pt>
 File: immagini/2 - Strutture Dati/vector/vectoraccesso.png Graphic file (type p
 ng)
@@ -901,7 +883,7 @@ used on input line 96.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=649, 228.10219pt x 1
+<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=661, 228.10219pt x 1
 40.02313pt>
 File: immagini/2 - Strutture Dati/vector/vectorpushback.png Graphic file (type 
 png)
@@ -921,7 +903,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.119 	\newpage
                 <./immagini/2 - Strutture Dati/vector/vectoriteratori.png>]
-<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=677, 200.24812pt x 12
+<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=688, 200.24812pt x 12
 7.22531pt>
 File: immagini/2 - Strutture Dati/vector/vectorpopback.png Graphic file (type p
 ng)
@@ -929,7 +911,7 @@ ng)
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectorpopback.png  
 used on input line 130.
 (pdftex.def)             Requested size: 145.11053pt x 92.20006pt.
-<immagini/2 - Strutture Dati/vector/vectorsize.png, id=678, 283.81032pt x 51.19
+<immagini/2 - Strutture Dati/vector/vectorsize.png, id=689, 283.81032pt x 51.19
 125pt>
 File: immagini/2 - Strutture Dati/vector/vectorsize.png Graphic file (type png)
 
@@ -977,7 +959,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.244 \newpage
               ]
-<immagini/2 - Strutture Dati/map/map.png, id=722, 443.40656pt x 259.7203pt>
+<immagini/2 - Strutture Dati/map/map.png, id=734, 443.40656pt x 259.7203pt>
 File: immagini/2 - Strutture Dati/map/map.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/map/map.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/map/map.png  used on input
@@ -1065,7 +1047,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.450 \newpage
               ]
-<immagini/2 - Strutture Dati/Set/set.png, id=809, 344.03531pt x 137.01187pt>
+<immagini/2 - Strutture Dati/Set/set.png, id=821, 344.03531pt x 137.01187pt>
 File: immagini/2 - Strutture Dati/Set/set.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Set/set.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/Set/set.png  used on input
@@ -1187,7 +1169,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.869 \newpage
               ]
-<immagini/2 - Strutture Dati/Stack/stack.png, id=1031, 353.82187pt x 212.29312p
+<immagini/2 - Strutture Dati/Stack/stack.png, id=1043, 353.82187pt x 212.29312p
 t>
 File: immagini/2 - Strutture Dati/Stack/stack.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Stack/stack.png>
@@ -1214,7 +1196,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1037 \newpage
                ]
-<immagini/2 - Strutture Dati/queue/queue.png, id=1113, 310.91156pt x 91.09032pt
+<immagini/2 - Strutture Dati/queue/queue.png, id=1124, 310.91156pt x 91.09032pt
 >
 File: immagini/2 - Strutture Dati/queue/queue.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/queue/queue.png>
@@ -1341,7 +1323,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1363 \newpage
                ]
-<immagini/2 - Strutture Dati/Deque/deque.png, id=1265, 646.66594pt x 280.04625p
+<immagini/2 - Strutture Dati/Deque/deque.png, id=1276, 646.66594pt x 280.04625p
 t>
 File: immagini/2 - Strutture Dati/Deque/deque.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Deque/deque.png>
@@ -1761,7 +1743,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [62]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introduttivo.p
-ng, id=1699, 685.05937pt x 449.42906pt>
+ng, id=1711, 685.05937pt x 449.42906pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutt
 ivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutti
@@ -1780,7 +1762,7 @@ l.867 	\item $
               M_1 + M_4 + M_5$ <./immagini/3 - Brute Force e Algoritmi Greedy/I
 dee Greedy/Esempio Introduttivo.png>]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Introdut
-tivo.png, id=1708, 654.19406pt x 416.30531pt>
+tivo.png, id=1720, 654.19406pt x 416.30531pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Int
 roduttivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Intr
@@ -2138,7 +2120,7 @@ Capitolo 4.
 
 
 ]
-<immagini/4 - Pattern Algoritmici/Sliding window.png, id=1892, 284.39583pt x 17
+<immagini/4 - Pattern Algoritmici/Sliding window.png, id=1903, 284.39583pt x 17
 1.97583pt>
 File: immagini/4 - Pattern Algoritmici/Sliding window.png Graphic file (type pn
 g)
@@ -2190,7 +2172,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 [74]
-<immagini/4 - Pattern Algoritmici/Sliding window mobile.png, id=2002, 963.6pt x
+<immagini/4 - Pattern Algoritmici/Sliding window mobile.png, id=2014, 963.6pt x
  542.025pt>
 File: immagini/4 - Pattern Algoritmici/Sliding window mobile.png Graphic file (
 type png)
@@ -2666,11 +2648,24 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [95])
 
-[96] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
+[96]
+\openout2 = `"TeX_files/5 - Programmazione Dinamica.aux"'.
+
+ (TeX_files/5 - Programmazione Dinamica.tex
+Capitolo 5.
+)
+
+[97
+
+
+
+
+] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
 (TeX_files/1 - Complessita Computazionale.aux)
 (TeX_files/2 - Strutture Dati.aux)
 (TeX_files/3 - Brute Force e Algoritmi Greedy.aux)
-(TeX_files/4 - Pattern Algoritmici.aux))
+(TeX_files/4 - Pattern Algoritmici.aux)
+(TeX_files/5 - Programmazione Dinamica.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -2679,15 +2674,22 @@ L3 programming layer <2025-09-02>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `"Preparazione alle olimpiadi".out' has not c
-hanged.
-(rerunfilecheck)             Checksum: C9316A7014AFB6E7DDB8D3FB303ABF99;14414.
+
+Package rerunfilecheck Warning: File `"Preparazione alle olimpiadi".out' has ch
+anged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Preparazione alle olimpiadi".out':
+
+(rerunfilecheck)             Before: 44B0AA20CE4525FDBA6FAC6E7323E9C9;15038
+(rerunfilecheck)             After:  05DE3AD57DC6645D85944A770ECC365E;15028.
  ) 
 Here is how much of TeX's memory you used:
- 18056 strings out of 468130
- 294958 string characters out of 5430633
- 1239044 words of memory out of 5000000
- 44539 multiletter control sequences out of 15000+600000
+ 18088 strings out of 468130
+ 296505 string characters out of 5430633
+ 1239036 words of memory out of 5000000
+ 44560 multiletter control sequences out of 15000+600000
  646619 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,15n,79p,755b,2055s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2707,11 +2709,11 @@ Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\
 Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk
 > <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1
 200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecbx1200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\ecbx2488.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\ecrm1440.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecrm2074.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Anton/AppData/Local/Programs/MiK
+\ecrm1200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\ecbx1200.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecbx2488.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/Anton/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Anton/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Anton/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Anton/
@@ -2720,9 +2722,9 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (98 pages, 1189237 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (98 pages, 1194903 bytes).
 PDF statistics:
- 3694 PDF objects out of 4296 (max. 8388607)
- 1861 named destinations out of 2073 (max. 500000)
- 713 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3715 PDF objects out of 4296 (max. 8388607)
+ 1865 named destinations out of 2073 (max. 500000)
+ 737 words of extra memory for PDF output out of 10000 (max. 10000000)
 
