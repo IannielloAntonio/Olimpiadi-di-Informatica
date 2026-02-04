@@ -85,6 +85,7 @@
 \contentsline {subsubsection}{Idea (Bitmask)}{85}{section*.67}%
 \contentsline {section}{\numberline {4.3}Prefix Sum}{88}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}C - Index × A(Continuous ver.)}{92}{subsection.4.3.1}%
-\contentsline {chapter}{\numberline {5}Programmazione Dinamica}{97}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Programmazione dinamica ricorsiva}{97}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Programmazione dinamica iterativa}{97}{section.5.2}%
+\contentsline {chapter}{\numberline {5}Binary Search}{97}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Programmazione Dinamica}{98}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Programmazione dinamica ricorsiva}{98}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Programmazione dinamica iterativa}{98}{section.6.2}%

@@ -1,0 +1,31 @@
+% !TEX root = ../Preparazione alle olimpiadi.tex
+
+\chapter{Binary Search}
+
+
+La \textbf{ricerca binaria} (o \emph{binary search}) è un algoritmo efficiente per individuare un elemento all'interno di una collezione di dati \textbf{ordinata} (ad esempio un array o una lista).
+
+L'idea fondamentale della ricerca binaria si basa sulla strategia del \emph{divide et impera}: invece di controllare tutti gli elementi uno per uno (come avviene nella ricerca sequenziale), l'algoritmo confronta l'elemento cercato con quello centrale della struttura dati e, in base al risultato del confronto, elimina metà dello spazio di ricerca ad ogni iterazione.
+
+Il procedimento è il seguente:
+\begin{enumerate}
+	\item Si considera l'elemento centrale dell'array.
+	\item Se esso coincide con il valore cercato, la ricerca termina con successo.
+	\item Se il valore cercato è minore dell'elemento centrale, si continua la ricerca nella metà sinistra dell'array.
+	\item Se il valore cercato è maggiore dell'elemento centrale, si continua la ricerca nella metà destra dell'array.
+	\item Il processo viene ripetuto finché l'elemento viene trovato oppure l'intervallo di ricerca diventa vuoto.
+\end{enumerate}
+
+Grazie a questa strategia, il numero di confronti cresce in modo logaritmico rispetto alla dimensione dei dati: la complessità temporale della ricerca binaria è infatti pari a \(\mathcal{O}(\log n)\), risultando molto più efficiente rispetto alla ricerca sequenziale, che ha complessità \(\mathcal{O}(n)\).
+
+È importante sottolineare che la ricerca binaria può essere applicata esclusivamente a strutture dati ordinate; in caso contrario, l'algoritmo non garantisce la correttezza del risultato.
+
+\bigskip 
+\noindent \textbf{Esempio: ricerca del compleanno}
+
+ Si supponga di dover indovinare il giorno del compleanno di una persona all'interno di un dato mese.
+ Partiamo quindi con un \texttt{vector} ordinato (o se vogliamo un \texttt{set}) contente tutti i giorni del mese all'interno del quale cerchiamo il giorno del compleanno della persona.
+ Si supponga, inoltre, che il la 
+ 
+ 
+
