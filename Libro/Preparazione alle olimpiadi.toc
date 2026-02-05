@@ -83,7 +83,7 @@
 \contentsline {section}{\numberline {4.2}Bitmask}{83}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Apple Division}{86}{subsection.4.2.1}%
 \contentsline {subsubsection}{Idea (Bitmask)}{87}{section*.67}%
-\contentsline {section}{\numberline {4.3}Prefix Sum}{90}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Prefix Sum}{91}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}C - Index × A(Continuous ver.)}{95}{subsection.4.3.1}%
 \contentsline {chapter}{\numberline {5}Binary Search}{100}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Programmazione Dinamica}{101}{chapter.6}%
