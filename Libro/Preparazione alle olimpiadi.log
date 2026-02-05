@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  4 FEB 2026 18:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  5 FEB 2026 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2461,45 +2461,51 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [85]
 
-! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.784 				// Se il bit è 
-                          0, lo porto a 1 e mi fermo
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.784 				// Se il bit è 
-                          0, lo porto a 1 e mi fermo
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-
 [86]
 
 [87]
 
 [88]
 
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.918 				// Se il bit è 
+                          0, lo porto a 1 e mi fermo
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.918 				// Se il bit è 
+                          0, lo porto a 1 e mi fermo
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
 [89]
-Underfull \hbox (badness 10000) in paragraph at lines 968--969
+
+[90]
+
+[91]
+
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
 
  []
 
@@ -2510,7 +2516,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1035 ...0] = v[0];      // il primo elemento è 
+l.1169 ...0] = v[0];      // il primo elemento è 
                                                   lo stesso di v[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2525,7 +2531,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1035 ...0] = v[0];      // il primo elemento è 
+l.1169 ...0] = v[0];      // il primo elemento è 
                                                   lo stesso di v[0]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2535,16 +2541,16 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 1064--1065
+[93]
+Underfull \hbox (badness 10000) in paragraph at lines 1198--1199
 
  []
 
 
 
-[91]
+[94]
 ! Misplaced alignment tab character &.
-l.1105 	\item	$1 &
+l.1239 	\item	$1 &
                   \le M \le N \le 2\cdot10^5 \hspace{0.1cm}000$
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2561,14 +2567,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1106 	\item	$−
+l.1240 	\item	$−
                   2\cdot10^5 &\le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 ! Misplaced alignment tab character &.
-l.1106 	\item	$−2\cdot10^5 &
+l.1240 	\item	$−2\cdot10^5 &
                               \le A_i \le 2\cdot10^5\hspace{0.1cm}000\hspace...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2579,83 +2585,83 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[92]
-
-[93]
-
-[94]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1286 ...rimo elemento della somma cumulativa è 
-                                                  A[0]
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1286 ...rimo elemento della somma cumulativa è 
-                                                  A[0]
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1296 ...[0] = 0; // il primo elemento pesato è 
-                                                  0*A[0]
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1296 ...[0] = 0; // il primo elemento pesato è 
-                                                  0*A[0]
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-
-[95])
+[95]
 
 [96]
+
+[97]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1420 ...rimo elemento della somma cumulativa è 
+                                                  A[0]
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1420 ...rimo elemento della somma cumulativa è 
+                                                  A[0]
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1430 ...[0] = 0; // il primo elemento pesato è 
+                                                  0*A[0]
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1430 ...[0] = 0; // il primo elemento pesato è 
+                                                  0*A[0]
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[98])
+
+[99]
 \openout2 = `"TeX_files/5 - Binary Search.aux"'.
 
  (TeX_files/5 - Binary Search.tex
 Capitolo 5.
 )
 
-[97
+[100
 
 
 
@@ -2667,7 +2673,7 @@ Capitolo 5.
 Capitolo 6.
 )
 
-[98
+[101
 
 
 
@@ -2691,13 +2697,13 @@ hanged.
 (rerunfilecheck)             Checksum: 5B991B0411E50D43FBCBD23D60A7A809;15140.
  ) 
 Here is how much of TeX's memory you used:
- 18121 strings out of 468130
- 297789 string characters out of 5430633
+ 18191 strings out of 468130
+ 298812 string characters out of 5430633
  1239036 words of memory out of 5000000
- 44579 multiletter control sequences out of 15000+600000
+ 44585 multiletter control sequences out of 15000+600000
  646619 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,15n,79p,755b,2055s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 76i,15n,79p,819b,2108s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx
 1440.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ectt1000.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -2727,9 +2733,10 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (99 pages, 1199965 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (102 pages, 1218015 bytes).
+
 PDF statistics:
- 3733 PDF objects out of 4296 (max. 8388607)
- 1872 named destinations out of 2073 (max. 500000)
+ 3818 PDF objects out of 4296 (max. 8388607)
+ 1936 named destinations out of 2073 (max. 500000)
  745 words of extra memory for PDF output out of 10000 (max. 10000000)
 

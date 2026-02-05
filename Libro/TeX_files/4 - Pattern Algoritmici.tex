@@ -646,7 +646,141 @@ Essa è particolarmente utile nei problemi di programmazione competitiva e di pr
 	\item ridurre l’uso della memoria rispetto a strutture dati più complesse.
 \end{itemize}
 
+\bigskip
+Per applicare la tecnica della \texttt{bitmask} si procede nel seguente modo:
 
+\begin{enumerate}
+	\item Si costruisce un vettore di valori booleani (oppure binari) che rappresenta una configurazione.  
+	Ogni posizione del vettore assume valore $0$ oppure $1$ e indica l’appartenenza dell’elemento corrispondente a uno dei due gruppi.
+	
+	\item A partire dalla configurazione definita dalla bitmask, si esegue il calcolo richiesto sui due gruppi ottenuti.
+	
+	\item Si incrementa di una unità il numero binario rappresentato dal vettore, generando così una nuova configurazione e una nuova suddivisione degli elementi in gruppi.
+	
+	\item Il procedimento viene ripetuto fino a esaurire tutte le possibili configurazioni.
+\end{enumerate}
+
+\bigskip
+\noindent \textbf{Esempio}
+
+Dato un insieme di \( N \) valori, vogliamo calcolare la somma di ogni possibile sottoinsieme.
+
+\bigskip
+\noindent \textbf{Input}
+
+\begin{itemize}
+	\item La prima riga contiene un intero \( N \) (\(1 \le N \le 20\)): il numero di valori.
+	\item La seconda riga contiene \( N \) interi \( a_1, a_2, \dots, a_N \) (\(1 \le a_i \le 10^6\)), separati da spazio: i valori dell’insieme.
+\end{itemize}
+
+\bigskip
+\noindent \textbf{Output}
+
+Stampare su righe separate la somma di ogni possibile sottoinsieme. L’ordine dei sottoinsiemi non è rilevante.
+
+\bigskip
+\noindent \textbf{Vincoli}
+
+\[
+1 \le N \le 20, \quad 1 \le a_i \le 10^6
+\]
+
+\bigskip
+\noindent \textbf{Esempio di input}
+
+\begin{verbatim}
+	3
+	1 2 3
+\end{verbatim}
+
+\noindent \textbf{Esempio di output}
+
+\begin{verbatim}
+	0
+	1
+	2
+	3
+	3
+	4
+	5
+	6
+\end{verbatim}
+
+\noindent \textbf{Spiegazione}
+
+I sottoinsiemi di \(\{1,2,3\}\) sono:
+
+\[
+\emptyset, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}
+\]
+
+Le rispettive somme sono stampate nell’output.
+
+
+\bigskip \textbf{Implementazione C++:}
+
+\begin{lstlisting}[language=C++]
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int N;
+	cin >> N;  // legge il numero di elementi dell'array
+	
+	vector<int64_t> a(N);  // array degli elementi
+	for(int i=0; i<N; i++){
+		cin >> a[i];  // legge gli N elementi dell'array
+	}
+	
+	// vettore di booleani per rappresentare il "bitmask" (sottoinsieme corrente)
+	vector<bool> bitmask(N, 0); 
+	
+	int64_t somma;           // variabile per memorizzare la somma del sottoinsieme corrente
+	bool finished = false;   // variabile che indica se abbiamo generato tutte le combinazioni
+	
+	// ciclo principale: continua finche' non abbiamo generato tutte le combinazioni
+	while(!finished){
+		somma = 0;
+		
+		// calcola la somma degli elementi selezionati nel sottoinsieme corrente
+		for(int i=0; i<N; i++){
+			if(bitmask[i]==1){       // se il bit i e' acceso, includo l'elemento
+				somma += a[i]; 
+			}
+		}
+		
+		cout << somma << endl;  // stampa la somma del sottoinsieme corrente
+		
+		// incremento del "bitmask" come se fosse un contatore binario
+		for(int i=N-1; i>=0; i--){  // partiamo dall'ultimo bit (bit meno significativo)
+			if(bitmask[i] == 0){    // se il bit e' spento
+				bitmask[i] = 1;     // accendilo
+				break;               // interrompi il ciclo: non serve fare carry
+			}
+			else{
+				bitmask[i] = 0;     // se il bit era acceso, resetta a 0 (carry)
+			}
+		}
+		
+		// controllo se abbiamo generato tutte le combinazioni
+		finished = true;  // assumiamo che sia l'ultima combinazione
+		for (int i=0; i<N; i++){
+			if(bitmask[i] != 0){  // se almeno un bit e' acceso
+				finished = false;  // non e' l'ultima combinazione
+				break;
+			} 
+		}
+		
+	}
+	
+	return 0;  
+}
+
+\end{lstlisting}
+
+
+L'approccio utilizzato nel programma consiste nel generare tutte le possibili combinazioni dei sottoinsiemi di un insieme di \(N\) elementi tramite un contatore binario (bitmask). Sebbene sia semplice da implementare, questo metodo è molto dispendioso dal punto di vista computazionale, perché il numero totale di combinazioni possibili è \(2^N\). Di conseguenza, il tempo di esecuzione cresce in maniera esponenziale all'aumentare di \(N\), rendendo questa soluzione praticabile solo per valori relativamente piccoli (tipicamente \(N \le 20\)). Per insiemi più grandi, infatti, il numero di sottoinsiemi diventa così elevato da rendere l'algoritmo estremamente lento e poco efficiente in termini di prestazioni.
 
 
 

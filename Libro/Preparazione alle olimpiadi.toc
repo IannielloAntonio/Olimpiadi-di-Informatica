@@ -81,11 +81,11 @@
 \contentsline {subsection}{\numberline {4.1.2}Playlist}{78}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}Christmas Light}{81}{subsection.4.1.3}%
 \contentsline {section}{\numberline {4.2}Bitmask}{83}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Apple Division}{84}{subsection.4.2.1}%
-\contentsline {subsubsection}{Idea (Bitmask)}{85}{section*.67}%
-\contentsline {section}{\numberline {4.3}Prefix Sum}{88}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}C - Index × A(Continuous ver.)}{92}{subsection.4.3.1}%
-\contentsline {chapter}{\numberline {5}Binary Search}{97}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Programmazione Dinamica}{98}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Programmazione dinamica ricorsiva}{98}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Programmazione dinamica iterativa}{98}{section.6.2}%
+\contentsline {subsection}{\numberline {4.2.1}Apple Division}{86}{subsection.4.2.1}%
+\contentsline {subsubsection}{Idea (Bitmask)}{87}{section*.67}%
+\contentsline {section}{\numberline {4.3}Prefix Sum}{90}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}C - Index × A(Continuous ver.)}{95}{subsection.4.3.1}%
+\contentsline {chapter}{\numberline {5}Binary Search}{100}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Programmazione Dinamica}{101}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Programmazione dinamica ricorsiva}{101}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Programmazione dinamica iterativa}{101}{section.6.2}%
