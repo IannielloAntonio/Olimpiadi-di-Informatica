@@ -86,6 +86,6 @@
 \contentsline {section}{\numberline {4.3}Prefix Sum}{91}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}C - Index × A(Continuous ver.)}{95}{subsection.4.3.1}%
 \contentsline {chapter}{\numberline {5}Binary Search}{100}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Programmazione Dinamica}{101}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Programmazione dinamica ricorsiva}{101}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Programmazione dinamica iterativa}{101}{section.6.2}%
+\contentsline {chapter}{\numberline {6}Programmazione Dinamica}{105}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Programmazione dinamica ricorsiva}{105}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Programmazione dinamica iterativa}{105}{section.6.2}%

@@ -21,11 +21,219 @@ Grazie a questa strategia, il numero di confronti cresce in modo logaritmico ris
 È importante sottolineare che la ricerca binaria può essere applicata esclusivamente a strutture dati ordinate; in caso contrario, l'algoritmo non garantisce la correttezza del risultato.
 
 \bigskip 
-\noindent \textbf{Esempio: ricerca del compleanno}
+\noindent\textbf{Esempio: ricerca del giorno di compleanno}
 
- Si supponga di dover indovinare il giorno del compleanno di una persona all'interno di un dato mese.
- Partiamo quindi con un \texttt{vector} ordinato (o se vogliamo un \texttt{set}) contente tutti i giorni del mese all'interno del quale cerchiamo il giorno del compleanno della persona.
- Si supponga, inoltre, che il la 
- 
- 
+Si supponga di voler individuare il giorno del compleanno di una persona all’interno di un determinato mese.
+Consideriamo un \texttt{vector} ordinato contenente tutti i giorni del mese:
+
+\[
+\texttt{giorni} = [1, 2, 3, \dots, N]
+\]
+
+dove $N$ rappresenta il numero di giorni del mese.
+Il valore \texttt{compleanno} indica il giorno da individuare.
+
+\medskip
+
+Una prima strategia consiste nello scorrere linearmente il vettore confrontando ciascun elemento con il valore cercato:
+
+\begin{lstlisting}[language=C++]
+	// N = numero di giorni del mese
+	// vector<int> giorni(N)
+	// compleanno = giorno da indovinare
+	
+	for(int i = 0; i < N; i++){
+		if(giorni[i] == compleanno){
+			trovato = true;
+			indice = i;
+			break;
+		}
+	}
+\end{lstlisting}
+
+Questa soluzione presenta una complessità computazionale pari a:
+\[
+O(N)
+\]
+poiché nel caso peggiore è necessario controllare tutti gli elementi del vettore.
+
+\medskip
+
+È possibile migliorare questa strategia sfruttando il fatto che il vettore è ordinato.
+Invece di chiedere direttamente:  
+\emph{``Sei nato in questo giorno?''},  
+possiamo formulare domande del tipo:  
+\emph{``Sei nato prima del giorno $x$?''}, alle quali la persona può rispondere soltanto con \texttt{sì} o \texttt{no}.
+
+In questo modo è possibile scartare, ad ogni passo, metà dei giorni ancora candidati.
+
+\medskip
+
+L’algoritmo mantiene tre indici:
+\begin{itemize}
+	\item \textbf{LOW}: indice del primo giorno considerato;
+	\item \textbf{HIGH}: indice dell’ultimo giorno considerato;
+	\item \textbf{MID}: indice centrale tra \textbf{LOW} e \textbf{HIGH}.
+\end{itemize}
+
+Inizialmente:
+\[
+\texttt{LOW} = 0, \quad \texttt{HIGH} = N - 1
+\]
+
+e:
+\[
+\texttt{MID} = \left\lfloor \frac{\texttt{LOW} + \texttt{HIGH}}{2} \right\rfloor
+\]
+
+La rappresentazione grafica iniziale è mostrata in Figura \ref{fig:5 - Binary Search:esempio-compleanno-1}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{immagini/5 - Binary Search/Esempio-compleanno-1.png}
+	\caption{Vettore ordinato dei giorni del mese e posizioni iniziali degli indici \textbf{LOW}, \textbf{MID} e \textbf{HIGH}.}
+	\label{fig:5 - Binary Search:esempio-compleanno-1}
+\end{figure}
+
+Se il giorno del compleanno coincide con \textbf{MID}, l’algoritmo termina con successo.
+
+Se alla domanda:
+\begin{quote}
+	``Sei nato prima del giorno \texttt{giorni[MID]}?''
+\end{quote}
+la risposta è \texttt{sì}, allora tutti i giorni successivi o uguali a \texttt{MID} possono essere scartati.
+Si aggiorna quindi:
+\[
+\texttt{HIGH} = \texttt{MID} - 1
+\]
+
+Se invece la risposta è \texttt{no}, allora il compleanno si trova necessariamente dopo \texttt{MID} e si aggiorna:
+\[
+\texttt{LOW} = \texttt{MID} + 1
+\]
+
+L'aggiornamento dopo tutte le iterazioni è riportato in Figura \ref{fig:5 - Binary Search:esempio-compleanno-2}, Figura \ref{fig:5 - Binary Search:esempio-compleanno-3}, Figura \ref{fig:5 - Binary Search:esempio-compleanno-4}, Figura \ref{fig:5 - Binary Search:esempio-compleanno-5}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{immagini/5 - Binary Search/Esempio-compleanno-2.png}
+	\caption{Posizione degli indici dopo la prima iterazione: tutti i giorni maggiori o uguali a $15$ vengono scartati.}
+	\label{fig:5 - Binary Search:esempio-compleanno-2}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{immagini/5 - Binary Search/Esempio-compleanno-3.png}
+	\caption{Posizione degli indici dopo la seconda iterazione: tutti i giorni maggiori o uguali a $7$ vengono scartati.}
+	\label{fig:5 - Binary Search:esempio-compleanno-3}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{immagini/5 - Binary Search/Esempio-compleanno-4.png}
+	\caption{Posizione degli indici dopo la terza iterazione: tutti i giorni minori o uguali a $3$ vengono scartati.}
+	\label{fig:5 - Binary Search:esempio-compleanno-4}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{immagini/5 - Binary Search/Esempio-compleanno-5.png}
+	\caption{Posizione degli indici dopo la quarta iterazione: tutti gli indici puntano allo stesso elemento del vector.}
+	\label{fig:5 - Binary Search:esempio-compleanno-5}
+\end{figure}
+
+
+
+
+A ogni iterazione l’intervallo di ricerca viene dimezzato.
+Ripetendo questo procedimento si individua l’unico giorno possibile compatibile con le risposte fornite.
+
+\medskip
+
+\medskip
+
+La codifica risulta la seguente:
+
+\begin{lstlisting}[language=C++]
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+	// Numero di giorni nel mese (ipotizziamo 30)
+	int N = 30; 
+	
+	// Creiamo un vettore che contiene tutti i giorni del mese
+	vector<int> giorni(N);
+	
+	// Riempimento del vettore: giorni[0] = 1, giorni[1] = 2, ..., giorni[29] = 30
+	for(int i=0; i<N; i++){
+		giorni[i] = i+1;
+	}
+	
+	// Inizializziamo gli indici per la ricerca binaria
+	int low = 0;        // primo indice del vettore
+	int high = N-1;     // ultimo indice del vettore
+	int mid = 0;        // indice centrale (verrà calcolato nel ciclo)
+	
+	int compleanno = 4; // il giorno del compleanno che vogliamo trovare
+	int ans = -1;       // qui salveremo l'indice del giorno trovato (-1 significa "non trovato")
+	
+	// Ciclo principale della ricerca binaria
+	// continua finché l'intervallo non è vuoto
+	while(low <= high){
+		// Calcoliamo l'indice centrale tra low e high
+		mid = (high + low)/2;
+		
+		// Se il giorno centrale corrisponde al compleanno
+		if(giorni[mid] == compleanno){
+			ans = mid; // salviamo l'indice
+			break;     // interrompiamo il ciclo, abbiamo trovato il giorno
+		}
+		
+		// Se il giorno centrale è maggiore del compleanno
+		// significa che il compleanno si trova nella metà sinistra
+		if(giorni[mid] > compleanno){
+			high = mid - 1; // aggiorniamo high per escludere la metà destra
+		}
+		else{
+			// Altrimenti il giorno centrale è minore del compleanno
+			// il compleanno si trova nella metà destra
+			low = mid + 1;  // aggiorniamo low per escludere la metà sinistra
+		}
+	}
+	
+	// Stampa del risultato
+	// giorni[ans] contiene il giorno trovato
+	cout << "Sei nato il giorno: " << giorni[ans];
+	
+	// Nota: se il giorno non fosse presente nel vettore, ans resterebbe -1
+	// e sarebbe meglio gestire il caso con un controllo
+	// if(ans != -1) cout << giorni[ans]; else cout << "Giorno non trovato";
+}
+
+\end{lstlisting}
+
+
+\medskip
+
+\medskip
+
+
+
+\noindent Poiché a ogni passo della ricerca binaria si scarta metà degli elementi ancora candidati, il numero di elementi da controllare può essere calcolato nel seguente modo:
+
+\[
+N \;\rightarrow\; \frac{N}{2} \;\rightarrow\; \frac{N}{4} \;\rightarrow\; \frac{N}{8} \;\rightarrow\; \dots \;\rightarrow\; \frac{N}{2^k} = 1
+\]
+
+Dove $k$ indica il numero di iterazioni necessarie per arrivare a un singolo elemento.  
+Dal momento che \(\frac{N}{2^k} = 1\), ricaviamo:
+
+\[
+2^k = N \quad \Rightarrow \quad k = \log_2 N
+\]
+
+Quindi, nel caso peggiore, la ricerca binaria richiede $O(log_2 N)$ confronti.  
+Questo è molto più efficiente della ricerca lineare, che richiede fino a \(O(N)\) confronti nel caso peggiore.
+
 
