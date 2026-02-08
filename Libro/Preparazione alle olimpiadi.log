@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  8 FEB 2026 18:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  8 FEB 2026 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -758,7 +758,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=456, 359.09157pt x 26
+<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=466, 359.09157pt x 26
 4.99pt>
 File: immagini/1 - Complessità Computazionale/Ogrande.jpg Graphic file (type j
 pg)
@@ -779,7 +779,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
 
-<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=458, 359.09157pt 
+<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=468, 359.09157pt 
 x 271.76532pt>
 File: immagini/1 - Complessità Computazionale/Sigmagrande.jpg Graphic file (ty
 pe jpg)
@@ -867,7 +867,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 
 
 ]
-<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=663, 231.11343pt x 
+<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=673, 231.11343pt x 
 82.80937pt>
 File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
  png)
@@ -875,7 +875,7 @@ File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectoriteratori.png
   used on input line 74.
 (pdftex.def)             Requested size: 193.47578pt x 69.32436pt.
-<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=665, 176.91093pt x 81
+<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=675, 176.91093pt x 81
 .30376pt>
 File: immagini/2 - Strutture Dati/vector/vectoraccesso.png Graphic file (type p
 ng)
@@ -887,7 +887,7 @@ used on input line 96.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=666, 228.10219pt x 1
+<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=676, 228.10219pt x 1
 40.02313pt>
 File: immagini/2 - Strutture Dati/vector/vectorpushback.png Graphic file (type 
 png)
@@ -907,7 +907,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.119 	\newpage
                 <./immagini/2 - Strutture Dati/vector/vectoriteratori.png>]
-<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=693, 200.24812pt x 12
+<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=703, 200.24812pt x 12
 7.22531pt>
 File: immagini/2 - Strutture Dati/vector/vectorpopback.png Graphic file (type p
 ng)
@@ -915,7 +915,7 @@ ng)
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectorpopback.png  
 used on input line 130.
 (pdftex.def)             Requested size: 145.11053pt x 92.20006pt.
-<immagini/2 - Strutture Dati/vector/vectorsize.png, id=694, 283.81032pt x 51.19
+<immagini/2 - Strutture Dati/vector/vectorsize.png, id=704, 283.81032pt x 51.19
 125pt>
 File: immagini/2 - Strutture Dati/vector/vectorsize.png Graphic file (type png)
 
@@ -963,7 +963,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.244 \newpage
               ]
-<immagini/2 - Strutture Dati/map/map.png, id=739, 443.40656pt x 259.7203pt>
+<immagini/2 - Strutture Dati/map/map.png, id=749, 443.40656pt x 259.7203pt>
 File: immagini/2 - Strutture Dati/map/map.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/map/map.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/map/map.png  used on input
@@ -1051,7 +1051,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.450 \newpage
               ]
-<immagini/2 - Strutture Dati/Set/set.png, id=826, 344.03531pt x 137.01187pt>
+<immagini/2 - Strutture Dati/Set/set.png, id=836, 344.03531pt x 137.01187pt>
 File: immagini/2 - Strutture Dati/Set/set.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Set/set.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/Set/set.png  used on input
@@ -1173,7 +1173,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.869 \newpage
               ]
-<immagini/2 - Strutture Dati/Stack/stack.png, id=1048, 353.82187pt x 212.29312p
+<immagini/2 - Strutture Dati/Stack/stack.png, id=1058, 353.82187pt x 212.29312p
 t>
 File: immagini/2 - Strutture Dati/Stack/stack.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Stack/stack.png>
@@ -1200,7 +1200,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1037 \newpage
                ]
-<immagini/2 - Strutture Dati/queue/queue.png, id=1129, 310.91156pt x 91.09032pt
+<immagini/2 - Strutture Dati/queue/queue.png, id=1139, 310.91156pt x 91.09032pt
 >
 File: immagini/2 - Strutture Dati/queue/queue.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/queue/queue.png>
@@ -1327,7 +1327,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1363 \newpage
                ]
-<immagini/2 - Strutture Dati/Deque/deque.png, id=1281, 646.66594pt x 280.04625p
+<immagini/2 - Strutture Dati/Deque/deque.png, id=1291, 646.66594pt x 280.04625p
 t>
 File: immagini/2 - Strutture Dati/Deque/deque.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Deque/deque.png>
@@ -1747,7 +1747,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [62]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introduttivo.p
-ng, id=1716, 685.05937pt x 449.42906pt>
+ng, id=1726, 685.05937pt x 449.42906pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutt
 ivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutti
@@ -1766,7 +1766,7 @@ l.867 	\item $
               M_1 + M_4 + M_5$ <./immagini/3 - Brute Force e Algoritmi Greedy/I
 dee Greedy/Esempio Introduttivo.png>]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Introdut
-tivo.png, id=1725, 654.19406pt x 416.30531pt>
+tivo.png, id=1735, 654.19406pt x 416.30531pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Int
 roduttivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Intr
@@ -2124,7 +2124,7 @@ Capitolo 4.
 
 
 ]
-<immagini/4 - Pattern Algoritmici/Sliding window.png, id=1908, 284.39583pt x 17
+<immagini/4 - Pattern Algoritmici/Sliding window.png, id=1918, 284.39583pt x 17
 1.97583pt>
 File: immagini/4 - Pattern Algoritmici/Sliding window.png Graphic file (type pn
 g)
@@ -2176,7 +2176,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 [74]
-<immagini/4 - Pattern Algoritmici/Sliding window mobile.png, id=2019, 963.6pt x
+<immagini/4 - Pattern Algoritmici/Sliding window mobile.png, id=2029, 963.6pt x
  542.025pt>
 File: immagini/4 - Pattern Algoritmici/Sliding window mobile.png Graphic file (
 type png)
@@ -2671,7 +2671,7 @@ Capitolo 5.
 
 
 ]
-<immagini/5 - Binary Search/Esempio-compleanno-1.png, id=2687, 636.12656pt x 23
+<immagini/5 - Binary Search/Esempio-compleanno-1.png, id=2697, 636.12656pt x 23
 4.8775pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-1.png Graphic file (type pn
 g)
@@ -2688,7 +2688,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.113 \]
          <./immagini/5 - Binary Search/Esempio-compleanno-1.png>]
-<immagini/5 - Binary Search/Esempio-compleanno-2.png, id=2706, 663.22781pt x 23
+<immagini/5 - Binary Search/Esempio-compleanno-2.png, id=2716, 663.22781pt x 23
 1.86626pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-2.png Graphic file (type pn
 g)
@@ -2696,7 +2696,7 @@ g)
 Package pdftex.def Info: immagini/5 - Binary Search/Esempio-compleanno-2.png  u
 sed on input line 119.
 (pdftex.def)             Requested size: 386.95897pt x 135.28209pt.
-<immagini/5 - Binary Search/Esempio-compleanno-3.png, id=2707, 602.25pt x 204.7
+<immagini/5 - Binary Search/Esempio-compleanno-3.png, id=2717, 602.25pt x 204.7
 65pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-3.png Graphic file (type pn
 g)
@@ -2704,7 +2704,7 @@ g)
 Package pdftex.def Info: immagini/5 - Binary Search/Esempio-compleanno-3.png  u
 sed on input line 126.
 (pdftex.def)             Requested size: 386.95897pt x 131.57092pt.
-<immagini/5 - Binary Search/Esempio-compleanno-4.png, id=2708, 595.47469pt x 19
+<immagini/5 - Binary Search/Esempio-compleanno-4.png, id=2718, 595.47469pt x 19
 5.73125pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-4.png Graphic file (type pn
 g)
@@ -2712,7 +2712,7 @@ g)
 Package pdftex.def Info: immagini/5 - Binary Search/Esempio-compleanno-4.png  u
 sed on input line 133.
 (pdftex.def)             Requested size: 386.95897pt x 127.19093pt.
-<immagini/5 - Binary Search/Esempio-compleanno-5.png, id=2709, 594.72188pt x 20
+<immagini/5 - Binary Search/Esempio-compleanno-5.png, id=2719, 594.72188pt x 20
 0.24812pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-5.png Graphic file (type pn
 g)
@@ -3056,13 +3056,13 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `"Preparazione alle olimpiadi".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 5B991B0411E50D43FBCBD23D60A7A809;15140.
+(rerunfilecheck)             Checksum: E2F0F7387D8B1C011C51DE5B2A8F2650;15374.
  ) 
 Here is how much of TeX's memory you used:
- 18347 strings out of 468225
- 302999 string characters out of 5432973
+ 18351 strings out of 468225
+ 303047 string characters out of 5432973
  1235771 words of memory out of 5000000
- 44566 multiletter control sequences out of 15000+600000
+ 44568 multiletter control sequences out of 15000+600000
  646619 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,15n,79p,819b,2104s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3096,10 +3096,10 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 r8.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (106 pages, 1343266 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (106 pages, 1345203 bytes).
 
 PDF statistics:
- 3952 PDF objects out of 4296 (max. 8388607)
- 2013 named destinations out of 2073 (max. 500000)
- 770 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3964 PDF objects out of 4296 (max. 8388607)
+ 2015 named destinations out of 2073 (max. 500000)
+ 786 words of extra memory for PDF output out of 10000 (max. 10000000)
 
