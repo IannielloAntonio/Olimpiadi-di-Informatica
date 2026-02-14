@@ -237,6 +237,454 @@ Quindi, nel caso peggiore, la ricerca binaria richiede $O(log_2 N)$ confronti.
 Questo è molto più efficiente della ricerca lineare, che richiede fino a \(O(N)\) confronti nel caso peggiore.
 
 
-\section{Do not Gather!}
 
+
+
+\newpage
+\section*{Do not Gather!}
+
+\href{https://training.olinfo.it/task/ois_gatherings}{Link al problema} 
+
+\smallskip
+
+\noindent Time limit = 1.00s, Memory limit = 256 MB
+
+\bigskip
+
+As vaccinations against COVID-19 are starting all over the world, people seem to keep forgetting the one
+and only piece of advice they have been given in the last months: “Do Not Gather!”.
+
+\medskip
+To receive their dose, people usually queue up outside the administration center and form a line. Often,
+though, the minimum interpersonal distance $D$ (measured in centimeters) imposed by law is not respected,
+enabling possible infections.
+
+\bigskip
+Luca was walking and accidentally noted the troubling situation: out of $N$ people in queue at positions $P_i$, also measured in centimeters starting from the vaccination center, many seem to be in a risky position.
+How many pairs of people do not respect the distance, i.e. the distance between them is less than the required distance?
+
+\subsubsection*{Input}  
+
+The first line contains two integers, $N$ and $D$. The second line contains $N$ integers $P_i$
+
+\subsubsection*{Output}  
+
+You need to write a single line with an integer: the number of pairs of people who do not respect the minimum distance.
+
+
+\subsubsection*{Assunzioni e Vincoli}  
+
+
+\begin{itemize}
+	
+	\item $1 \le N \le 100\ 000$
+	
+	\item $1 \le D\le 10^9$
+	
+	\item $0 \le P_i \le 10^9$
+	
+	\item  Positions are all distinct and are listed from the nearest to the farthest (i.e., $P_i < P_{i+1}$ for each $i =0 \dots N-2$)
+	
+\end{itemize}
+
+
+
+\subsubsection*{Esempio}  
+
+\begin{table}[h!]
+	\begin{tabular}{|l|c|}
+		\hline
+		\multicolumn{1}{|c|}{Input}                                        & Output \\ \hline
+		\begin{tabular}[c]{@{}l@{}}4  100\\ 20  120  200  300\end{tabular} & 1      \\ \hline
+		\begin{tabular}[c]{@{}l@{}}4  200\\ 0  100  150  200\end{tabular}  & 5      \\ \hline
+	\end{tabular}
+\end{table}
+
+\noindent\textbf{Spiegazione:} 
+
+In the first sample case the second and the third person are at distance $200-120 = 80$ centimeters which is below $100$. All other pairs respect the distance.
+
+\bigskip
+In the second sample case there are five problematic pairs: the first and the second person (distance $100$), the first and the third one (distance $150$), the second and the third one (distance $50$), the second
+and the fourth one (distance $100$) and the third and the fourth one (distance $50$).
+
+
+\subsubsection*{Idea (binary search)}
+
+Si fissa un elemento $P[i]$ del vettore come primo elemento della coppia.
+
+Poiché il vettore $P$ è ordinato in modo crescente, la quantità $P[j] - P[i]$ cresce all’aumentare dell’indice $j$.
+Di conseguenza, se per un certo indice $j$ risulta:
+\[
+P[j] - P[i] \ge D,
+\]
+allora la stessa disuguaglianza è verificata per tutti gli indici successivi $j' > j$.
+
+Per ciascun indice $i$:
+\begin{itemize}
+	\item si ricerca, mediante ricerca binaria, il più piccolo indice $j$ tale che:
+	\[
+	P[j] - P[i] \ge D;
+	\]
+	\item tale indice individua il punto di separazione tra gli elementi che distano meno di $D$ da $P[i]$ e quelli che distano almeno $D$.
+\end{itemize}
+
+Tutti gli elementi con indice compreso tra $i+1$ e $j-1$ formano coppie valide con $P[i]$, mentre tutti quelli con indice maggiore o uguale a $j$ sono certamente a distanza almeno $D$ e quindi non validi.
+
+Il numero di coppie valide associate all’indice $i$ è quindi:
+\[
+(j - 1) - i.
+\]
+
+Il procedimento viene ripetuto per ogni indice $i$ del vettore.
+
+Infine, la somma di tutti i contributi ottenuti rappresenta il numero totale di coppie $(i,j)$ tali che:
+\[
+P[j] - P[i] < D.
+\]
+
+
+\subsubsection*{Implementazione C++ - Binary Search}
+
+
+\begin{lstlisting}[language=C++]
+// https://training.olinfo.it/task/ois_gatherings
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	// Legge il numero di persone (dimensione del vettore)
+	int N;
+	cin >> N;
+	
+	// Legge la distanza minima D
+	int D;
+	cin >> D;
+	
+	// Vettore che contiene le posizioni delle persone (ordinato per ipotesi del problema)
+	vector<int> P(N); 
+	for(int i = 0; i < N; i++){
+		cin >> P[i];
+	}
+	
+	// Variabile che conterra' il numero totale di coppie valide
+	int64_t coppie = 0;
+	
+	// Ciclo esterno: si fissa ogni elemento P[i] come primo elemento della coppia
+	for(int i = 0; i < N; i++){
+		
+		// Limiti della ricerca binaria sugli elementi successivi a i
+		int low = i + 1;
+		int high = N - 1;
+		int mid;
+		
+		// best memorizza l'ultimo indice valido trovato
+		int64_t best = i;
+		
+		// Ricerca binaria per trovare il massimo indice j tale che:
+		// P[j] - P[i] < D
+		while(low <= high){
+			
+			mid = (low + high) / 2;
+			
+			// Se la distanza e' maggiore o uguale a D,
+			// bisogna cercare nella parte sinistra
+			if(P[mid] - P[i] >= D){
+				high = mid - 1;
+			}
+			// Se la distanza e' minore di D,
+			// mid e' un candidato valido e si prova a cercare più a destra
+			else if(P[mid] - P[i] < D){
+				best = mid;
+				low = mid + 1;
+			}
+		}
+		
+		// Tutti gli indici compresi tra i+1 e best formano coppie valide con i
+		// Il numero di coppie valide per questo i e' (best - i)
+		coppie += best - i;
+	}
+	
+	// Stampa il numero totale di coppie valide
+	cout << coppie << endl;
+	
+	return 0;
+}
+
+\end{lstlisting}
+
+\subsection*{Costo Computazionale}
+Il costo computazionale è:
+\begin{itemize}
+	\item $O(\log N)$ per la ricerca binaria eseguita per ciascun indice $i$;
+	\item $O(N)$ per il ciclo esterno che scorre tutti gli elementi del vettore.
+\end{itemize}
+
+Ciò significa che la ricerca binaria viene eseguita $N$ volte, una per ciascun elemento del vettore.
+
+La complessità totale è quindi:
+\begin{align*}
+	&= O(N) \cdot O(\log N) \\
+	&= O(N \log N)
+\end{align*}
+
+Dai vincoli del problema:
+\[
+1 \le N \le 10^5
+\]
+
+la complessità può essere stimata come:
+\begin{align*}
+	&\approx O(N \log N) \\
+	&\approx O(10^5 \cdot \log_2(10^5)) \\
+	&\approx O(10^5 \cdot 17) \\
+	&\approx O(1.7 \cdot 10^6)
+\end{align*}
+
+Pertanto, considerando una macchina che esegue circa $10^8$ operazioni al secondo, il tempo stimato di esecuzione sarebbe:
+\[
+\frac{1.7 \cdot 10^6}{10^8} \text{ secondi } \approx 1.7 \cdot 10^{-2} \text{ secondi.}
+\]
+
+\noindent
+In conclusione, il programma è coerente con il limite di tempo imposto dal problema (1.00 s).
+
+\newpage
 \section{Anno Luce}
+
+\href{https://training.olinfo.it/task/ois_annoluce}{Link al problema} 
+
+\smallskip
+
+\noindent Time limit = 1.00s, Memory limit = 256 MiB
+
+\bigskip
+
+Grazie ad una recente ricerca che ha confermato l’esistenza delle onde gravitazionali, sempre più persone si stanno interessando allo spazio. Purtroppo però, lo spazio è ancora una realtà poco accessibile alle persone comuni. Sebbene sia un po’ demoralizzato da questo fatto, William è convinto che sia possibile sfruttare la recente attenzione mediatica delle onde gravitazionali per pubblicizzare un business: ha deciso infatti di aprire una startup di viaggi interstellari.
+
+\medskip
+C’è da dire però che, a parte il Sole che è la stella a noi più vicina, le altre stelle sono piuttosto distanti.
+Proxima Centauri, la “seconda stella più vicina”, dista dal Sole ben 4.24 anni luce: questo vuol dire che
+sarebbero necessari più di quattro anni per raggiungere questa stella! (supponendo di poter viaggiare
+alla velocità della luce).
+
+\bigskip
+William pensa di riuscire a costruire un’astronave in grado di viaggiare alla velocità della luce (ha trovato \href{https://www.youtube.com/watch?v=dQw4w9WgXcQ}{un tutorial su YouTube} che gli sembra piuttosto convincente) e ha perciò acquistato un telescopio per
+tracciare una mappa 3D della Via Lattea. Ogni stella è indicata nella mappa 3D mediante un punto
+$(x, y,z)$ dello spazio. Il Sole è sempre presente nella mappa ed è sempre identificato dal punto $(0,0,0)$.
+
+\medskip
+Scrivi un programma che data la mappa stellare sia in grado di rispondere a $Q$ query: ogni query fornisce un numero intero $D$ e chiede quante sono le stelle raggiungibili avendo a disposizione $D$ anni di viaggio.
+
+
+
+\subsubsection*{Dati in input}  
+
+Il file \verb|input.txt| è composto da $N+Q+2$ righe. La prima riga contiene l’unico intero $N$. Le successive $N$ righe contengono le coordinate $X_i$, $Y_i$, $Z_i$ dell’i-esima stella, separate da spazio. La successiva riga
+contiene l’unico intero $Q$. Le successive $Q$ righe contengono i valori di $D$ delle relative query.
+
+\subsubsection*{Dati in output}  
+
+Il file \verb|output.txt| è composto da $Q$ righe contenente un intero ciascuna: la risposta alla relativa query.
+
+\subsubsection*{Assunzioni e Vincoli}  
+
+
+\begin{itemize}
+	
+	\item $1 \le N, Q \le 100\ 000$
+	
+	\item $0 \le X_i, Y_i, Z_i < 2^{30}$ per ogni $i = 0 \dots N-1$
+	
+	\item L’unità degli assi $x, y, z$ è l’anno luce
+	
+	\item $0 \le D < 2^{31}$ per ogni chiamata a \texttt{query(D)}
+	
+	\item Il valore $D$ è espresso in anni luce
+	
+\end{itemize}
+
+\newpage
+
+\subsubsection*{Esempio di input/output} 
+
+\begin{table}[h!]
+	\renewcommand{\arraystretch}{1.3} % aumenta l'altezza delle righe
+	\setlength{\tabcolsep}{12pt} % aumenta lo spazio orizzontale tra le colonne
+	\begin{tabular}{|p{6cm}|p{3cm}|} % larghezza fissa colonne
+		\hline
+		\multicolumn{1}{|c|}{\textbf{input.txt}} & \textbf{output.txt} \\ \hline
+		\begin{tabular}[t]{@{}l@{}}3\\ 0 0 0\\ 1 1 1\\ 2 2 2\\ 5\\ 0\\ 1\\ 2\\ 3\\ 4\end{tabular} &
+		\begin{tabular}[t]{@{}c@{}}1\\ 1\\ 2\\ 2\\ 3\end{tabular} \\ \hline
+		\begin{tabular}[t]{@{}l@{}}5\\ 1 2 3\\ 4 5 6\\ 0 0 0\\ 9 9 9\\ 7 1 1\\ 3\\ 20\\ 8\\ 9\end{tabular} &
+		\begin{tabular}[t]{@{}c@{}}5\\ 3\\ 4\end{tabular} \\ \hline
+	\end{tabular}
+\end{table}
+
+\noindent\textbf{Spiegazione:} 
+
+Nel primo caso di esempio, le 3 stelle distano dal sole rispettivamente: $0$ anni luce,$\sqrt{3}$ anni luce e $2\sqrt{3}$ anni luce.
+\bigskip
+
+Nel secondo caso di esempio, le 5 stelle distano dal sole rispettivamente: $\sqrt{14}$ anni luce, $\sqrt{77}$ anni luce, $0$ anni luce, $9\sqrt{3}$ anni luce e $\sqrt{51}$ anni luce.
+
+
+\subsubsection*{Idea (binary search)}
+
+Si considera ciascun punto nello spazio tridimensionale con coordinate $(X_i, Y_i, Z_i)$.
+
+Per ciascun punto:
+\begin{itemize}
+	\item si calcola la distanza dall'origine mediante la formula
+	\[
+	\text{distanza}_i = \sqrt{X_i^2 + Y_i^2 + Z_i^2};
+	\]
+	\item la distanza calcolata viene memorizzata in un vettore.
+\end{itemize}
+
+Una volta calcolate tutte le distanze, il vettore viene ordinato in modo crescente.  
+Ciò permette di sfruttare la proprietà di monotonia: per ogni distanza \(D\) di una query, tutti i punti con distanza minore o uguale a \(D\) sono contigui all'inizio del vettore.
+
+Per ciascuna query \(D[i]\):
+\begin{itemize}
+	\item si ricerca, tramite ricerca binaria, l'ultimo indice \texttt{best} tale che
+	\[
+	\text{distanza[best]} \le D[i];
+	\]
+	\item tutti i punti con indice compreso tra $0$ e \texttt{best} sono raggiungibili entro la distanza $D[i]$;
+	\item il numero di punti raggiungibili è quindi \texttt{best + 1}.
+\end{itemize}
+
+Infine, per ciascuna query, il numero calcolato viene stampato in output su \texttt{output.txt}.
+
+\subsubsection*{Complessità}
+
+Il calcolo delle distanze richiede $O(N)$ operazioni, l'ordinamento $O(N \log N)$ e ciascuna query $O(\log N)$ tramite ricerca binaria.  
+Pertanto, la complessità totale dell'algoritmo è:
+\[
+O(N \log N + Q \log N),
+\]
+efficiente anche per valori massimi $N, Q \le 10^5$.
+
+\subsubsection*{Implementazione C++ - Binary Search}
+
+
+\begin{lstlisting}[language=C++]
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// Apriamo i file di input e output
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+	
+	// Legge il numero di punti nello spazio
+	int N;
+	cin >> N;
+	
+	// Vettore di tuple per memorizzare le coordinate (X, Y, Z) di ciascun punto
+	vector<tuple<int64_t, int64_t, int64_t>> coordinate(N);
+	for(int i = 0; i < N; i++){
+		cin >> get<0>(coordinate[i])  // leggi X
+		>> get<1>(coordinate[i])  // leggi Y
+		>> get<2>(coordinate[i]); // leggi Z
+	}
+	
+	// Legge il numero di query
+	int Q;
+	cin >> Q;
+	
+	// Vettore per memorizzare i valori di distanza D per ciascuna query
+	vector<int64_t> D(Q);
+	for(int q = 0; q < Q; q++){
+		cin >> D[q];
+	}
+	
+	// Calcola la distanza dall'origine per ciascun punto
+	vector<double> distanza(N);
+	for(int i = 0; i < N; i++){
+		// distanza: sqrt(X^2 + Y^2 + Z^2)
+		double dist_q = powl(get<0>(coordinate[i]), 2) 
+		+ powl(get<1>(coordinate[i]), 2) 
+		+ powl(get<2>(coordinate[i]), 2);
+		distanza[i] = sqrtl(dist_q);
+	}
+	
+	// Ordina le distanze in ordine crescente
+	sort(distanza.begin(), distanza.end());
+	
+	// Variabili per la ricerca binaria
+	int high;
+	int low;
+	int best;
+	
+	// Ciclo per rispondere a ciascuna query
+	for(int i = 0; i < Q; i++){
+		low = 0;
+		high = N - 1;
+		best = -1; // inizializziamo l'indice del massimo elemento <= D[i]
+		
+		// Ricerca binaria per trovare l'ultimo indice con distanza <= D[i]
+		while(low <= high){
+			int mid = (low + high) / 2;
+			
+			if(distanza[mid] > D[i]){
+				// La distanza è troppo grande: cerco a sinistra
+				high = mid - 1;
+			}
+			else{
+				// La distanza va bene: memorizzo mid come best e cerco a destra
+				best = mid;
+				low = mid + 1;
+			}
+		}
+		
+		// Tutti gli elementi da 0 a best sono raggiungibili
+		int reach = best + 1;
+		cout << reach << endl; // output del numero di punti raggiungibili
+	}
+	
+	return 0;
+}
+
+\end{lstlisting}
+
+\newpage
+
+\subsection*{Costo Computazionale}
+Il costo computazionale è:
+\begin{itemize}
+	\item $O(\log N)$ per la ricerca binaria eseguita per ciascun indice $i$;
+	\item $O(N)$ per il ciclo esterno che scorre tutti gli elementi del vettore.
+\end{itemize}
+
+Ciò significa che la ricerca binaria viene eseguita $N$ volte, una per ciascun elemento del vettore.
+
+La complessità totale è quindi:
+\begin{align*}
+	&= O(N) \cdot O(\log N) \\
+	&= O(N \log N)
+\end{align*}
+
+Dai vincoli del problema:
+\[
+1 \le N \le 10^5
+\]
+
+la complessità può essere stimata come:
+\begin{align*}
+	&\approx O(N \log N) \\
+	&\approx O(10^5 \cdot \log_2(10^5)) \\
+	&\approx O(10^5 \cdot 17) \\
+	&\approx O(1.7 \cdot 10^6)
+\end{align*}
+
+Pertanto, considerando una macchina che esegue circa $10^8$ operazioni al secondo, il tempo stimato di esecuzione sarebbe:
+\[
+\frac{1.7 \cdot 10^6}{10^8} \text{ secondi } \approx 1.7 \cdot 10^{-2} \text{ secondi.}
+\]
+
+\noindent
+In conclusione, il programma è coerente con il limite di tempo imposto dal problema (1.00 s).
