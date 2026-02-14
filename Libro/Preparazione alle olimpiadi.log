@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  12 FEB 2026 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  14 FEB 2026 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"./Preparazione alle olimpiadi.tex"
 (Preparazione alle olimpiadi.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+LaTeX2e <2025-06-01>
+L3 programming layer <2025-05-26>
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
@@ -33,23 +33,23 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 )
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
+Package: babel 2025/05/14 v25.9 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
 \babel@savecnt=\count284
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2045.
+ne 2043.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2047.
+ne 2045.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2049.
+e 2047.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2050.
+e 2048.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2051.
+on input line 2049.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2053.
+on input line 2051.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2078.
+on input line 2076.
 \U@D=\dimen149
 \l@unhyphenated=\language79
 
@@ -71,7 +71,7 @@ Language: italian 2024/10/10 v.1.5.01 Italian support for the babel system
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/it\babel
 -italian.tex
 Package babel Info: Importing font and identification data for italian
-(babel)             from babel-it.ini. Reported on input line 12.
+(babel)             from babel-it.ini. Reported on input line 11.
 )
 \it@lettering=\count286
 \it@doublequoteactive=\count287
@@ -109,7 +109,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+Package: hyperref 2025-05-20 v7.01m Hypertext links for LaTeX
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
@@ -142,7 +142,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -165,7 +165,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 \Hy@linkcounter=\count294
 \Hy@pagecounter=\count295
  (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2025-05-20 v7.01m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
@@ -173,24 +173,24 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count296
  (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2025-05-20 v7.01m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4462.
+Package hyperref Info: Bookmarks ON on input line 4424.
 \c@Hy@tempcnt=\count297
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4801.
+LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen159
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
@@ -204,21 +204,25 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count298
 \Field@Width=\dimen160
 \Fld@charsize=\dimen161
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring OFF on input line 6098.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
 \Hy@abspage=\count299
 \c@Item=\count300
 \c@Hfootnote=\count301
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+File: hpdftex.def 2025-05-20 v7.01m Hyperref driver for pdfTeX
 \Fld@listcount=\count302
 \c@bookmark@seq@number=\count303
 
@@ -342,7 +346,7 @@ File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+Package: amsmath 2025/05/18 v2.17x AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
@@ -413,7 +417,7 @@ LaTeX Info: Redefining \] on input line 2950.
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+Package: array 2025/05/19 v2.6i Tabular extension package (FMi)
 \col@sep=\dimen184
 \ar@mcellbox=\box59
 \extrarowheight=\dimen185
@@ -432,11 +436,11 @@ Package: mdframed 2013/07/01 1.9b: mdframed
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
 e.sty
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-09-02 L3 programming layer (loader) 
+Package: expl3 2025-05-26 L3 programming layer (loader) 
 
 (C:\Users\Anton\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count331
 ))
 Package: xparse 2024-08-16 L3 Experimental document command parser
@@ -754,7 +758,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=461, 359.09157pt x 26
+<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=466, 359.09157pt x 26
 4.99pt>
 File: immagini/1 - Complessità Computazionale/Ogrande.jpg Graphic file (type j
 pg)
@@ -775,7 +779,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
 
-<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=463, 359.09157pt 
+<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=468, 359.09157pt 
 x 271.76532pt>
 File: immagini/1 - Complessità Computazionale/Sigmagrande.jpg Graphic file (ty
 pe jpg)
@@ -863,7 +867,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 
 
 ]
-<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=668, 231.11343pt x 
+<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=673, 231.11343pt x 
 82.80937pt>
 File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
  png)
@@ -871,7 +875,7 @@ File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectoriteratori.png
   used on input line 74.
 (pdftex.def)             Requested size: 193.47578pt x 69.32436pt.
-<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=670, 176.91093pt x 81
+<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=675, 176.91093pt x 81
 .30376pt>
 File: immagini/2 - Strutture Dati/vector/vectoraccesso.png Graphic file (type p
 ng)
@@ -883,7 +887,7 @@ used on input line 96.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=671, 228.10219pt x 1
+<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=676, 228.10219pt x 1
 40.02313pt>
 File: immagini/2 - Strutture Dati/vector/vectorpushback.png Graphic file (type 
 png)
@@ -903,7 +907,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.119 	\newpage
                 <./immagini/2 - Strutture Dati/vector/vectoriteratori.png>]
-<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=698, 200.24812pt x 12
+<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=703, 200.24812pt x 12
 7.22531pt>
 File: immagini/2 - Strutture Dati/vector/vectorpopback.png Graphic file (type p
 ng)
@@ -911,7 +915,7 @@ ng)
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectorpopback.png  
 used on input line 130.
 (pdftex.def)             Requested size: 145.11053pt x 92.20006pt.
-<immagini/2 - Strutture Dati/vector/vectorsize.png, id=699, 283.81032pt x 51.19
+<immagini/2 - Strutture Dati/vector/vectorsize.png, id=704, 283.81032pt x 51.19
 125pt>
 File: immagini/2 - Strutture Dati/vector/vectorsize.png Graphic file (type png)
 
@@ -959,7 +963,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.244 \newpage
               ]
-<immagini/2 - Strutture Dati/map/map.png, id=744, 443.40656pt x 259.7203pt>
+<immagini/2 - Strutture Dati/map/map.png, id=749, 443.40656pt x 259.7203pt>
 File: immagini/2 - Strutture Dati/map/map.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/map/map.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/map/map.png  used on input
@@ -1047,7 +1051,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.450 \newpage
               ]
-<immagini/2 - Strutture Dati/Set/set.png, id=831, 344.03531pt x 137.01187pt>
+<immagini/2 - Strutture Dati/Set/set.png, id=836, 344.03531pt x 137.01187pt>
 File: immagini/2 - Strutture Dati/Set/set.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Set/set.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/Set/set.png  used on input
@@ -1169,7 +1173,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.869 \newpage
               ]
-<immagini/2 - Strutture Dati/Stack/stack.png, id=1053, 353.82187pt x 212.29312p
+<immagini/2 - Strutture Dati/Stack/stack.png, id=1058, 353.82187pt x 212.29312p
 t>
 File: immagini/2 - Strutture Dati/Stack/stack.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Stack/stack.png>
@@ -1196,7 +1200,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1037 \newpage
                ]
-<immagini/2 - Strutture Dati/queue/queue.png, id=1134, 310.91156pt x 91.09032pt
+<immagini/2 - Strutture Dati/queue/queue.png, id=1139, 310.91156pt x 91.09032pt
 >
 File: immagini/2 - Strutture Dati/queue/queue.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/queue/queue.png>
@@ -1323,7 +1327,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.1363 \newpage
                ]
-<immagini/2 - Strutture Dati/Deque/deque.png, id=1286, 646.66594pt x 280.04625p
+<immagini/2 - Strutture Dati/Deque/deque.png, id=1291, 646.66594pt x 280.04625p
 t>
 File: immagini/2 - Strutture Dati/Deque/deque.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Deque/deque.png>
@@ -1743,7 +1747,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [62]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introduttivo.p
-ng, id=1721, 685.05937pt x 449.42906pt>
+ng, id=1726, 685.05937pt x 449.42906pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutt
 ivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutti
@@ -1762,7 +1766,7 @@ l.867 	\item $
               M_1 + M_4 + M_5$ <./immagini/3 - Brute Force e Algoritmi Greedy/I
 dee Greedy/Esempio Introduttivo.png>]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Introdut
-tivo.png, id=1730, 654.19406pt x 416.30531pt>
+tivo.png, id=1735, 654.19406pt x 416.30531pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Int
 roduttivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Intr
@@ -2120,7 +2124,7 @@ Capitolo 4.
 
 
 ]
-<immagini/4 - Pattern Algoritmici/Sliding window.png, id=1913, 284.39583pt x 17
+<immagini/4 - Pattern Algoritmici/Sliding window.png, id=1918, 284.39583pt x 17
 1.97583pt>
 File: immagini/4 - Pattern Algoritmici/Sliding window.png Graphic file (type pn
 g)
@@ -2172,7 +2176,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 [74]
-<immagini/4 - Pattern Algoritmici/Sliding window mobile.png, id=2024, 963.6pt x
+<immagini/4 - Pattern Algoritmici/Sliding window mobile.png, id=2029, 963.6pt x
  542.025pt>
 File: immagini/4 - Pattern Algoritmici/Sliding window mobile.png Graphic file (
 type png)
@@ -2667,7 +2671,7 @@ Capitolo 5.
 
 
 ]
-<immagini/5 - Binary Search/Esempio-compleanno-1.png, id=2692, 636.12656pt x 23
+<immagini/5 - Binary Search/Esempio-compleanno-1.png, id=2697, 636.12656pt x 23
 4.8775pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-1.png Graphic file (type pn
 g)
@@ -2684,7 +2688,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.113 \]
          <./immagini/5 - Binary Search/Esempio-compleanno-1.png>]
-<immagini/5 - Binary Search/Esempio-compleanno-2.png, id=2711, 663.22781pt x 23
+<immagini/5 - Binary Search/Esempio-compleanno-2.png, id=2716, 663.22781pt x 23
 1.86626pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-2.png Graphic file (type pn
 g)
@@ -2692,7 +2696,7 @@ g)
 Package pdftex.def Info: immagini/5 - Binary Search/Esempio-compleanno-2.png  u
 sed on input line 119.
 (pdftex.def)             Requested size: 386.95897pt x 135.28209pt.
-<immagini/5 - Binary Search/Esempio-compleanno-3.png, id=2712, 602.25pt x 204.7
+<immagini/5 - Binary Search/Esempio-compleanno-3.png, id=2717, 602.25pt x 204.7
 65pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-3.png Graphic file (type pn
 g)
@@ -2700,7 +2704,7 @@ g)
 Package pdftex.def Info: immagini/5 - Binary Search/Esempio-compleanno-3.png  u
 sed on input line 126.
 (pdftex.def)             Requested size: 386.95897pt x 131.57092pt.
-<immagini/5 - Binary Search/Esempio-compleanno-4.png, id=2713, 595.47469pt x 19
+<immagini/5 - Binary Search/Esempio-compleanno-4.png, id=2718, 595.47469pt x 19
 5.73125pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-4.png Graphic file (type pn
 g)
@@ -2708,7 +2712,7 @@ g)
 Package pdftex.def Info: immagini/5 - Binary Search/Esempio-compleanno-4.png  u
 sed on input line 133.
 (pdftex.def)             Requested size: 386.95897pt x 127.19093pt.
-<immagini/5 - Binary Search/Esempio-compleanno-5.png, id=2714, 594.72188pt x 20
+<immagini/5 - Binary Search/Esempio-compleanno-5.png, id=2719, 594.72188pt x 20
 0.24812pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-5.png Graphic file (type pn
 g)
@@ -3123,8 +3127,8 @@ Capitolo 6.
 (TeX_files/4 - Pattern Algoritmici.aux) (TeX_files/5 - Binary Search.aux)
 (TeX_files/6 - Programmazione Dinamica.aux))
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+LaTeX2e <2025-06-01>
+L3 programming layer <2025-05-26>
  ***********
 
 
@@ -3132,13 +3136,13 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `"Preparazione alle olimpiadi".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 1B892482E77447CB52FBFD2E4579D0C4;15243.
+(rerunfilecheck)             Checksum: E2F0F7387D8B1C011C51DE5B2A8F2650;15374.
  ) 
 Here is how much of TeX's memory you used:
- 18522 strings out of 468130
- 305380 string characters out of 5430633
- 1239036 words of memory out of 5000000
- 44671 multiletter control sequences out of 15000+600000
+ 18546 strings out of 468225
+ 305981 string characters out of 5432973
+ 1235771 words of memory out of 5000000
+ 44597 multiletter control sequences out of 15000+600000
  646619 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,16n,79p,819b,2104s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3172,10 +3176,10 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 r8.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (115 pages, 1398657 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (115 pages, 1399190 bytes).
 
 PDF statistics:
- 4195 PDF objects out of 4296 (max. 8388607)
+ 4199 PDF objects out of 4296 (max. 8388607)
  2181 named destinations out of 2487 (max. 500000)
- 778 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 786 words of extra memory for PDF output out of 10000 (max. 10000000)
 
