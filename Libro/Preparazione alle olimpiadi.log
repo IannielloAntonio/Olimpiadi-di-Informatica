@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  14 FEB 2026 12:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  15 FEB 2026 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -711,30 +711,32 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.48 ...5.4}Esempio pratico}{35}{subsection.2.5.4}
+l.48 ...5.4}Esempio pratico}{36}{subsection.2.5.4}
                                                   % [1
 
-])
+]
+
+[2])
 \tf@toc=\write4
 \openout4 = `"Preparazione alle olimpiadi.toc"'.
 
 
 
-[2]
+[3]
 \openout2 = `"TeX_files/0 - Introduzione.aux"'.
 
  (TeX_files/0 - Introduzione.tex
 
-LaTeX Warning: Reference `appendice:Regolamento2025' on page 3 undefined on inp
+LaTeX Warning: Reference `appendice:Regolamento2025' on page 4 undefined on inp
 ut line 19.
 
 
-LaTeX Warning: Reference `appendice:pseudocodice' on page 3 undefined on input 
+LaTeX Warning: Reference `appendice:pseudocodice' on page 4 undefined on input 
 line 21.
 
 )
 
-[3
+[4
 
 
 ]
@@ -752,13 +754,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[4
+[5
 
 
 
 
 ]
-<immagini/1 - ComplessitÃ  Computazionale/Ogrande.jpg, id=471, 359.09157pt x 26
+<immagini/1 - ComplessitÃ  Computazionale/Ogrande.jpg, id=485, 359.09157pt x 26
 4.99pt>
 File: immagini/1 - ComplessitÃ  Computazionale/Ogrande.jpg Graphic file (type j
 pg)
@@ -779,7 +781,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
 
-<immagini/1 - ComplessitÃ  Computazionale/Sigmagrande.jpg, id=473, 359.09157pt 
+<immagini/1 - ComplessitÃ  Computazionale/Sigmagrande.jpg, id=487, 359.09157pt 
 x 271.76532pt>
 File: immagini/1 - ComplessitÃ  Computazionale/Sigmagrande.jpg Graphic file (ty
 pe jpg)
@@ -792,7 +794,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[5
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -800,7 +802,7 @@ has been already used, duplicate ignored
 l.93 
       <./immagini/1 - ComplessitÃ  Computazionale/Ogrande.jpg>]
 
-[6
+[7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -814,43 +816,43 @@ as been already used, duplicate ignored
 l.139 
        <./immagini/1 - ComplessitÃ  Computazionale/Sigmagrande.jpg>]
 
-[7]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
 
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
 
 
-[9]
-
 [10]
 
 [11]
 
 [12]
+
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 583--584
 
  []
 
 
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 644--645
 
  []
 
 
 
-[14])
+[15])
 
-[15]
+[16]
 \openout2 = `"TeX_files/2 - Strutture Dati.aux"'.
 
  (TeX_files/2 - Strutture Dati.tex
@@ -861,13 +863,13 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 34.
 
 
-[16
+[17
 
 
 
 
 ]
-<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=678, 231.11343pt x 
+<immagini/2 - Strutture Dati/vector/vectoriteratori.png, id=692, 231.11343pt x 
 82.80937pt>
 File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
  png)
@@ -875,7 +877,7 @@ File: immagini/2 - Strutture Dati/vector/vectoriteratori.png Graphic file (type
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectoriteratori.png
   used on input line 74.
 (pdftex.def)             Requested size: 193.47578pt x 69.32436pt.
-<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=680, 176.91093pt x 81
+<immagini/2 - Strutture Dati/vector/vectoraccesso.png, id=694, 176.91093pt x 81
 .30376pt>
 File: immagini/2 - Strutture Dati/vector/vectoraccesso.png Graphic file (type p
 ng)
@@ -887,7 +889,7 @@ used on input line 96.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=681, 228.10219pt x 1
+<immagini/2 - Strutture Dati/vector/vectorpushback.png, id=695, 228.10219pt x 1
 40.02313pt>
 File: immagini/2 - Strutture Dati/vector/vectorpushback.png Graphic file (type 
 png)
@@ -900,14 +902,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[17
+[18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.119 	\newpage
                 <./immagini/2 - Strutture Dati/vector/vectoriteratori.png>]
-<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=708, 200.24812pt x 12
+<immagini/2 - Strutture Dati/vector/vectorpopback.png, id=723, 200.24812pt x 12
 7.22531pt>
 File: immagini/2 - Strutture Dati/vector/vectorpopback.png Graphic file (type p
 ng)
@@ -915,7 +917,7 @@ ng)
 Package pdftex.def Info: immagini/2 - Strutture Dati/vector/vectorpopback.png  
 used on input line 130.
 (pdftex.def)             Requested size: 145.11053pt x 92.20006pt.
-<immagini/2 - Strutture Dati/vector/vectorsize.png, id=709, 283.81032pt x 51.19
+<immagini/2 - Strutture Dati/vector/vectorsize.png, id=724, 283.81032pt x 51.19
 125pt>
 File: immagini/2 - Strutture Dati/vector/vectorsize.png Graphic file (type png)
 
@@ -925,7 +927,7 @@ d on input line 150.
 (pdftex.def)             Requested size: 217.66211pt x 39.26115pt.
 
 
-[18
+[19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -954,16 +956,16 @@ l.172 \end{itemize}
 re Dati/vector/vectorpopback.png> <./immagini/2 - Strutture Dati/vector/vectors
 ize.png>]
 
-[19]
+[20]
 
-[20
+[21
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.244 \newpage
               ]
-<immagini/2 - Strutture Dati/map/map.png, id=754, 443.40656pt x 259.7203pt>
+<immagini/2 - Strutture Dati/map/map.png, id=768, 443.40656pt x 259.7203pt>
 File: immagini/2 - Strutture Dati/map/map.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/map/map.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/map/map.png  used on input
@@ -971,7 +973,7 @@ Package pdftex.def Info: immagini/2 - Strutture Dati/map/map.png  used on input
 (pdftex.def)             Requested size: 290.22107pt x 170.0051pt.
 
 
-[21
+[22
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -979,79 +981,79 @@ has been already used, duplicate ignored
 l.287 \newpage
                <./immagini/2 - Strutture Dati/map/map.png>]
 
-[22]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.368 				// (*it).first Ã¨ 
-                            la chiave, (*it).second Ã¨ il valore
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.368 				// (*it).first Ã¨ 
-                            la chiave, (*it).second Ã¨ il valore
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.368 ...*it).first Ã¨ la chiave, (*it).second Ã¨ 
-                                                  il valore
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.368 ...*it).first Ã¨ la chiave, (*it).second Ã¨ 
-                                                  il valore
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-
 [23]
 
-[24
+! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.368 				// (*it).first Ã¨ 
+                            la chiave, (*it).second Ã¨ il valore
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.368 				// (*it).first Ã¨ 
+                            la chiave, (*it).second Ã¨ il valore
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.368 ...*it).first Ã¨ la chiave, (*it).second Ã¨ 
+                                                  il valore
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.368 ...*it).first Ã¨ la chiave, (*it).second Ã¨ 
+                                                  il valore
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[24]
+
+[25
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.450 \newpage
               ]
-<immagini/2 - Strutture Dati/Set/set.png, id=841, 344.03531pt x 137.01187pt>
+<immagini/2 - Strutture Dati/Set/set.png, id=855, 344.03531pt x 137.01187pt>
 File: immagini/2 - Strutture Dati/Set/set.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Set/set.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/Set/set.png  used on input
@@ -1059,7 +1061,7 @@ Package pdftex.def Info: immagini/2 - Strutture Dati/Set/set.png  used on input
 (pdftex.def)             Requested size: 290.22107pt x 115.58047pt.
 
 
-[25
+[26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1085,7 +1087,7 @@ Underfull \hbox (badness 10000) detected at line 541
 
 
 
-[26]
+[27]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
 
@@ -1150,13 +1152,13 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[27]
-
 [28]
 
 [29]
 
-[30
+[30]
+
+[31
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1164,16 +1166,16 @@ as been already used, duplicate ignored
 l.774 \newpage
               ]
 
-[31]
+[32]
 
-[32
+[33
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.4}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.869 \newpage
               ]
-<immagini/2 - Strutture Dati/Stack/stack.png, id=1063, 353.82187pt x 212.29312p
+<immagini/2 - Strutture Dati/Stack/stack.png, id=1077, 353.82187pt x 212.29312p
 t>
 File: immagini/2 - Strutture Dati/Stack/stack.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Stack/stack.png>
@@ -1182,7 +1184,7 @@ nput line 881.
 (pdftex.def)             Requested size: 241.84843pt x 145.11217pt.
 
 
-[33
+[34
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1191,16 +1193,16 @@ l.921 	\begin{lstlisting}[language=C++]
                                         <./immagini/2 - Strutture Dati/Stack/st
 ack.png>]
 
-[34]
+[35]
 
-[35
+[36
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.5}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1037 \newpage
                ]
-<immagini/2 - Strutture Dati/queue/queue.png, id=1144, 310.91156pt x 91.09032pt
+<immagini/2 - Strutture Dati/queue/queue.png, id=1159, 310.91156pt x 91.09032pt
 >
 File: immagini/2 - Strutture Dati/queue/queue.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/queue/queue.png>
@@ -1209,7 +1211,7 @@ nput line 1050.
 (pdftex.def)             Requested size: 290.22107pt x 85.02861pt.
 
 
-[36
+[37
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1218,9 +1220,9 @@ l.1095 	\begin{lstlisting}[language=C++]
                                          <./immagini/2 - Strutture Dati/queue/q
 ueue.png>]
 
-[37]
+[38]
 
-[38
+[39
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.6}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1276,7 +1278,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[39
+[40
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1318,16 +1320,16 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[40]
+[41]
 
-[41
+[42
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.7}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1363 \newpage
                ]
-<immagini/2 - Strutture Dati/Deque/deque.png, id=1296, 646.66594pt x 280.04625p
+<immagini/2 - Strutture Dati/Deque/deque.png, id=1311, 646.66594pt x 280.04625p
 t>
 File: immagini/2 - Strutture Dati/Deque/deque.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Deque/deque.png>
@@ -1336,7 +1338,7 @@ nput line 1373.
 (pdftex.def)             Requested size: 290.22107pt x 125.68205pt.
 
 
-[42
+[43
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1345,11 +1347,11 @@ l.1414 	\begin{lstlisting}[language=C++]
                                          <./immagini/2 - Strutture Dati/Deque/d
 eque.png>]
 
-[43]
-
 [44]
 
-[45
+[45]
+
+[46
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.8}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1357,23 +1359,23 @@ as been already used, duplicate ignored
 l.1570 \end{itemize}
                     ])
 
-[46]
+[47]
 \openout2 = `"TeX_files/3 - Brute Force e Algoritmi Greedy.aux"'.
 
  (TeX_files/3 - Brute Force e Algoritmi Greedy.tex
 Capitolo 3.
 
 
-[47
+[48
 
 
 
 
 ]
 
-[48]
-
 [49]
+
+[50]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
 
@@ -1406,125 +1408,125 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[50]
-
 [51]
 
 [52]
 
 [53]
 
-LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
-
-Missing character: There is no ¿ in font cmr12!
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 425.
-
-
-LaTeX Warning: Command \texteuro invalid in math mode on input line 425.
-
-Missing character: There is no ¿ in font cmr12!
-
-
 [54]
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 416.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 419.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 422.
+
+Missing character: There is no ¿ in font cmr12!
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 425.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 425.
+
+Missing character: There is no ¿ in font cmr12!
+
 
 [55]
 
 [56]
+
+[57]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1583,7 +1585,7 @@ you left one out. Proceed, with fingers crossed.
 
 
 
-[57]
+[58]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
 
@@ -1616,11 +1618,11 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[58]
-
 [59]
 
 [60]
+
+[61]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\expandafter).
 
@@ -1743,11 +1745,11 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[61]
-
 [62]
+
+[63]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introduttivo.p
-ng, id=1731, 685.05937pt x 449.42906pt>
+ng, id=1745, 685.05937pt x 449.42906pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutt
 ivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Esempio Introdutti
@@ -1757,7 +1759,7 @@ y/Esempio Introduttivo.png  used on input line 858.
 (pdftex.def)             Requested size: 338.58632pt x 222.13547pt.
 
 
-[63
+[64
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1766,7 +1768,7 @@ l.867 	\item $
               M_1 + M_4 + M_5$ <./immagini/3 - Brute Force e Algoritmi Greedy/I
 dee Greedy/Esempio Introduttivo.png>]
 <immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Introdut
-tivo.png, id=1740, 654.19406pt x 416.30531pt>
+tivo.png, id=1754, 654.19406pt x 416.30531pt>
 File: immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Int
 roduttivo.png Graphic file (type png)
 <use immagini/3 - Brute Force e Algoritmi Greedy/Idee Greedy/Controesempio Intr
@@ -1776,7 +1778,7 @@ y/Controesempio Introduttivo.png  used on input line 891.
 (pdftex.def)             Requested size: 338.58632pt x 215.46364pt.
 
 
-[64
+[65
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1814,132 +1816,132 @@ you left one out. Proceed, with fingers crossed.
 
 
 
-[65]
-
 [66]
 
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1050 ...biettivo e divido per 2 se il numero Ã¨ 
-                                                  pari
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1050 ...biettivo e divido per 2 se il numero Ã¨ 
-                                                  pari
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1051 			sommo 1 se il numero Ã¨ 
-                                  dispari
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1051 			sommo 1 se il numero Ã¨ 
-                                  dispari
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1054 				if(N%2 == 0){ //se il numero Ã¨ 
-                                           pari
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1054 				if(N%2 == 0){ //se il numero Ã¨ 
-                                           pari
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1058 				else{ //se il numero Ã¨ 
-                                   dispari
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1058 				else{ //se il numero Ã¨ 
-                                   dispari
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-
 [67]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1050 ...biettivo e divido per 2 se il numero Ã¨ 
+                                                  pari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1050 ...biettivo e divido per 2 se il numero Ã¨ 
+                                                  pari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1051 			sommo 1 se il numero Ã¨ 
+                                  dispari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1051 			sommo 1 se il numero Ã¨ 
+                                  dispari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1054 				if(N%2 == 0){ //se il numero Ã¨ 
+                                           pari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1054 				if(N%2 == 0){ //se il numero Ã¨ 
+                                           pari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1058 				else{ //se il numero Ã¨ 
+                                   dispari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1058 				else{ //se il numero Ã¨ 
+                                   dispari
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[68]
 
 ! LaTeX Error: Unicode character âˆ’ (U+2212)
                not set up for use with LaTeX.
@@ -1986,7 +1988,7 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[68]
+[69]
 
 ! LaTeX Error: Unicode character âˆ’ (U+2212)
                not set up for use with LaTeX.
@@ -2063,7 +2065,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[69]
+[70]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (â\expandafter\lst@FillFixed@).
 
@@ -2111,20 +2113,20 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 )
 
-[70]
+[71]
 \openout2 = `"TeX_files/4 - Pattern Algoritmici.aux"'.
 
  (TeX_files/4 - Pattern Algoritmici.tex
 Capitolo 4.
 
 
-[71
+[72
 
 
 
 
 ]
-<immagini/4 - Pattern Algoritmici/Sliding window.png, id=1923, 284.39583pt x 17
+<immagini/4 - Pattern Algoritmici/Sliding window.png, id=1938, 284.39583pt x 17
 1.97583pt>
 File: immagini/4 - Pattern Algoritmici/Sliding window.png Graphic file (type pn
 g)
@@ -2134,9 +2136,9 @@ sed on input line 100.
 (pdftex.def)             Requested size: 290.22107pt x 175.51009pt.
 
 
-[72]
+[73]
 
-[73
+[74
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2175,8 +2177,8 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[74]
-<immagini/4 - Pattern Algoritmici/Sliding window mobile.png, id=2034, 963.6pt x
+[75]
+<immagini/4 - Pattern Algoritmici/Sliding window mobile.png, id=2048, 963.6pt x
  542.025pt>
 File: immagini/4 - Pattern Algoritmici/Sliding window mobile.png Graphic file (
 type png)
@@ -2186,7 +2188,7 @@ Package pdftex.def Info: immagini/4 - Pattern Algoritmici/Sliding window mobile
 (pdftex.def)             Requested size: 483.69687pt x 272.07874pt.
 
 
-[75
+[76
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2195,7 +2197,7 @@ l.254 \subsubsection
                     *{Input} <./immagini/4 - Pattern Algoritmici/Sliding window
  mobile.png (PNG copy)>]
 
-[76]
+[77]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
 
@@ -2262,9 +2264,9 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[77]
-
 [78]
+
+[79]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
 
@@ -2387,44 +2389,9 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[79]
-
 [80]
 
 [81]
-
-! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.579 .... Nella posizione 1, ad esempio, se c'Ã¨ 
-                                                  il numero 2, vuol dire che...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "A8.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.579 .... Nella posizione 1, ad esempio, se c'Ã¨ 
-                                                  il numero 2, vuol dire che...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
 
 [82]
 
@@ -2434,6 +2401,41 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+l.579 .... Nella posizione 1, ad esempio, se c'Ã¨ 
+                                                  il numero 2, vuol dire che...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.579 .... Nella posizione 1, ad esempio, se c'Ã¨ 
+                                                  il numero 2, vuol dire che...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[83]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
 l.603 			// quando Ã¨ 
                       rispettata la condizione (o non rispettata,
 The document does not appear to be in UTF-8 encoding.
@@ -2458,8 +2460,6 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-
-[83]
 
 [84]
 
@@ -2471,6 +2471,8 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [88]
 
+[89]
+
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -2502,13 +2504,13 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[89]
-
 [90]
 
 [91]
 
 [92]
+
+[93]
 Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
 
  []
@@ -2545,14 +2547,14 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[93]
+[94]
 Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
 
  []
 
 
 
-[94]
+[95]
 ! Misplaced alignment tab character &.
 l.1242 	\item	$1 &
                   \le M \le N \le 2\cdot10^5 \hspace{0.1cm}000$
@@ -2589,12 +2591,12 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[95]
-
 [96]
 
 [97]
 
+[98]
+
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -2656,22 +2658,22 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[98])
+[99])
 
-[99]
+[100]
 \openout2 = `"TeX_files/5 - Binary Search.aux"'.
 
  (TeX_files/5 - Binary Search.tex
 Capitolo 5.
 
 
-[100
+[101
 
 
 
 
 ]
-<immagini/5 - Binary Search/Esempio-compleanno-1.png, id=2702, 636.12656pt x 23
+<immagini/5 - Binary Search/Esempio-compleanno-1.png, id=2716, 636.12656pt x 23
 4.8775pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-1.png Graphic file (type pn
 g)
@@ -2681,14 +2683,14 @@ sed on input line 93.
 (pdftex.def)             Requested size: 386.95897pt x 142.87366pt.
 
 
-[101
+[102
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.113 \]
          <./immagini/5 - Binary Search/Esempio-compleanno-1.png>]
-<immagini/5 - Binary Search/Esempio-compleanno-2.png, id=2721, 663.22781pt x 23
+<immagini/5 - Binary Search/Esempio-compleanno-2.png, id=2736, 663.22781pt x 23
 1.86626pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-2.png Graphic file (type pn
 g)
@@ -2696,7 +2698,7 @@ g)
 Package pdftex.def Info: immagini/5 - Binary Search/Esempio-compleanno-2.png  u
 sed on input line 119.
 (pdftex.def)             Requested size: 386.95897pt x 135.28209pt.
-<immagini/5 - Binary Search/Esempio-compleanno-3.png, id=2722, 602.25pt x 204.7
+<immagini/5 - Binary Search/Esempio-compleanno-3.png, id=2737, 602.25pt x 204.7
 65pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-3.png Graphic file (type pn
 g)
@@ -2704,7 +2706,7 @@ g)
 Package pdftex.def Info: immagini/5 - Binary Search/Esempio-compleanno-3.png  u
 sed on input line 126.
 (pdftex.def)             Requested size: 386.95897pt x 131.57092pt.
-<immagini/5 - Binary Search/Esempio-compleanno-4.png, id=2723, 595.47469pt x 19
+<immagini/5 - Binary Search/Esempio-compleanno-4.png, id=2738, 595.47469pt x 19
 5.73125pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-4.png Graphic file (type pn
 g)
@@ -2712,7 +2714,7 @@ g)
 Package pdftex.def Info: immagini/5 - Binary Search/Esempio-compleanno-4.png  u
 sed on input line 133.
 (pdftex.def)             Requested size: 386.95897pt x 127.19093pt.
-<immagini/5 - Binary Search/Esempio-compleanno-5.png, id=2724, 594.72188pt x 20
+<immagini/5 - Binary Search/Esempio-compleanno-5.png, id=2739, 594.72188pt x 20
 0.24812pt>
 File: immagini/5 - Binary Search/Esempio-compleanno-5.png Graphic file (type pn
 g)
@@ -2726,7 +2728,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[102
+[103
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2839,7 +2841,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[103
+[104
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -3028,11 +3030,11 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[104]
-
 [105]
 
 [106]
+
+[107]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\expandafter).
 
@@ -3065,8 +3067,6 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[107]
-
 [108]
 
 [109]
@@ -3075,6 +3075,8 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [111]
 
+[112]
+
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -3105,8 +3107,6 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-
-[112]
 
 [113]
 
@@ -3114,6 +3114,8 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 [115]
 
+[116]
+
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\lst@FillFixed@).
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -3145,21 +3147,125 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[116])
+[117])
 
-[117]
+[118]
 \openout2 = `"TeX_files/6 - Programmazione Dinamica.aux"'.
 
  (TeX_files/6 - Programmazione Dinamica.tex
 Capitolo 6.
-)
+<immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/bagno.p
+ng, id=3096, 646.66594pt x 235.63031pt>
+File: immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/ba
+gno.png Graphic file (type png)
+<use immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/bag
+no.png>
+Package pdftex.def Info: immagini/6 - Programmazione dinamica/Programmazione di
+namica ricorsiva/bagno.png  used on input line 39.
+(pdftex.def)             Requested size: 386.95897pt x 140.99815pt.
 
-[118
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[119
 
 
 
 
-] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
+]
+<immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/bagno1x
+3.png, id=3103, 251.43938pt x 186.6975pt>
+File: immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/ba
+gno1x3.png Graphic file (type png)
+<use immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/bag
+no1x3.png>
+Package pdftex.def Info: immagini/6 - Programmazione dinamica/Programmazione di
+namica ricorsiva/bagno1x3.png  used on input line 60.
+(pdftex.def)             Requested size: 241.84843pt x 179.5751pt.
+
+
+[120
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.73 \begin{equation}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.73 \begin{equation}
+                      <./immagini/6 - Programmazione dinamica/Programmazione di
+namica ricorsiva/bagno.png> <./immagini/6 - Programmazione dinamica/Programmazi
+one dinamica ricorsiva/bagno1x3.png>]
+<immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/albero.
+png, id=3118, 531.48563pt x 320.69812pt>
+File: immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/al
+bero.png Graphic file (type png)
+<use immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/alb
+ero.png>
+Package pdftex.def Info: immagini/6 - Programmazione dinamica/Programmazione di
+namica ricorsiva/albero.png  used on input line 124.
+(pdftex.def)             Requested size: 483.69687pt x 291.87pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[121]
+
+[122
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.176 L
+       a posizione di partenza Ã¨ fissata nella cella in alto a sinistra, \(...
+ <./immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/albe
+ro.png>]
+<immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/griglia
+.png, id=3137, 261.22594pt x 179.92218pt>
+File: immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gr
+iglia.png Graphic file (type png)
+<use immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gri
+glia.png>
+Package pdftex.def Info: immagini/6 - Programmazione dinamica/Programmazione di
+namica ricorsiva/griglia.png  used on input line 184.
+(pdftex.def)             Requested size: 338.58632pt x 233.2097pt.
+
+
+[123
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.231 \end{equation}
+                     <./immagini/6 - Programmazione dinamica/Programmazione din
+amica ricorsiva/griglia.png>]
+<immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/griglia
+ monete.png, id=3153, 261.97874pt x 176.15813pt>
+File: immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gr
+iglia monete.png Graphic file (type png)
+<use immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gri
+glia monete.png>
+Package pdftex.def Info: immagini/6 - Programmazione dinamica/Programmazione di
+namica ricorsiva/griglia monete.png  used on input line 270.
+(pdftex.def)             Requested size: 338.58632pt x 227.67767pt.
+
+
+[124
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.278 
+       <./immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiv
+a/griglia monete.png>])
+
+[125] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
 (TeX_files/1 - Complessita Computazionale.aux)
 (TeX_files/2 - Strutture Dati.aux)
 (TeX_files/3 - Brute Force e Algoritmi Greedy.aux)
@@ -3175,13 +3281,13 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `"Preparazione alle olimpiadi".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 77E462FF5A2DD327B9E3F09DFE83E86D;15530.
+(rerunfilecheck)             Checksum: 550EF3B7133DA2FB359E16AF22B1ED8D;15879.
  ) 
 Here is how much of TeX's memory you used:
- 18629 strings out of 468225
- 307216 string characters out of 5432973
- 1240771 words of memory out of 5000000
- 44612 multiletter control sequences out of 15000+600000
+ 18713 strings out of 468225
+ 311231 string characters out of 5432973
+ 1239771 words of memory out of 5000000
+ 44668 multiletter control sequences out of 15000+600000
  646619 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,16n,79p,819b,2104s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3215,10 +3321,10 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 r8.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (119 pages, 1421994 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (126 pages, 1488646 bytes).
 
 PDF statistics:
- 4300 PDF objects out of 5155 (max. 8388607)
- 2249 named destinations out of 2487 (max. 500000)
- 794 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4393 PDF objects out of 5155 (max. 8388607)
+ 2277 named destinations out of 2487 (max. 500000)
+ 835 words of extra memory for PDF output out of 10000 (max. 10000000)
 
