@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  15 FEB 2026 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  15 FEB 2026 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3222,50 +3222,147 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.176 L
-       a posizione di partenza è fissata nella cella in alto a sinistra, \(...
- <./immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/albe
-ro.png>]
+l.178 \begin{lstlisting}[language=C++]
+                                       <./immagini/6 - Programmazione dinamica/
+Programmazione dinamica ricorsiva/albero.png>]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 	int64_t ans;    // Variabile che conterrà 
+                                                  il risultato finale
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 	int64_t ans;    // Variabile che conterrà 
+                                                  il risultato finale
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[123]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.246 	// Se il valore è 
+                          già calcolato, lo restituiamo direttamente
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A8.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.246 	// Se il valore è 
+                          già calcolato, lo restituiamo direttamente
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.246 	// Se il valore è già 
+                               calcolato, lo restituiamo direttamente
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A0.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.246 	// Se il valore è già 
+                               calcolato, lo restituiamo direttamente
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[124]
+
+[125]
 <immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/griglia
-.png, id=3137, 261.22594pt x 179.92218pt>
+.png, id=3231, 261.22594pt x 179.92218pt>
 File: immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gr
 iglia.png Graphic file (type png)
 <use immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gri
 glia.png>
 Package pdftex.def Info: immagini/6 - Programmazione dinamica/Programmazione di
-namica ricorsiva/griglia.png  used on input line 184.
+namica ricorsiva/griglia.png  used on input line 308.
 (pdftex.def)             Requested size: 338.58632pt x 233.2097pt.
 
 
-[123
+[126
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.231 \end{equation}
+l.355 \end{equation}
                      <./immagini/6 - Programmazione dinamica/Programmazione din
 amica ricorsiva/griglia.png>]
 <immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/griglia
- monete.png, id=3153, 261.97874pt x 176.15813pt>
+ monete.png, id=3248, 261.97874pt x 176.15813pt>
 File: immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gr
 iglia monete.png Graphic file (type png)
 <use immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gri
 glia monete.png>
 Package pdftex.def Info: immagini/6 - Programmazione dinamica/Programmazione di
-namica ricorsiva/griglia monete.png  used on input line 270.
+namica ricorsiva/griglia monete.png  used on input line 394.
 (pdftex.def)             Requested size: 338.58632pt x 227.67767pt.
 
 
-[124
+[127
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.278 
+l.402 
        <./immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiv
 a/griglia monete.png>])
 
-[125] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
+[128] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
 (TeX_files/1 - Complessita Computazionale.aux)
 (TeX_files/2 - Strutture Dati.aux)
 (TeX_files/3 - Brute Force e Algoritmi Greedy.aux)
@@ -3287,10 +3384,10 @@ hanged.
 (rerunfilecheck)             Checksum: 550EF3B7133DA2FB359E16AF22B1ED8D;15879.
  ) 
 Here is how much of TeX's memory you used:
- 18713 strings out of 468225
- 311231 string characters out of 5432973
+ 18802 strings out of 468225
+ 312661 string characters out of 5432973
  1239771 words of memory out of 5000000
- 44668 multiletter control sequences out of 15000+600000
+ 44672 multiletter control sequences out of 15000+600000
  646619 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,16n,79p,819b,2104s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3324,10 +3421,10 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 r8.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (126 pages, 1488634 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (129 pages, 1510267 bytes).
 
 PDF statistics:
- 4393 PDF objects out of 5155 (max. 8388607)
- 2277 named destinations out of 2487 (max. 500000)
+ 4504 PDF objects out of 5155 (max. 8388607)
+ 2362 named destinations out of 2487 (max. 500000)
  835 words of extra memory for PDF output out of 10000 (max. 10000000)
 
