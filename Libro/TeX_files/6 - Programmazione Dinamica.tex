@@ -282,7 +282,7 @@ int main() {
 È importante notare che:
 \begin{itemize}
 	\item \texttt{memo} è dichiarato come \textbf{vector globale} affinché possa essere accessibile sia dal \texttt{main} sia dalle funzioni.
-	\item L'istruzione \texttt{memo = vector<int64\_t>(N+1, -1)} serve a assegnare una dimensione a \texttt{memo} e ad inizializzare tutti gli elementi.
+	\item L'istruzione \texttt{memo = vector<int64\_t>(N+1, -1)} serve ad assegnare una dimensione a \texttt{memo} e ad inizializzare tutti gli elementi.
 	\item Gli elementi del vector sono inizializzati a $-1$ perché, all'inizio, nessuno di essi è stato ancora calcolato.
 \end{itemize}
 
@@ -380,7 +380,84 @@ Da cui la complessità totale dell’algoritmo diventa:
 	\text{Complessità totale} = O(N \cdot M) \cdot O(1) = O(N \cdot M)
 \end{equation}
 
+\bigskip
+\noindent \textbf{Codifica C++} \\
 
+\begin{lstlisting}[language=C++]
+#include <bits/stdc++.h>
+using namespace std;
+
+// Memoization globale: serve a salvare i risultati già calcolati
+// per ogni cella (r, c) e non ricalcolarli più volte
+vector<vector<int>> memo;
+
+// Funzione dp che calcola il numero di percorsi dalla cella (r, c) alla cella finale (N-1, M-1)
+int64_t dp(int N, int M, int r, int c){
+	// Caso base 1: se siamo fuori dalla griglia (riga o colonna oltre i limiti)
+	// non esiste un percorso valido, quindi ritorniamo 0
+	if(r >= N || c >= M){
+		return 0;
+	}
+	
+	// Caso base 2: se la cella (r,c) è già stata calcolata, la restituiamo
+	// evitando di ricalcolare percorsi già noti (memoization)
+	if(memo[r][c] != -1){
+		return memo[r][c];
+	}
+	
+	// Caso base 3: se siamo arrivati alla cella finale (N-1, M-1)
+	// c'è un solo percorso valido (quello appena completato)
+	if(r == N-1 && c == M-1){
+		return 1;
+	}
+	
+	// Passi ricorsivi:
+	// memo[r][c] = somma dei percorsi partendo dalla cella sottostante (r+1, c)
+	// e dalla cella a destra (r, c+1)
+	memo[r][c] = dp(N, M, r+1, c) + dp(N, M, r, c+1);
+	
+	// Restituiamo il risultato calcolato e salvato in memo
+	return memo[r][c];
+}
+
+int main() {
+	int N, M;
+	// Lettura dimensioni della griglia
+	cin >> N >> M;
+	
+	// Inizializzazione della memoization
+	// Tutti gli elementi inizialmente a -1, per indicare che non sono ancora calcolati
+	memo = vector<vector<int>>(N, vector<int>(M, -1));
+	
+	int64_t ans;
+	// Calcolo del numero totale di percorsi a partire dalla cella (0,0)
+	ans = dp(N, M, 0, 0);
+	
+	// Stampa del risultato
+	cout << ans << endl;
+	
+	return 0;
+}
+
+\end{lstlisting}
+
+È opportuno notare che:
+\begin{itemize}
+	\item \texttt{memo} è un \textbf{vector di vector}, ovvero una matrice, perché per questo problema dobbiamo memorizzare i risultati per ogni coppia di coordinate $(r,c)$ della griglia.
+	\item La funzione \texttt{dp} accetta quattro parametri:
+	\begin{itemize}
+		\item $N$ e $M$, le dimensioni della griglia;
+		\item $r$ e $c$, le coordinate della cella corrente da cui vogliamo calcolare il numero di percorsi verso l'ultima cella.
+	\end{itemize}
+	\item Il caso base della funzione è quando si raggiunge la cella finale $(N-1, M-1)$: in tal caso \texttt{dp} restituisce $1$, perché significa che abbiamo trovato un percorso valido.
+	\item Quando ci troviamo fuori dai confini della griglia (cioè $r \ge N$ o $c \ge M$), la funzione restituisce $0$, poiché tali percorsi non sono validi.
+	\item Se il valore della cella corrente è già stato calcolato e memorizzato in \texttt{memo[r][c]}, viene restituito direttamente, evitando ricalcoli.
+\end{itemize}
+
+
+
+
+\newpage
 \subsection{Problema della griglia con monete}
 Supponiamo di avere una griglia di dimensione $N \times M$, come nel problema precedente.  
 In ogni cella $(r, c)$ è presente una quantità di monete $k[r,c]$, dove $r$ e $c$ indicano la riga e la colonna della cella, rispettivamente.
@@ -444,3 +521,57 @@ Nel nostro caso:
 \begin{equation}
 	\text{Complessità totale} = O(N \cdot M) \cdot O(1) = O(N \cdot M)
 \end{equation}
+
+\bigskip
+\noindent \textbf{Codifica C++} \\
+
+\begin{lstlisting}[language=C++]
+#include <bits/stdc++.h>
+using namespace std;
+
+// matrice globale per memoizzazione
+vector<vector<int>> memo;
+
+// funzione dp che calcola il massimo numero di monete a partire dalla cella (r, c)
+int64_t dp(int N, int M, int r, int c, vector<vector<int>> &k) {
+	// se siamo fuori dalla griglia
+	if(r >= N || c >= M) 
+	return 0;
+	
+	// se siamo nella cella finale, restituisco le monete presenti
+	if(r == N-1 && c == M-1)
+	return k[r][c];
+	
+	// se il valore è già stato calcolato, lo restituisco
+	if(memo[r][c] != -1)
+	return memo[r][c];
+	
+	// calcolo ricorsivo: massimo tra muoversi giù o a destra + monete della cella corrente
+	memo[r][c] = k[r][c] + max(dp(N, M, r+1, c, k), dp(N, M, r, c+1, k));
+	return memo[r][c];
+}
+
+int main() {
+	int N, M;
+	cin >> N >> M; // dimensioni della griglia
+	
+	// leggo la griglia delle monete
+	vector<vector<int>> k(N, vector<int>(M));
+	for(int i = 0; i < N; i++) {
+		for(int j = 0; j < M; j++) {
+			cin >> k[i][j];
+		}
+	}
+	
+	// inizializzo la matrice memo con -1
+	memo = vector<vector<int>>(N, vector<int>(M, -1));
+	
+	// calcolo il massimo numero di monete partendo dalla cella (0,0)
+	int64_t ans = dp(N, M, 0, 0, k);
+	
+	cout << ans << endl;
+	
+	return 0;
+}
+
+\end{lstlisting}
