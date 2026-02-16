@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  16 FEB 2026 11:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  16 FEB 2026 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -745,14 +745,6 @@ line 21.
  (TeX_files/1 - Complessita Computazionale.tex
 Capitolo 1.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 31.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 31.
-
-
 
 [5
 
@@ -760,7 +752,15 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=485, 359.09157pt x 26
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 31.
+
+<immagini/1 - Complessità Computazionale/Ogrande.jpg, id=483, 359.09157pt x 26
 4.99pt>
 File: immagini/1 - Complessità Computazionale/Ogrande.jpg Graphic file (type j
 pg)
@@ -768,7 +768,6 @@ pg)
 Package pdftex.def Info: immagini/1 - Complessità Computazionale/Ogrande.jpg  
 used on input line 53.
 (pdftex.def)             Requested size: 290.22107pt x 214.1838pt.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
@@ -781,7 +780,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
 
-<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=487, 359.09157pt 
+
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.78 I
+      n figura \ref{fig:1 - Complessità Computazionale:Omega} è riportata ...
+ <./immagini/1 - Complessità Computazionale/Ogrande.jpg>]
+<immagini/1 - Complessità Computazionale/Sigmagrande.jpg, id=493, 359.09157pt 
 x 271.76532pt>
 File: immagini/1 - Complessità Computazionale/Sigmagrande.jpg Graphic file (ty
 pe jpg)
@@ -790,33 +799,27 @@ Package pdftex.def Info: immagini/1 - Complessità Computazionale/Sigmagrande.j
 pg  used on input line 83.
 (pdftex.def)             Requested size: 290.22107pt x 219.66011pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-
-[6
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.93 
-      <./immagini/1 - Complessità Computazionale/Ogrande.jpg>]
 
 [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.139 
-      
+l.160 S
+       iano $T(n) \ge 0$ e $S(n) \ge 0$ due funzioni tali che: <./immagini/1 - 
+Complessità Computazionale/Sigmagrande.jpg>]
+
+[8
 pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.139 
-       <./immagini/1 - Complessità Computazionale/Sigmagrande.jpg>]
-
-[8]
+l.226 	\item a
+              ssegnazione di una variabile,]
 Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
@@ -1327,14 +1330,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2.7}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1363 \newpage
+l.1364 \newpage
                ]
 <immagini/2 - Strutture Dati/Deque/deque.png, id=1311, 646.66594pt x 280.04625p
 t>
 File: immagini/2 - Strutture Dati/Deque/deque.png Graphic file (type png)
 <use immagini/2 - Strutture Dati/Deque/deque.png>
 Package pdftex.def Info: immagini/2 - Strutture Dati/Deque/deque.png  used on i
-nput line 1373.
+nput line 1374.
 (pdftex.def)             Requested size: 290.22107pt x 125.68205pt.
 
 
@@ -1343,7 +1346,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1414 	\begin{lstlisting}[language=C++]
+l.1415 	\begin{lstlisting}[language=C++]
                                          <./immagini/2 - Strutture Dati/Deque/d
 eque.png>]
 
@@ -1356,7 +1359,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2.8}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1570 \end{itemize}
+l.1571 \end{itemize}
                     ])
 
 [47]
@@ -2509,12 +2512,13 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 [91]
 
 [92]
-
-[93]
 Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
 
  []
 
+
+
+[93]
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
@@ -3122,7 +3126,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.819 			// se bastano, questo è 
+l.815 			// se bastano, questo è 
                                   un candidato valido
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3137,7 +3141,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.819 			// se bastano, questo è 
+l.815 			// se bastano, questo è 
                                   un candidato valido
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3321,28 +3325,26 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 [124]
-
-[125]
 <immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/griglia
-.png, id=3231, 261.22594pt x 179.92218pt>
+.png, id=3227, 261.22594pt x 179.92218pt>
 File: immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gr
 iglia.png Graphic file (type png)
 <use immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gri
 glia.png>
 Package pdftex.def Info: immagini/6 - Programmazione dinamica/Programmazione di
-namica ricorsiva/griglia.png  used on input line 308.
+namica ricorsiva/griglia.png  used on input line 307.
 (pdftex.def)             Requested size: 338.58632pt x 233.2097pt.
 
 
-[126
+[125
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.355 \end{equation}
+l.335 \end{equation}
                      <./immagini/6 - Programmazione dinamica/Programmazione din
 amica ricorsiva/griglia.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
@@ -3353,7 +3355,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 ...lobale: serve a salvare i risultati già 
+l.389 ...lobale: serve a salvare i risultati già 
                                                   calcolati
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3368,7 +3370,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.390 ...lobale: serve a salvare i risultati già 
+l.389 ...lobale: serve a salvare i risultati già 
                                                   calcolati
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3383,7 +3385,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.391 ...gni cella (r, c) e non ricalcolarli più 
+l.390 ...gni cella (r, c) e non ricalcolarli più 
                                                   volte
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3398,7 +3400,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.391 ...gni cella (r, c) e non ricalcolarli più 
+l.390 ...gni cella (r, c) e non ricalcolarli più 
                                                   volte
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3413,7 +3415,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.402 	// Caso base 2: se la cella (r,c) è 
+l.401 	// Caso base 2: se la cella (r,c) è 
                                             già stata calcolata, la restitu...
 
 The document does not appear to be in UTF-8 encoding.
@@ -3429,7 +3431,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.402 	// Caso base 2: se la cella (r,c) è 
+l.401 	// Caso base 2: se la cella (r,c) è 
                                             già stata calcolata, la restitu...
 
 The document does not appear to be in UTF-8 encoding.
@@ -3445,7 +3447,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.402 	// Caso base 2: se la cella (r,c) è già 
+l.401 	// Caso base 2: se la cella (r,c) è già 
                                                  stata calcolata, la restitu...
 
 The document does not appear to be in UTF-8 encoding.
@@ -3461,7 +3463,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.402 	// Caso base 2: se la cella (r,c) è già 
+l.401 	// Caso base 2: se la cella (r,c) è già 
                                                  stata calcolata, la restitu...
 
 The document does not appear to be in UTF-8 encoding.
@@ -3477,7 +3479,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.403 	// evitando di ricalcolare percorsi già 
+l.402 	// evitando di ricalcolare percorsi già 
                                                 noti (memoization)
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3492,7 +3494,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.403 	// evitando di ricalcolare percorsi già 
+l.402 	// evitando di ricalcolare percorsi già 
                                                 noti (memoization)
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3501,13 +3503,16 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 
+
+[126]
+
 ! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.409 	// c'è 
+l.408 	// c'è 
                un solo percorso valido (quello appena completato)
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3522,7 +3527,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.409 	// c'è 
+l.408 	// c'è 
                un solo percorso valido (quello appena completato)
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3533,28 +3538,26 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 [127]
-
-[128]
 <immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/griglia
- monete.png, id=3314, 261.97874pt x 176.15813pt>
+ monete.png, id=3310, 261.97874pt x 176.15813pt>
 File: immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gr
 iglia monete.png Graphic file (type png)
 <use immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiva/gri
 glia monete.png>
 Package pdftex.def Info: immagini/6 - Programmazione dinamica/Programmazione di
-namica ricorsiva/griglia monete.png  used on input line 479.
+namica ricorsiva/griglia monete.png  used on input line 478.
 (pdftex.def)             Requested size: 338.58632pt x 227.67767pt.
 
 
-[129
+[128
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 
-       <./immagini/6 - Programmazione dinamica/Programmazione dinamica ricorsiv
-a/griglia monete.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 534--535
+l.499 \begin{equation}
+                       <./immagini/6 - Programmazione dinamica/Programmazione d
+inamica ricorsiva/griglia monete.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
 
  []
 
@@ -3565,7 +3568,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.553 	// se il valore è 
+l.552 	// se il valore è 
                           già stato calcolato, lo restituisco
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3580,7 +3583,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.553 	// se il valore è 
+l.552 	// se il valore è 
                           già stato calcolato, lo restituisco
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3595,7 +3598,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.553 	// se il valore è già 
+l.552 	// se il valore è già 
                                stato calcolato, lo restituisco
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3610,7 +3613,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.553 	// se il valore è già 
+l.552 	// se il valore è già 
                                stato calcolato, lo restituisco
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3625,7 +3628,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.557 ...olo ricorsivo: massimo tra muoversi giù 
+l.556 ...olo ricorsivo: massimo tra muoversi giù 
                                                   o a destra + monete della ...
 
 The document does not appear to be in UTF-8 encoding.
@@ -3641,7 +3644,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.557 ...olo ricorsivo: massimo tra muoversi giù 
+l.556 ...olo ricorsivo: massimo tra muoversi giù 
                                                   o a destra + monete della ...
 
 The document does not appear to be in UTF-8 encoding.
@@ -3652,9 +3655,9 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 
-[130])
+[129])
 
-[131] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
+[130] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
 (TeX_files/1 - Complessita Computazionale.aux)
 (TeX_files/2 - Strutture Dati.aux)
 (TeX_files/3 - Brute Force e Algoritmi Greedy.aux)
@@ -3668,18 +3671,21 @@ L3 programming layer <2025-05-26>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `"Preparazione alle olimpiadi".out' has not c
 hanged.
 (rerunfilecheck)             Checksum: 550EF3B7133DA2FB359E16AF22B1ED8D;15879.
  ) 
 Here is how much of TeX's memory you used:
- 18910 strings out of 468225
- 314432 string characters out of 5432973
- 1239771 words of memory out of 5000000
+ 18909 strings out of 468225
+ 314424 string characters out of 5432973
+ 1235771 words of memory out of 5000000
  44674 multiletter control sequences out of 15000+600000
  646619 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,16n,79p,819b,2104s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 76i,16n,79p,819b,2055s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx
 1440.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ectt1000.pk> <C:\Users\Anton\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -3710,10 +3716,10 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 r8.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (132 pages, 1539097 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (131 pages, 1538331 bytes).
 
 PDF statistics:
- 4642 PDF objects out of 5155 (max. 8388607)
- 2468 named destinations out of 2487 (max. 500000)
+ 4638 PDF objects out of 5155 (max. 8388607)
+ 2467 named destinations out of 2487 (max. 500000)
  835 words of extra memory for PDF output out of 10000 (max. 10000000)
 

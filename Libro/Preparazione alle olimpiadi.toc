@@ -2,10 +2,10 @@
 \babel@toc {italian}{}\relax 
 \contentsline {chapter}{\numberline {1}Complessità Computazionale}{5}{chapter.1}%
 \contentsline {section}{\numberline {1.1}La notazione asintotica}{5}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Notazione asintotica $O$ e caso peggiore}{5}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Notazione asintotica $O$ e caso peggiore}{6}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Notazione asintotica $\Omega $ e caso migliore}{6}{subsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.1.3}Gerarchia delle complessità asintotiche}{7}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Algebra della Notazione Asintotica}{8}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.4}Algebra della Notazione Asintotica}{7}{subsection.1.1.4}%
 \contentsline {section}{\numberline {1.2}Complessità computazionale delle principali istruzioni}{9}{section.1.2}%
 \contentsline {subsubsection}{Operazioni elementari}{9}{section*.3}%
 \contentsline {subsubsection}{Complessità computazionale dei cicli}{10}{section*.4}%
@@ -56,7 +56,7 @@
 \contentsline {section}{\numberline {2.7}Priority Queue}{40}{section.2.7}%
 \contentsline {subsection}{\numberline {2.7.1}Dichiarazione di una priority\_queue}{40}{subsection.2.7.1}%
 \contentsline {subsection}{\numberline {2.7.2}Operazioni principali sulla priority\_queue}{41}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Iterazione su una priority\_queue}{41}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.3}Iterazione su una priority\_queue}{42}{subsection.2.7.3}%
 \contentsline {subsection}{\numberline {2.7.4}Esempio pratico}{42}{subsection.2.7.4}%
 \contentsline {subsection}{\numberline {2.7.5}Complessità computazionale riassunta}{42}{subsection.2.7.5}%
 \contentsline {section}{\numberline {2.8}Deque}{43}{section.2.8}%
@@ -80,8 +80,8 @@
 \contentsline {subsection}{\numberline {4.1.1}Distinct Values Subarray}{77}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Playlist}{79}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}Christmas Light}{82}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Bitmask}{84}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Apple Division}{87}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.2}Bitmask}{85}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Apple Division}{88}{subsection.4.2.1}%
 \contentsline {subsubsection}{Idea (Bitmask)}{88}{section*.67}%
 \contentsline {section}{\numberline {4.3}Prefix Sum}{92}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}C - Index × A(Continuous ver.)}{96}{subsection.4.3.1}%
@@ -92,5 +92,5 @@
 \contentsline {chapter}{\numberline {6}Programmazione Dinamica}{119}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Programmazione dinamica ricorsiva}{119}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Problema del bagno}{119}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Problema della griglia}{126}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}Problema della griglia con monete}{129}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.2}Problema della griglia}{125}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Problema della griglia con monete}{128}{subsection.6.1.3}%
