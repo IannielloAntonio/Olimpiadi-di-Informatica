@@ -457,10 +457,18 @@ int main() {
 
 
 
+
+
+
+
+
+
+
+
 \newpage
 \subsection{Problema della griglia con monete}
 Supponiamo di avere una griglia di dimensione $N \times M$, come nel problema precedente.  
-In ogni cella $(r, c)$ è presente una quantità di monete $k[r,c]$, dove $r$ e $c$ indicano la riga e la colonna della cella, rispettivamente.
+In ogni cella $(r, c)$ è presente una quantità di monete $k[r][]c]$, dove $r$ e $c$ indicano la riga e la colonna della cella, rispettivamente.
 
 La situazione è illustrata in Figura \ref{fig:6 - programmazione-dinamica:ricorsiva:griglia-monete}.
 
@@ -475,14 +483,14 @@ La situazione è illustrata in Figura \ref{fig:6 - programmazione-dinamica:ricor
 
 Partiamo dalla cella di partenza $(0,0)$ (casella gialla) e vogliamo raggiungere la cella finale $(N-1, M-1)$ (casella rosa), muovendoci solo verso destra o verso il basso, e raccogliendo il massimo numero possibile di monete.
 
-Definiamo la funzione $f(r,c)$ come il massimo numero di monete che è possibile raccogliere partendo dalla cella $(r,c)$, rispettando i vincoli del problema.  
+Definiamo la funzione $dp(r,c)$ come il massimo numero di monete che è possibile raccogliere partendo dalla cella $(r,c)$, rispettando i vincoli del problema.  
 
 Il sistema risolutivo può essere descritto considerando i possibili movimenti dalla cella corrente:
 
 \begin{itemize}
-	\item Se mi muovo verso destra, posso raccogliere un numero di monete pari a $f(r, c+1) + k[r,c]$, ovvero il massimo ottenibile dalla cella a destra più le monete presenti nella cella corrente.
-	\item Se mi muovo verso il basso, posso raccogliere un numero di monete pari a $f(r+1, c) + k[r,c]$, ovvero il massimo ottenibile dalla cella sottostante più le monete presenti nella cella corrente.
-	\item Se mi trovo fuori dai confini della griglia, non posso raccogliere monete: $f(r,c) = 0$.
+	\item Se mi muovo verso destra, posso raccogliere un numero di monete pari a $dp(r, c+1) + k[r][c]$, ovvero il massimo ottenibile dalla cella a destra più le monete presenti nella cella corrente.
+	\item Se mi muovo verso il basso, posso raccogliere un numero di monete pari a $dp(r+1, c) + k[r][c]$, ovvero il massimo ottenibile dalla cella sottostante più le monete presenti nella cella corrente.
+	\item Se mi trovo fuori dai confini della griglia, non posso raccogliere monete: $dp(r,c) = 0$.
 \end{itemize}
 
 Lo scopo è massimizzare le monete raccolte; pertanto, dalla cella $(r,c)$ sceglierò la direzione che porta al massimo numero di monete.  
@@ -490,10 +498,10 @@ Lo scopo è massimizzare le monete raccolte; pertanto, dalla cella $(r,c)$ scegl
 Il sistema risultante è, quindi, il seguente:
 
 \begin{equation}
-	f(r,c) =
+	dp(r,c) =
 	\left\{
 	\begin{aligned}
-		& k[r,c] + \max(f(r+1, c), f(r, c+1)), && 0 \le r < N, \ 0 \le c < M\\
+		& k[r,c] + \max(dp(r+1, c), dp(r, c+1)), && 0 \le r < N, \ 0 \le c < M\\
 		& 0, && r = N \text{ (fuori dalla griglia in basso)}\\
 		& 0, && c = M \text{ (fuori dalla griglia a destra)}
 	\end{aligned}
@@ -503,7 +511,7 @@ Il sistema risultante è, quindi, il seguente:
 
 \bigskip
 \noindent \textbf{Complessità Computazionale:} \\
-Ogni stato della funzione $f(r,c)$ corrisponde a una cella della griglia. Per calcolare il valore di $f(r,c)$ dobbiamo considerare al massimo due transizioni: verso destra o verso il basso.  
+Ogni stato della funzione $dp(r,c)$ corrisponde a una cella della griglia. Per calcolare il valore di $dp(r,c)$ dobbiamo considerare al massimo due transizioni: verso destra o verso il basso.  
 Pertanto, la complessità totale dell'algoritmo può essere stimata come:
 
 \begin{equation}
@@ -575,3 +583,7 @@ int main() {
 }
 
 \end{lstlisting}
+
+In questa codifica è stata utilizzata la sintassi 
+\texttt{memo = vector<vector<int>>(N, vector<int>(M, -1))}. 
+Essa serve sia a definire le dimensioni della matrice \texttt{memo} (un \textit{vector di vector}) sia a inizializzare tutti i suoi elementi al valore $-1$, che indica che il corrispondente sottoproblema non è ancora stato calcolato.
