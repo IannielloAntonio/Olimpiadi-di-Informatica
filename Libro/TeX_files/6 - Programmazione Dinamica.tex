@@ -585,5 +585,9 @@ int main() {
 \end{lstlisting}
 
 In questa codifica è stata utilizzata la sintassi 
-\texttt{memo = vector<vector<int>>(N, vector<int>(M, -1))}. 
+
+\begin{equation*}
+	\texttt{memo = vector<vector<int>>(N, vector<int>(M, -1))}
+\end{equation*}
+
 Essa serve sia a definire le dimensioni della matrice \texttt{memo} (un \textit{vector di vector}) sia a inizializzare tutti i suoi elementi al valore $-1$, che indica che il corrispondente sottoproblema non è ancora stato calcolato.

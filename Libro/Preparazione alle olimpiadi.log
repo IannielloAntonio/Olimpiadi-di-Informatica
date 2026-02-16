@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  16 FEB 2026 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.20)  16 FEB 2026 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3653,12 +3653,6 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 [130])
-Overfull \hbox (27.47395pt too wide) in paragraph at lines 587--61
-[]\T1/cmr/m/n/12 In que-sta co-di-fi-ca è sta-ta uti-liz-za-ta la sin-tas-si \T
-1/cmtt/m/n/12 memo = vector<vector<int>>(N, vector<int>(M,
- []
-
-
 
 [131] (Preparazione alle olimpiadi.aux (TeX_files/0 - Introduzione.aux)
 (TeX_files/1 - Complessita Computazionale.aux)
@@ -3716,7 +3710,7 @@ s/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 r8.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Users/Anton/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on "Preparazione alle olimpiadi.pdf" (132 pages, 1539079 bytes).
+Output written on "Preparazione alle olimpiadi.pdf" (132 pages, 1539097 bytes).
 
 PDF statistics:
  4642 PDF objects out of 5155 (max. 8388607)
