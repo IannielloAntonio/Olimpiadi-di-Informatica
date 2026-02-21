@@ -75,12 +75,16 @@ Partendo dalla quantità \(F(N)\), possiamo osservare che essa è data dalla som
 	\label{eq:ricorrenza_base}
 \end{equation}
 
+
+
 dove:
 \begin{itemize}
 	\item \(F(N)\) rappresenta il numero totale di modi per piastrellare un bagno di dimensione \(1 \times N\);
 	\item \(F(N-1)\) rappresenta il numero di modi per piastrellare un bagno di dimensione \(1 \times (N-1)\), corrispondente ai casi in cui la prima piastrella è di tipo \(1 \times 1\);
 	\item \(F(N-2)\) rappresenta il numero di modi per piastrellare un bagno di dimensione \(1 \times (N-2)\), corrispondente ai casi in cui la prima piastrella è di tipo \(1 \times 2\).
 \end{itemize}
+
+Si osserva che la relazione~\eqref{eq:ricorrenza_base} coincide con la successione di Fibonacci, poiché ogni termine è ottenuto come somma dei due precedenti.
 
 Possiamo ora applicare la stessa relazione di ricorrenza \eqref{eq:ricorrenza_base} ai termini \(F(N-1)\) e \(F(N-2)\). In particolare, si ha:
 
@@ -126,7 +130,7 @@ La struttura che si viene a generare da queste "scomposizioni" è rappresentata 
 	\label{fig:6 - programmazione-dinamica:ricorsiva:albero}
 \end{figure}
 
-Ogni chiamata ricorsiva genera due ulteriori chiamate, dando origine a un albero di ricorsione binario. Di conseguenza, la complessità complessiva dell’algoritmo può essere stimata come \(O(2^N)\).
+Come detto, ogni chiamata ricorsiva genera due ulteriori chiamate, dando origine a un albero di ricorsione binario. Di conseguenza, la complessità complessiva dell’algoritmo può essere stimata come \(O(2^N)\).
 
 Per valori elevati di \(N\), tale approccio risulta inefficiente a causa del numero elevato di chiamate ridondanti.  
 Osservando la Figura \ref{fig:6 - programmazione-dinamica:ricorsiva:albero}, si nota infatti che i termini presenti nel ramo destro dell’albero di ricorsione, come \(F(3)\), \(F(2)\) e \(F(1)\), sono già stati calcolati nel ramo sinistro.
@@ -153,8 +157,6 @@ Il problema è completamente definito attraverso il sistema \eqref{sistema-bagno
 
 \noindent \textbf{Complessità Computazionale:} \\
 La complessità computazionale di questo problema, assumendo di non ricalcolare più volte gli stessi sottoproblemi grazie alla memorizzazione dei risultati intermedi, può essere valutata considerando due fattori:
-
-
 
 
 \begin{itemize}
@@ -208,7 +210,7 @@ int main(){
 	int N;          // Variabile che rappresenta la dimensione del bagno
 	cin >> N;       
 	
-	int64_t ans;    // Variabile che conterrà il risultato finale
+	int64_t ans;    // Variabile che conterra' il risultato finale
 	ans = f(N);     // Chiamata alla funzione ricorsiva
 	
 	cout << ans << endl;   // Stampa il risultato
@@ -283,7 +285,7 @@ int main() {
 \begin{itemize}
 	\item \texttt{memo} è dichiarato come \textbf{vector globale} affinché possa essere accessibile sia dal \texttt{main} sia dalle funzioni.
 	\item L'istruzione \texttt{memo = vector<int64\_t>(N+1, -1)} serve ad assegnare una dimensione a \texttt{memo} e ad inizializzare tutti gli elementi.
-	\item Gli elementi del vector sono inizializzati a $-1$ perché, all'inizio, nessuno di essi è stato ancora calcolato.
+	\item Gli elementi del vector sono inizializzati a $-1$ perché, all'inizio, nessuno di essi era stato ancora calcolato.
 \end{itemize}
 
 
@@ -590,3 +592,15 @@ In questa codifica è stata utilizzata la sintassi
 \end{equation*}
 
 Essa serve sia a definire le dimensioni della matrice \texttt{memo} (un \textit{vector di vector}) sia a inizializzare tutti i suoi elementi al valore $-1$, che indica che il corrispondente sottoproblema non è ancora stato calcolato.
+
+
+
+\subsection{Discesa Massima}
+\href{https://training.olinfo.it/task/discesa}{Link al problema} 
+
+\smallskip
+
+\noindent Time limit = 1.00s, Memory limit = 256 MB
+
+
+\includepdf[pages=-]{Problemi svolti/6 - Programmazione Dinamica/testo.pdf}
