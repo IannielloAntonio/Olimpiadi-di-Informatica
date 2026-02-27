@@ -28,8 +28,6 @@ int dp(int stato, int budget){
 
       memo[stato][budget] = max(preso, non_preso);
       return memo[stato][budget];
-
-      
 }
 
 int main() {
@@ -47,10 +45,9 @@ int main() {
             cin >> s[i];
       }
 
-      memo = vector<vector<int>>(n, vector<int>(100001, -1));
+      memo = vector<vector<int>>(n, vector<int>(x+1, -1));
 
       cout << dp(0, x);
-
 
       return 0;
 }
